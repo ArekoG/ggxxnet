@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="shift_jis"?>
 <VisualStudioProject
 	ProjectType="Visual C++"
-	Version="9,00"
+	Version="8.00"
 	Name="ggncfg80"
 	ProjectGUID="{43937BD1-BFC1-4F55-88DF-AF789DE07D37}"
 	RootNamespace="ggncfg80"
 	Keyword="MFCProj"
-	TargetFrameworkVersion="131072"
 	>
 	<Platforms>
 		<Platform
@@ -74,12 +73,10 @@
 				AdditionalDependencies="zlibstat.lib"
 				OutputFile="$(OutDir)/ggxxnet_config.exe"
 				LinkIncremental="1"
-				AdditionalLibraryDirectories="&quot;C:\Users\Alfu\Desktop\ggxxnet-eng-update\ggxxnet\zlib125\ZlibStatDebug&quot;"
+				AdditionalLibraryDirectories="..\..\zlib125\contrib\vstudio\vc8\x86\ZlibStatDebug"
 				IgnoreDefaultLibraryNames=""
 				GenerateDebugInformation="true"
 				SubSystem="2"
-				RandomizedBaseAddress="1"
-				DataExecutionPrevention="0"
 				TargetMachine="1"
 			/>
 			<Tool
@@ -99,6 +96,9 @@
 			/>
 			<Tool
 				Name="VCAppVerifierTool"
+			/>
+			<Tool
+				Name="VCWebDeploymentTool"
 			/>
 			<Tool
 				Name="VCPostBuildEventTool"
@@ -171,8 +171,6 @@
 				SubSystem="2"
 				OptimizeReferences="2"
 				EnableCOMDATFolding="2"
-				RandomizedBaseAddress="1"
-				DataExecutionPrevention="0"
 				TargetMachine="1"
 			/>
 			<Tool
@@ -192,6 +190,9 @@
 			/>
 			<Tool
 				Name="VCAppVerifierTool"
+			/>
+			<Tool
+				Name="VCWebDeploymentTool"
 			/>
 			<Tool
 				Name="VCPostBuildEventTool"
@@ -272,6 +273,10 @@
 			Name="リソース ファイル"
 			Filter="rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;jpg;jpeg;jpe;manifest"
 			>
+			<File
+				RelativePath="res\ggncfg.ico"
+				>
+			</File>
 			<File
 				RelativePath="res\ggncfg.manifest"
 				>

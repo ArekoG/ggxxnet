@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ba3d5bf-ae03-4a95-a7aa-d93ba2e3a414" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ggxxnet.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ggxxnet/ggxxnet.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ggxxnet/ggxxnet.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ggxxnet/res/ggxxnet80.rc" beforeDir="false" afterPath="$PROJECT_DIR$/ggxxnet/res/ggxxnet80.rc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ggxxnet/settingfile.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ggxxnet/settingfile.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ggxxnet/ggncfg/ggncfg.rc" beforeDir="false" afterPath="$PROJECT_DIR$/ggxxnet/ggncfg/ggncfg.rc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ggxxnet/ggncfg/ggncfg80.vcproj" beforeDir="false" afterPath="$PROJECT_DIR$/ggxxnet/ggncfg/ggncfg80.vcproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ggxxnet/ggncfg/ggncfgDlg.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ggxxnet/ggncfg/ggncfgDlg.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,5 +50,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

@@ -13,7 +13,7 @@
 #undef APSTUDIO_READONLY_SYMBOLS
 
 /////////////////////////////////////////////////////////////////////////////
-// ì˙ñ{åÍ resources
+// Japanese resources
 
 #if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_JPN)
 #ifdef _WIN32
@@ -49,7 +49,7 @@ BEGIN
     "LANGUAGE 17, 1\r\n"
     "#pragma code_page(932)\r\n"
     "#include ""res\\ggncfg.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
-    "#include ""afxres.rc""         // ïWèÄÉRÉìÉ|Å[ÉlÉìÉg\r\n"
+    "#include ""afxres.rc""         // ?W???R?Åg?|?[?l?Åg?g\r\n"
     "#endif\r\n"
     "\0"
 END
@@ -72,10 +72,10 @@ IDR_MAINFRAME           ICON                    "res\\ggncfg.ico"
 //
 
 IDD_GGNCFG_DIALOG DIALOGEX 0, 0, 380, 297
-STYLE DS_SETFONT | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
 EXSTYLE WS_EX_ACCEPTFILES | WS_EX_APPWINDOW
 CAPTION "ggxxnet config"
-FONT 8, "MS UI Gothic", 0, 0, 0x1
+FONT 8, "MS Shell Dlg", 400, 0, 0xEE
 BEGIN
     PUSHBUTTON      "OK",IDOK,265,261,50,14
     PUSHBUTTON      "Cancel",IDCANCEL,324,261,50,14
@@ -199,7 +199,7 @@ BEGIN
 END
 #endif    // APSTUDIO_INVOKED
 
-#endif    // ì˙ñ{åÍ resources
+#endif    // Japanese resources
 /////////////////////////////////////////////////////////////////////////////
 
 
@@ -218,7 +218,7 @@ END
 LANGUAGE 17, 1
 #pragma code_page(932)
 #include "res\ggncfg.rc2"  // non-Microsoft Visual C++ edited resources
-#include "afxres.rc"         // ïWèÄÉRÉìÉ|Å[ÉlÉìÉg
+#include "afxres.rc"         // ?????ó???
 #endif
 
 /////////////////////////////////////////////////////////////////////////////

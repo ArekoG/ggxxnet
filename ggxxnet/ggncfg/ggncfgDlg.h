@@ -19,6 +19,7 @@ public:
 
 protected:
 	virtual void DoDataExchange(CDataExchange* pDX);	// DDX/DDV サポート
+	afx_msg BOOL OnEraseBkgnd(CDC* pDC);
 
 // 実装
 protected:

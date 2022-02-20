@@ -17,13 +17,13 @@
 #endif
 
 #define IMG_X 214
-#define IMG_Y 100
+#define IMG_Y 120
 #define IMG_W 600
 #define IMG_H 500
 
 // 1cell 8 * 8
 #define PAL_X 87
-#define PAL_Y 100
+#define PAL_Y 120
 #define PAL_W (64+1)
 #define PAL_H (256+1)
 
@@ -137,6 +137,7 @@ void CggncfgDlg::DoDataExchange(CDataExchange* pDX)
 
 BEGIN_MESSAGE_MAP(CggncfgDlg, CDialog)
 	ON_WM_PAINT()
+	ON_WM_ERASEBKGND()
 	ON_WM_QUERYDRAGICON()
 	//}}AFX_MSG_MAP
 	ON_BN_CLICKED(IDC_SELECTCOLOR, OnBnClickedEditcolor)
@@ -390,6 +391,17 @@ void CggncfgDlg::OnPaint()
 	{
 		CDialog::OnPaint();
 	}
+}
+
+BOOL CggncfgDlg::OnEraseBkgnd(CDC* pDC)
+{
+    CRect rect;
+    GetClientRect(&rect);
+    CBrush myBrush(RGB(161,161,161));    // dialog background color
+    CBrush *pOld = pDC->SelectObject(&myBrush);
+    BOOL bRes  = pDC->PatBlt(0, 0, rect.Width(), rect.Height(), PATCOPY);
+    pDC->SelectObject(pOld);    // restore old brush
+    return bRes;                       // CDialog::OnEraseBkgnd(pDC);
 }
 
 //ユーザーが最小化したウィンドウをドラッグしているときに表示するカーソルを取得するために、
