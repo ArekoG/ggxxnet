@@ -25,7 +25,8 @@
 #include <d3d8.h>
 #include <math.h>
 #include <string.h>
-
+#include <sstream>
+#include <vector>
 //******************************************************************
 // const
 //******************************************************************
@@ -147,9 +148,10 @@ void ggn_syncRandomTable(int p_timing);
 void enterServer(bool p_busy);
 void readServer(void);
 void leaveServer(void);
+void getSettings(void);
+void setSettings(void);
 
 void readNodeList(void);
-
 void getscpiptaddr(char*& p_server, char*& p_script);
 void replaceUserPalette(int p_chara, int p_pal, char* p_data);
 void readUserPalette(void);
@@ -220,20 +222,14 @@ BOOL WINAPI DllMain(HINSTANCE hDLL, DWORD dwReason, LPVOID lpReserved)
 #if !TESTER
 		initSetting();
 		readIniFile();
-		readSettingFile();
 
-		// ?ランク対策
-		if (g_setting.rank < Rank_S || g_setting.rank > Rank_F)
-		{
-			DBGOUT_LOG("initialized ggn_setting.dat, because it is broken!!\n");
-			g_setting.rank = Rank_F;
-			g_setting.wins = 0;
-			g_setting.totalBattle = 0;
-			g_setting.totalDraw = 0;
-			g_setting.totalError = 0;
-			g_setting.totalLose = 0;
-			g_setting.totalWin = 0;
-		}
+		g_setting.rank = Rank_F;
+		g_setting.wins = 0;
+		g_setting.totalBattle = 0;
+		g_setting.totalDraw = 0;
+		g_setting.totalError = 0;
+		g_setting.totalLose = 0;
+		g_setting.totalWin = 0;
 		g_smPallette = new CSharedMemory("ggxxnet_pal", 1024);
 
 #if !_DEBUG
@@ -1039,6 +1035,27 @@ DWORD ggn_getPalette(DWORD p_info, DWORD p_pidx, DWORD p_side)
 	}
 }
 
+std::vector<std::string> split(std::string s, std::string delimiter) {
+	size_t pos_start = 0, pos_end, delim_len = delimiter.length();
+	std::string token;
+	std::vector<std::string> res;
+
+	while ((pos_end = s.find(delimiter, pos_start)) != std::string::npos) {
+		token = s.substr(pos_start, pos_end - pos_start);
+		pos_start = pos_end + delim_len;
+		if (token.compare("null") == 0) {
+			res.push_back("");
+		}
+		else {
+			res.push_back(token);
+		}
+	}
+
+	res.push_back(s.substr(pos_start));
+	res.pop_back();
+	return res;
+}
+
 void ggn_startNetVS(void)
 {
 	if (g_netMgr->m_connect) return;	// 観戦から直接繋がるとここへ来てしまう
@@ -1057,8 +1074,11 @@ void ggn_startNetVS(void)
 
 	if (useLobbyServer())
 	{
+		getSettings();
 		enterServer(0);
+		//getSettings();
 		readServer();
+		setSettings();
 	}
 	else
 	{
@@ -1935,11 +1955,9 @@ void ggn_endBattle(void)
 {
 	if (*GGXX_MODE1 & 0x200000)
 	{
-		/* 加点・減点 */
 		if (g_netMgr->m_playSide == 1)		addScore(*GGXX_WINCOUNT1P, *GGXX_WINCOUNT2P, g_enemyInfo.m_rank, g_enemyInfo.m_wins);
 		else if (g_netMgr->m_playSide == 2)	addScore(*GGXX_WINCOUNT2P, *GGXX_WINCOUNT1P, g_enemyInfo.m_rank, g_enemyInfo.m_wins);
 
-		/* 連勝カウント */
 		char win = 0; // lose = 0, win = 1, draw = 2
 		if (g_netMgr->m_playSide == 1 && *GGXX_WINCOUNT1P > *GGXX_WINCOUNT2P) win = 1;
 		else if (g_netMgr->m_playSide == 2 && *GGXX_WINCOUNT2P > *GGXX_WINCOUNT1P) win = 1;
@@ -1960,7 +1978,7 @@ void ggn_endBattle(void)
 			g_setting.totalDraw++;
 		}
 
-		writeSettingFile();
+		setSettings();
 
 		// リプレイに終端を付加する
 		g_netMgr->disconnect("endbattle");
@@ -3109,8 +3127,8 @@ void enterServer(bool p_busy)
 {
 	char* server, * script;
 	getscpiptaddr(server, script);
-	char nametrip[256];
-	getNameTrip(nametrip);
+	//char nametrip[256];
+	//getNameTrip(nametrip);
 	char response[1024];
 	char command[256];
 	sprintf(command, "{\"username\": \"Arek\",\"password\": \"admin\"}");
@@ -3216,7 +3234,149 @@ void readServer(void)
 
 	DBGOUT_NET("readServer end\n");
 }
-
+void setSettings(void) {
+	char* server, * script;
+	getscpiptaddr(server, script);
+	char response[10];
+	char command[1024];
+	sprintf(command, "{\"ver\": %d,\"scriptAddress\": \"%s\",\
+		\"userName\": \"%s\",\"trip\": 1,\"enableNet\": %d,\"port\": %d,\
+		\"delay\": %d,\"ignoreMisNode\": %d,\"ignoreSlow\": %d,\"wait\": %d,\
+		\"useEx\": %d,\"dispInvCombo\": %d,\"showfps\": %d,\"wins\": %d,\
+		\"rank\": %d,\"score\": %d,\"totalBattle\": %d,\"totalWin\": %d,\
+		\"totalLose\": %d,\"totalDraw\": %d,\"totalError\": %d,\"slowRate\": %d,\
+		\"rounds\": %d,\"msg\": \"%s\",\"watchBroadcast\": %d,\"watchIntrusion\": %d,\
+		\"watchSaveReplay\": %d,\"watchMaxNodes\": %d}"
+		, g_setting.ver, g_setting.scriptAddress, g_setting.userName, g_setting.enableNet, g_setting.port, g_setting.delay, g_setting.ignoreMisNode, g_setting.ignoreSlow, g_setting.wait, g_setting.useEx
+		, g_setting.dispInvCombo, g_setting.showfps, g_setting.wins, g_setting.rank, g_setting.score, g_setting.totalBattle, g_setting.totalWin, g_setting.totalLose, g_setting.totalDraw, g_setting.totalError
+		, g_setting.slowRate, g_setting.rounds, g_setting.msg, g_setting.watchBroadcast, g_setting.watchIntrusion, g_setting.watchSaveReplay, g_setting.watchMaxNodes);
+	makePost(command, strlen(command), 1024, server, "/set-config", response);
+}
+void getSettings(void) {
+	char* server, * script;
+	//getscpiptaddr(server, script);
+	//getNameTrip("Arek");
+	char response[1024];
+	char command[256];
+	sprintf(command, "{\"username\": \"Arek\",\"password\": \"admin\"}");
+	makePost(command, strlen(command), 1024, "26.68.204.99", "/get-config", response);
+	std::string res = response;
+	std::vector<std::string> splitted = split(res, "|");
+	//////////////////////////////////////////////////////////////////////
+	//watchMaxNodes
+	std::string watchMaxNodes = splitted.back();
+	g_setting.watchMaxNodes = atoi(watchMaxNodes.c_str());
+	splitted.pop_back();
+	//watchSaveReplay
+	std::string watchSaveReplay = splitted.back();
+	g_setting.watchSaveReplay = atoi(watchSaveReplay.c_str());
+	splitted.pop_back();
+	//watchIntrusion
+	std::string watchIntrusion = splitted.back();
+	g_setting.watchIntrusion = atoi(watchIntrusion.c_str());
+	splitted.pop_back();
+	//watchBroadcast
+	std::string watchBroadcast = splitted.back();
+	g_setting.watchBroadcast = atoi(watchBroadcast.c_str());
+	splitted.pop_back();
+	//msg
+	std::string msg = splitted.back();
+	strcpy(g_setting.msg, msg.c_str());
+	splitted.pop_back();
+	//rounds
+	std::string rounds = splitted.back();
+	g_setting.rounds = atoi(rounds.c_str());
+	splitted.pop_back();
+	//slowRate
+	std::string slowRate = splitted.back();
+	g_setting.slowRate = atoi(slowRate.c_str());
+	splitted.pop_back();
+	//totalError
+	std::string totalError = splitted.back();
+	g_setting.totalError = atoi(totalError.c_str());
+	splitted.pop_back();
+	//totalDraw
+	std::string totalDraw = splitted.back();
+	g_setting.totalDraw = atoi(totalDraw.c_str());
+	splitted.pop_back();
+	//totalLose
+	std::string totalLose = splitted.back();
+	g_setting.totalLose = atoi(totalLose.c_str());
+	splitted.pop_back();
+	//totalWin
+	std::string totalWin = splitted.back();
+	g_setting.totalWin = atoi(totalWin.c_str());
+	splitted.pop_back();
+	//totalBattle
+	std::string totalBattle = splitted.back();
+	g_setting.totalBattle = atoi(totalBattle.c_str());
+	splitted.pop_back();
+	//score
+	std::string score = splitted.back();
+	g_setting.score = atoi(score.c_str());
+	splitted.pop_back();
+	//rank
+	std::string rank = splitted.back();
+	g_setting.rank = atoi(rank.c_str());
+	splitted.pop_back();
+	//wins
+	std::string wins = splitted.back();
+	g_setting.wins = atoi(wins.c_str());
+	splitted.pop_back();
+	//showfps
+	std::string showfps = splitted.back();
+	g_setting.showfps = atoi(showfps.c_str());
+	splitted.pop_back();
+	//dispInvCombo
+	std::string dispInvCombo = splitted.back();
+	g_setting.dispInvCombo = atoi(dispInvCombo.c_str());
+	splitted.pop_back();
+	//useEx
+	std::string useEx = splitted.back();
+	g_setting.useEx = atoi(useEx.c_str());
+	splitted.pop_back();
+	//wait
+	std::string wait = splitted.back();
+	g_setting.wait = atoi(wait.c_str());
+	splitted.pop_back();
+	//ignoreSlow
+	std::string ignoreSlow = splitted.back();
+	g_setting.ignoreSlow = atoi(ignoreSlow.c_str());
+	splitted.pop_back();
+	//ignoreMisNode
+	std::string ignoreMisNode = splitted.back();
+	g_setting.ignoreMisNode = atoi(ignoreMisNode.c_str());
+	splitted.pop_back();
+	//delay
+	std::string delay = splitted.back();
+	g_setting.delay = atoi(delay.c_str());
+	splitted.pop_back();
+	//port
+	std::string port = splitted.back();
+	g_setting.port = atoi(port.c_str());
+	splitted.pop_back();
+	//enableNet
+	std::string enableNet = splitted.back();
+	g_setting.enableNet = atoi(enableNet.c_str());
+	splitted.pop_back();
+	//trip
+	std::string trip = splitted.back();
+	strcpy(g_setting.trip, "");
+	splitted.pop_back();
+	//userName
+	std::string userName = splitted.back();
+	strcpy(g_setting.userName, userName.c_str());
+	splitted.pop_back();
+	//scriptAddress
+	std::string scriptAddress = splitted.back();
+	strcpy(g_setting.scriptAddress, scriptAddress.c_str());
+	splitted.pop_back();
+	//ver
+	std::string ver = splitted.back();
+	g_setting.ver = atoi(ver.c_str());
+	splitted.pop_back();
+	//////////////////////////////////////////////////////////////////////
+}
 void leaveServer(void)
 {
 	char* server, * script;
@@ -3522,7 +3682,7 @@ void onDisconnect(char* p_cause)
 	saveReplayFile();
 
 	if (strcmp(p_cause, "endbattle") != 0) g_setting.totalError++;
-	writeSettingFile();
+	setSettings();
 
 	/* disconnectされたときに呼ばれる */
 	*GGXX_MODE1 = 0x200000;
@@ -3894,12 +4054,12 @@ DWORD WINAPI _lobbyThreadProc(LPVOID lpParameter)
 			}
 		}
 		Sleep(50);
-			}
+	}
 	netMgr->m_lobbyThread_end = true;
 	DBGOUT_LOG("lobby thread end.\n");
 
 	return 0;
-		}
+}
 
 BYTE getSyncCheckValue(void)
 {
@@ -3961,7 +4121,7 @@ BYTE getSyncCheckValue(void)
 #else
 		value = g_netMgr->m_time;
 #endif
-		}
+	}
 
 #if _DEBUG
 	// 意図的にSYNCERRORを引き起こす
@@ -3972,7 +4132,7 @@ BYTE getSyncCheckValue(void)
 #endif
 
 	return (BYTE)(value % 0xff);
-	}
+}
 
 void drawGGXXWindow(char* p_str, int p_select, int p_left, int p_top, int p_right, int p_bottom)
 {
