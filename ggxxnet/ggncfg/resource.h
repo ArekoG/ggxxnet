@@ -8,12 +8,10 @@
 #define IDC_SAVECOLOR                   5
 #define IDD_COLOR                       8
 #define IDC_SHOWLOG                     8
-#define IDC_MESSAGE                     8
 #define IDD_GGNCFG_DIALOG               102
 #define IDR_MAINFRAME                   128
 #define IDD_DIALOG1                     131
 #define IDD_EDITMSGDLG                  131
-#define IDC_ENABLE_NET                  1003
 #define IDC_DISP_INV_COMBO              1004
 #define IDC_SYNCCHK                     1005
 #define IDC_SHOWFPS                     1005

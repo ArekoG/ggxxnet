@@ -65,7 +65,6 @@ CggncfgDlg::CggncfgDlg(CWnd* pParent /*=NULL*/)
 {
 	m_hIcon = AfxGetApp()->LoadIcon(IDR_MAINFRAME);
 
-	m_ctl_enableNet	= NULL;
 	m_ctl_port		= NULL;
 	m_ctl_delay		= NULL;
 	m_ctl_useEx		= NULL;
@@ -148,7 +147,6 @@ BEGIN_MESSAGE_MAP(CggncfgDlg, CDialog)
 	ON_WM_LBUTTONDOWN()
 	ON_BN_CLICKED(IDC_SAVECOLOR, OnBnClickedSavecolor)
 	ON_WM_TIMER()
-	ON_BN_CLICKED(IDC_MESSAGE, &CggncfgDlg::OnBnClickedMessage)
 	ON_WM_DROPFILES()
 END_MESSAGE_MAP()
 
@@ -163,8 +161,7 @@ BOOL CggncfgDlg::OnInitDialog()
 	//  Framework は、この設定を自動的に行います。
 	SetIcon(m_hIcon, TRUE);			// 大きいアイコンの設定
 	SetIcon(m_hIcon, FALSE);		// 小さいアイコンの設定
-	
-	m_ctl_enableNet	= (CButton*)GetDlgItem(IDC_ENABLE_NET);
+
 	m_ctl_port		= (CEdit*)GetDlgItem(IDC_PORT);
 	m_ctl_delay		= (CComboBox*)GetDlgItem(IDC_DELAY);
 	m_ctl_useEx		= (CButton*)GetDlgItem(IDC_USE_EX);
@@ -188,7 +185,6 @@ BOOL CggncfgDlg::OnInitDialog()
 
 	// デフォルト設定
 
-	m_ctl_enableNet->SetCheck(1);
 	m_ctl_port->SetWindowText("10000");
 
 	m_ctl_delay->ResetContent();
@@ -420,7 +416,6 @@ void CggncfgDlg::readSettingFile(void)
 				m_datVersion = *((DWORD*)ptr);	ptr += 4;	// ver1.10以降はバージョンを持っている
 			}
 
-			m_ctl_enableNet->SetCheck(*ptr);			ptr += 1;
 
 			_itoa(*((WORD*)ptr), tmp, 10);
 			m_ctl_port->SetWindowText(tmp);				ptr += 2;
@@ -541,9 +536,6 @@ void CggncfgDlg::writeSettingFile(void)
 		
 		/* cfgバージョン */
 		*((DWORD*)ptr) = DATVERSION;					ptr += 4;
-
-
-		*ptr = m_ctl_enableNet->GetCheck();			ptr += 1;
 
 		m_ctl_port->GetWindowText(tmp, 256);	
 		*((WORD*)ptr) = atoi(tmp);					ptr += 2;
@@ -1394,12 +1386,6 @@ void CggncfgDlg::updateGGXXPalette(int p_flash)
 	sm_pal.set(&val, 0, 1);
 }
 
-void CggncfgDlg::OnBnClickedMessage()
-{
-	CEditMsgDlg dlg(this);
-
-	dlg.DoModal();
-}
 
 void CggncfgDlg::OnDropFiles(HDROP hDropInfo)
 {
