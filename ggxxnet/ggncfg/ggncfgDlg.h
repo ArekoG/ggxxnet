@@ -33,7 +33,6 @@ protected:
 public:
 	void	readSettingFile(void);
 	void	writeSettingFile(void);
-	bool	valueCheck(void);
 
 	CString	getSettingPath(void);
 	
@@ -81,11 +80,6 @@ public:
 	void updateGGXXPalette(int p_flash);
 
 private:
-	CEdit*		m_ctl_port;
-	CComboBox*	m_ctl_delay;
-	CButton*	m_ctl_useEx;
-	CComboBox*	m_ctl_rounds;
-
 	CButton*	m_ctl_enableChat;
 	CButton*	m_ctl_ignoreSlow;
 	
@@ -154,4 +148,5 @@ public:
 public:
 	afx_msg void OnDropFiles(HDROP hDropInfo);
 	afx_msg void OnEnChangeTrip();
+	afx_msg void OnBnClickedUsercolor();
 };

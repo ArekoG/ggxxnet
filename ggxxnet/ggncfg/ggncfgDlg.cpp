@@ -65,11 +65,6 @@ CggncfgDlg::CggncfgDlg(CWnd* pParent /*=NULL*/)
 {
 	m_hIcon = AfxGetApp()->LoadIcon(IDR_MAINFRAME);
 
-	m_ctl_port		= NULL;
-	m_ctl_delay		= NULL;
-	m_ctl_useEx		= NULL;
-	m_ctl_rounds	= NULL;
-
 	m_ctl_enableChat	= NULL;
 	m_ctl_ignoreSlow	= NULL;
 
@@ -148,6 +143,7 @@ BEGIN_MESSAGE_MAP(CggncfgDlg, CDialog)
 	ON_BN_CLICKED(IDC_SAVECOLOR, OnBnClickedSavecolor)
 	ON_WM_TIMER()
 	ON_WM_DROPFILES()
+	ON_BN_CLICKED(IDC_USERCOLOR, &CggncfgDlg::OnBnClickedUsercolor)
 END_MESSAGE_MAP()
 
 
@@ -161,11 +157,6 @@ BOOL CggncfgDlg::OnInitDialog()
 	//  Framework は、この設定を自動的に行います。
 	SetIcon(m_hIcon, TRUE);			// 大きいアイコンの設定
 	SetIcon(m_hIcon, FALSE);		// 小さいアイコンの設定
-
-	m_ctl_port		= (CEdit*)GetDlgItem(IDC_PORT);
-	m_ctl_delay		= (CComboBox*)GetDlgItem(IDC_DELAY);
-	m_ctl_useEx		= (CButton*)GetDlgItem(IDC_USE_EX);
-	m_ctl_rounds	= (CComboBox*)GetDlgItem(IDC_ROUNDS);
 
 	m_ctl_enableChat	= (CButton*)GetDlgItem(IDC_ENABLECHAT);
 	m_ctl_ignoreSlow	= (CButton*)GetDlgItem(IDC_IGNORESLOW);
@@ -184,24 +175,6 @@ BOOL CggncfgDlg::OnInitDialog()
 	m_ctl_saveColor		= (CButton*)GetDlgItem(IDC_SAVECOLOR);
 
 	// デフォルト設定
-
-	m_ctl_port->SetWindowText("10000");
-
-	m_ctl_delay->ResetContent();
-	m_ctl_delay->AddString("1");
-	m_ctl_delay->AddString("2");
-	m_ctl_delay->AddString("3");
-	m_ctl_delay->AddString("4");
-	m_ctl_delay->AddString("5");
-	m_ctl_delay->AddString("6");
-	m_ctl_delay->SetCurSel(1);
-
-	m_ctl_useEx->SetCheck(0);
-	
-	m_ctl_rounds->ResetContent();
-	m_ctl_rounds->AddString("3");
-	m_ctl_rounds->AddString("5");
-	m_ctl_rounds->SetCurSel(0);
 
 	m_ctl_enableChat->SetCheck(1);
 	m_ctl_ignoreSlow->SetCheck(1);
@@ -415,13 +388,6 @@ void CggncfgDlg::readSettingFile(void)
 			{
 				m_datVersion = *((DWORD*)ptr);	ptr += 4;	// ver1.10以降はバージョンを持っている
 			}
-
-
-			_itoa(*((WORD*)ptr), tmp, 10);
-			m_ctl_port->SetWindowText(tmp);				ptr += 2;
-
-			_itoa(*ptr, tmp, 10);
-			m_ctl_delay->SelectString(0, tmp);			ptr += 1;
 			
 			if (m_datVersion == 100)
 			{
@@ -443,8 +409,6 @@ void CggncfgDlg::readSettingFile(void)
 
 			ptr += 2; // auto connect wait 分
 
-			m_ctl_useEx->SetCheck(*ptr);			ptr += 1;
-
 			m_ctl_dispInvCombo->SetCheck(*ptr);		ptr += 1;
 			m_ctl_showGGNVer->SetCheck(*ptr);			ptr += 1;
 
@@ -462,7 +426,6 @@ void CggncfgDlg::readSettingFile(void)
 				m_setting_slowRate		= *((int*)ptr);	ptr += 4;
 
 				_itoa(*ptr, tmp, 10);
-				m_ctl_rounds->SelectString(0, tmp);		ptr += 1;
 				
 				ptr[255] = '\0';
 				m_setting_msg			= ptr;			ptr += 256;
@@ -477,7 +440,6 @@ void CggncfgDlg::readSettingFile(void)
 				m_setting_totalDraw		= 0;
 				m_setting_totalError	= 0;
 				m_setting_slowRate		= 0;
-				m_ctl_rounds->SelectString(0, "3");
 			}
 
 			if (m_datVersion >= 120)
@@ -537,18 +499,13 @@ void CggncfgDlg::writeSettingFile(void)
 		/* cfgバージョン */
 		*((DWORD*)ptr) = DATVERSION;					ptr += 4;
 
-		m_ctl_port->GetWindowText(tmp, 256);	
 		*((WORD*)ptr) = atoi(tmp);					ptr += 2;
 
-		m_ctl_delay->GetWindowText(tmp, 256);
-		*ptr = atoi(tmp);							ptr += 1;
 		
 		*ptr = m_ctl_enableChat->GetCheck();		ptr += 1;
 		*ptr = 1/*m_ctl_ignoreSlow->GetCheck()*/;	ptr += 1;	// オプションの必要性を感じないので、強制的にONとする
 
 		*((WORD*)ptr) = 0;							ptr += 2;
-
-		*ptr = m_ctl_useEx->GetCheck();				ptr += 1;
 
 		*ptr = m_ctl_dispInvCombo->GetCheck();		ptr += 1;
 		*ptr = m_ctl_showGGNVer->GetCheck();			ptr += 1;
@@ -564,9 +521,6 @@ void CggncfgDlg::writeSettingFile(void)
 		*((int*)ptr) = m_setting_totalError;		ptr += 4;
 		*((int*)ptr) = m_setting_slowRate;			ptr += 4;
 
-		m_ctl_rounds->GetWindowText(tmp, 256);
-		*ptr = atoi(tmp);							ptr += 1;
-
 		strncpy(ptr, m_setting_msg.GetBuffer(), 255);	ptr += 256;
 
 		// ver1.16
@@ -579,30 +533,6 @@ void CggncfgDlg::writeSettingFile(void)
 
 		fclose(fp);
 	}
-}
-
-bool CggncfgDlg::valueCheck(void)
-{
-	int		value;
-	char	data[128];
-
-	value = atoi(data);
-	if (value < 1024 || value > 65535)
-	{
-		AfxMessageBox("Please input port number between 1024-65535");
-		m_ctl_port->SetFocus();
-		m_ctl_port->SetSel(0, -1);
-		return false;
-	}
-
-	if (m_setting_msg.GetLength() > 255)
-	{
-		AfxMessageBox("Please input a message under 256 characters.");
-		m_ctl_port->SetFocus();
-		m_ctl_port->SetSel(0, -1);
-		return false;
-	}
-	return true;
 }
 
 void CggncfgDlg::OnBnClickedOk()
@@ -621,7 +551,8 @@ void CggncfgDlg::OnBnClickedOk()
 		return;
 	}
 
-	if (valueCheck())
+	//if (valueCheck())
+	if (true)
 	{
 		writeSettingFile();
 		OnOK();
@@ -1408,4 +1339,10 @@ void CggncfgDlg::OnEnChangeTrip()
 	// with the ENM_CHANGE flag ORed into the mask.
 
 	// TODO:  Add your control notification handler code here
+}
+
+
+void CggncfgDlg::OnBnClickedUsercolor()
+{
+	// TODO: Add your control notification handler code here
 }
