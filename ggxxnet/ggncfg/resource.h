@@ -45,7 +45,6 @@
 #define IDC_BS                          1029
 #define IDC_RE                          1031
 #define IDC_X_SERVERSCRIPT              1032
-#define IDC_STR2                        1036
 #define IDC_EDIT1                       1036
 #define IDC_CHARCOUNT                   1037
 #define IDC_STR3                        1038
@@ -53,10 +52,6 @@
 #define IDC_STR5                        1040
 #define IDC_STR6                        1041
 #define IDC_STR7                        1042
-#define IDC_STRB0                       1043
-#define IDC_STR1                        1044
-#define IDC_STRB1                       1054
-#define IDC_STRB2                       1055
 #define IDC_STRB3                       1056
 #define IDC_STRB4                       1057
 #define IDC_STRB5                       1058

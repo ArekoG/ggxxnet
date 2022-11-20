@@ -228,13 +228,6 @@ BOOL CggncfgDlg::OnInitDialog()
 	m_setting_msg			= "No Comment";
 
 	CString str;
-	SetDlgItemText(IDC_STR1, "win");		SetDlgItemText(IDC_STRB1, ": 0");
-	SetDlgItemText(IDC_STR2, "game count");	SetDlgItemText(IDC_STRB2, ": 0");
-	SetDlgItemText(IDC_STR3, "total win");	SetDlgItemText(IDC_STRB3, ": 0");
-	SetDlgItemText(IDC_STR4, "total lose");	SetDlgItemText(IDC_STRB4, ": 0");
-	SetDlgItemText(IDC_STR5, "total error");SetDlgItemText(IDC_STRB5, ": 0");
-	SetDlgItemText(IDC_STR6, "");			SetDlgItemText(IDC_STRB6, "");
-	SetDlgItemText(IDC_STR7, "");			SetDlgItemText(IDC_STRB7, "");
 	GetDlgItem(IDC_STR3)->ShowWindow(SW_HIDE);
 	GetDlgItem(IDC_STRB3)->ShowWindow(SW_HIDE);
 	GetDlgItem(IDC_STR4)->ShowWindow(SW_HIDE);
@@ -508,10 +501,6 @@ void CggncfgDlg::readSettingFile(void)
 			}
 			
 			CString str;
-			SetDlgItemText(IDC_STR1, "win");
-			str.Format(": %d", m_setting_wins);				SetDlgItemText(IDC_STRB1, str);
-			SetDlgItemText(IDC_STR2, "game count");
-			str.Format(": %d", m_setting_totalBattle);		SetDlgItemText(IDC_STRB2, str);
 			SetDlgItemText(IDC_STR3, "total win");
 			str.Format(": %d", m_setting_totalWin);			SetDlgItemText(IDC_STRB3, str);
 			SetDlgItemText(IDC_STR4, "total lose");

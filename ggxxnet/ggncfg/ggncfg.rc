@@ -117,11 +117,6 @@ BEGIN
     CONTROL         "Enable ExCharacters",IDC_USE_EX,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,12,109,82,11
     CONTROL         "Enable Network",IDC_ENABLE_NET,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,12,95,62,11
     GROUPBOX        "Network",IDC_STATIC,5,83,127,90
-    LTEXT           "str1",IDC_STR1,12,59,40,8
-    LTEXT           "str2",IDC_STR2,12,68,41,8
-    LTEXT           "str0",IDC_STRB2,55,68,24,8
-    LTEXT           "str0",IDC_STRB1,55,59,24,8
-    LTEXT           "str0",IDC_STRB0,55,50,24,8
     PUSHBUTTON      "Edit Message",IDC_MESSAGE,75,51,49,14
     GROUPBOX        "Profile",IDC_STATIC,7,11,127,77
 END
