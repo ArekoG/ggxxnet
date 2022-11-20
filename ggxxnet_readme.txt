@@ -1,506 +1,506 @@
 GGXXNET Ver1.20-3 (Last Update:08/05/03)
 
-yŠT—vz
-@Windows”Å GuiltyGearXX #Reload‚Åƒlƒbƒg‘Îí‚ðs‚¤‚½‚ß‚Ìƒc[ƒ‹‚Å‚·B
+ï¿½yï¿½Tï¿½vï¿½z
+ï¿½@Windowsï¿½ï¿½ GuiltyGearXX #Reloadï¿½Åƒlï¿½bï¿½gï¿½Îï¿½ï¿½ï¿½sï¿½ï¿½ï¿½ï¿½ï¿½ß‚Ìƒcï¿½[ï¿½ï¿½ï¿½Å‚ï¿½ï¿½B
 
-yXV—š—ðz
+ï¿½yï¿½Xï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½z
   2008/05/03
     Ver1.20-3
-@@EƒfƒbƒhƒAƒ“ƒOƒ‹ƒJƒEƒ“ƒ^[‚ÉŠÖ‚·‚é“¯ŠúƒYƒŒC³
-    Eƒ\[ƒg•s‹ï‡C³
-@@Eƒ‰ƒ“ƒNŒvŽZ‚ð–ß‚µ‚½{”÷’²®
+ï¿½@ï¿½@ï¿½Eï¿½fï¿½bï¿½hï¿½Aï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½Jï¿½Eï¿½ï¿½ï¿½^ï¿½[ï¿½ÉŠÖ‚ï¿½ï¿½é“¯ï¿½ï¿½ï¿½Yï¿½ï¿½ï¿½Cï¿½ï¿½
+    ï¿½Eï¿½\ï¿½[ï¿½gï¿½sï¿½ï‡ï¿½Cï¿½ï¿½
+ï¿½@ï¿½@ï¿½Eï¿½ï¿½ï¿½ï¿½ï¿½Nï¿½vï¿½Zï¿½ï¿½ß‚ï¿½ï¿½ï¿½ï¿½{ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 
   2008/03/15
     Ver1.20-2
-@@EŠÏí’†‚É–³ðŒ‚Å—“ü‚Å‚«‚é•s‹ï‡
-    EBuffering’†‚É~ƒ{ƒ^ƒ“‚ÅƒLƒƒƒ“ƒZƒ‹‚Å‚«‚é‚æ‚¤‚É‚µ‚½
-@@Eƒƒr[‚Å‘Îí‰Â”\‚ÆŠÏí‰Â”\‚ðF•ª‚¯
-@@Eƒƒr[‚ÅŠÏíŽÒ”‚ªˆÀ’è‚µ‚È‚¢•s‹ï‡
-@@E’ÊMƒf[ƒ^‚ÌŒy—Ê‰»
-@@Einiƒtƒ@ƒCƒ‹‚ÉIgnoreSlowConnections‚ð•œŠˆidefault=1j
-@@Einiƒtƒ@ƒCƒ‹‚ÉMaxPacketSize‚ð’Ç‰Áidefault=256j
-@@Eƒhƒ‰ƒCƒuƒ‹[ƒg‚Élog.txt‚ªo—Í‚³‚ê‚é•s‹ï‡
+ï¿½@ï¿½@ï¿½Eï¿½Ïí’†ï¿½É–ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å—ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½sï¿½ï‡
+    ï¿½EBufferingï¿½ï¿½ï¿½É~ï¿½{ï¿½^ï¿½ï¿½ï¿½ÅƒLï¿½ï¿½ï¿½ï¿½ï¿½Zï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½æ‚¤ï¿½É‚ï¿½ï¿½ï¿½
+ï¿½@ï¿½@ï¿½Eï¿½ï¿½ï¿½rï¿½[ï¿½Å‘Îï¿½Â”\ï¿½ÆŠÏï¿½Â”\ï¿½ï¿½Fï¿½ï¿½ï¿½ï¿½
+ï¿½@ï¿½@ï¿½Eï¿½ï¿½ï¿½rï¿½[ï¿½ÅŠÏï¿½Òï¿½ï¿½ï¿½ï¿½ï¿½ï¿½è‚µï¿½È‚ï¿½ï¿½sï¿½ï‡
+ï¿½@ï¿½@ï¿½Eï¿½ÊMï¿½fï¿½[ï¿½^ï¿½ÌŒyï¿½Ê‰ï¿½
+ï¿½@ï¿½@ï¿½Einiï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½IgnoreSlowConnectionsï¿½ð•œŠï¿½ï¿½idefault=1ï¿½j
+ï¿½@ï¿½@ï¿½Einiï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½MaxPacketSizeï¿½ï¿½Ç‰ï¿½ï¿½idefault=256ï¿½j
+ï¿½@ï¿½@ï¿½Eï¿½hï¿½ï¿½ï¿½Cï¿½uï¿½ï¿½ï¿½[ï¿½gï¿½ï¿½log.txtï¿½ï¿½ï¿½oï¿½Í‚ï¿½ï¿½ï¿½ï¿½sï¿½ï‡
 
-@2008/02/10
-@@Ver1.20
-@@EŠÏí‹@”\‘Î‰ž
-@@E—“üƒfƒ‚•\Ž¦
-@@E“¯ˆêIP‚ð‹æ•Ê‚Å‚«‚È‚¢•s‹ï‡
-@@E–¼‘O‚âƒRƒƒ“ƒg‚ª³‚µ‚­•\Ž¦‚³‚ê‚È‚¢–â‘èi–¼‘O‚âƒRƒƒ“ƒg‚ÉƒXƒe[ƒ^ƒX‚ª•\Ž¦‚³‚ê‚½‚è‚·‚éŒ»Ûj
-@@EIgnore Slow Connection‚ðíœ(ƒIƒvƒVƒ‡ƒ“‚Å‚ ‚é•K—v«‚ªŠ´‚¶‚ç‚ê‚È‚¢‚Ì‚Åtrue‚ÅŒÅ’è‚µ‚Ü‚·)
+ï¿½@2008/02/10
+ï¿½@ï¿½@Ver1.20
+ï¿½@ï¿½@ï¿½Eï¿½Ïï¿½@ï¿½\ï¿½Î‰ï¿½
+ï¿½@ï¿½@ï¿½Eï¿½ï¿½ï¿½ï¿½ï¿½fï¿½ï¿½ï¿½\ï¿½ï¿½
+ï¿½@ï¿½@ï¿½Eï¿½ï¿½ï¿½ï¿½IPï¿½ï¿½ï¿½ï¿½Ê‚Å‚ï¿½ï¿½È‚ï¿½ï¿½sï¿½ï‡
+ï¿½@ï¿½@ï¿½Eï¿½ï¿½ï¿½Oï¿½ï¿½Rï¿½ï¿½ï¿½ï¿½ï¿½gï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½ï¿½ï¿½iï¿½ï¿½ï¿½Oï¿½ï¿½Rï¿½ï¿½ï¿½ï¿½ï¿½gï¿½ÉƒXï¿½eï¿½[ï¿½^ï¿½Xï¿½ï¿½ï¿½\ï¿½ï¿½ï¿½ï¿½ï¿½ê‚½ï¿½è‚·ï¿½éŒ»ï¿½Ûj
+ï¿½@ï¿½@ï¿½EIgnore Slow Connectionï¿½ï¿½ï¿½íœ(ï¿½Iï¿½vï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½ï¿½Kï¿½vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½Ì‚ï¿½trueï¿½ÅŒÅ’è‚µï¿½Ü‚ï¿½)
 
-@2007/09/26
-@@Ver1.15-3
-@@E“¯–¼‚ÌNores‚ª‘å—Ê‚É”­¶‚·‚éŒ»ÛAŽ©•ª‚ªƒƒr[‚ÉŒ©‚¦‚Ä‚µ‚Ü‚¤Œ»Û
-@@Enodelist‚Å‘Îí‚Å‚«‚È‚­‚È‚é•s‹ï‡
-@@E•Êlobby‚Ìƒm[ƒh‚ª’Ç‰Á‚³‚ê‚Ä‚µ‚Ü‚¤•s‹ï‡
+ï¿½@2007/09/26
+ï¿½@ï¿½@Ver1.15-3
+ï¿½@ï¿½@ï¿½Eï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Noresï¿½ï¿½ï¿½ï¿½Ê‚É”ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½éŒ»ï¿½ÛAï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½rï¿½[ï¿½ÉŒï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½ï¿½
+ï¿½@ï¿½@ï¿½Enodelistï¿½Å‘Îï¿½Å‚ï¿½ï¿½È‚ï¿½ï¿½È‚ï¿½sï¿½ï‡
+ï¿½@ï¿½@ï¿½Eï¿½ï¿½lobbyï¿½Ìƒmï¿½[ï¿½hï¿½ï¿½ï¿½Ç‰ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½sï¿½ï‡
 
-@2007/09/19
-@@Ver1.15-2
-@@EUDP Hole Punching‚ÌŽÀŒ±
-@@@‚¨ŒÝ‚¢NoRes“¯Žm‚¾‚Á‚½l‚ª‘Îí‰Â”\‚É‚È‚é‚©‚à’m‚ê‚Ü‚¹‚ñB
-@@@’A‚µA‘o•û‚©‚çÚ‘±‰Â”\‚È’‡‰îƒm[ƒh‚ªƒƒr[‚É•K—v‚Å‚·B
-@@@Ver1.15-2“¯Žm‚Å–³‚¢‚Æ‹@”\‚µ‚Ü‚¹‚ñB
-@@EƒWƒƒƒXƒeƒBƒX‚ÌN.B.‚É‚æ‚é“¯ŠúƒYƒŒ‘Îô
-@@EƒŠƒvƒŒƒC‚ÌeƒfƒBƒŒƒNƒgƒŠƒJ[ƒ\ƒ‹‹L‰¯
+ï¿½@2007/09/19
+ï¿½@ï¿½@Ver1.15-2
+ï¿½@ï¿½@ï¿½EUDP Hole Punchingï¿½ÌŽï¿½ï¿½ï¿½
+ï¿½@ï¿½@ï¿½@ï¿½ï¿½ï¿½Ý‚ï¿½NoResï¿½ï¿½ï¿½mï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½lï¿½ï¿½ï¿½Îï¿½Â”\ï¿½É‚È‚é‚©ï¿½ï¿½ï¿½mï¿½ï¿½Ü‚ï¿½ï¿½ï¿½B
+ï¿½@ï¿½@ï¿½@ï¿½Aï¿½ï¿½ï¿½Aï¿½oï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ú‘ï¿½ï¿½Â”\ï¿½È’ï¿½ï¿½ï¿½mï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½rï¿½[ï¿½É•Kï¿½vï¿½Å‚ï¿½ï¿½B
+ï¿½@ï¿½@ï¿½@Ver1.15-2ï¿½ï¿½ï¿½mï¿½Å–ï¿½ï¿½ï¿½ï¿½Æ‹@ï¿½\ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½B
+ï¿½@ï¿½@ï¿½Eï¿½Wï¿½ï¿½ï¿½Xï¿½eï¿½Bï¿½Xï¿½ï¿½N.B.ï¿½É‚ï¿½é“¯ï¿½ï¿½ï¿½Yï¿½ï¿½ï¿½Îï¿½
+ï¿½@ï¿½@ï¿½Eï¿½ï¿½ï¿½vï¿½ï¿½ï¿½Cï¿½Ìeï¿½fï¿½Bï¿½ï¿½ï¿½Nï¿½gï¿½ï¿½ï¿½Jï¿½[ï¿½\ï¿½ï¿½ï¿½Lï¿½ï¿½
 
-@2007/09/11
-@@Ver1.15
-@@EEXŠÖ˜A‚Ì“¯Šú‚¸‚ê‘Îô
-@@EŽŽ‡Œã‚ÌƒtƒŠ[ƒY‘Îô
-@@EƒNƒ‰ƒbƒVƒ…‚Ì‰Â”\«‚ðC³
-@@Eƒ\[ƒgiEx, Countj’Ç‰Á
-@@Einiƒtƒ@ƒCƒ‹‚ÅƒEƒCƒ“ƒhƒEƒTƒCƒY•ÏX
+ï¿½@2007/09/11
+ï¿½@ï¿½@Ver1.15
+ï¿½@ï¿½@ï¿½EEXï¿½Ö˜Aï¿½Ì“ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Îï¿½
+ï¿½@ï¿½@ï¿½Eï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ìƒtï¿½ï¿½ï¿½[ï¿½Yï¿½Îï¿½
+ï¿½@ï¿½@ï¿½Eï¿½Nï¿½ï¿½ï¿½bï¿½Vï¿½ï¿½ï¿½Ì‰Â”\ï¿½ï¿½ï¿½ï¿½ï¿½Cï¿½ï¿½
+ï¿½@ï¿½@ï¿½Eï¿½\ï¿½[ï¿½gï¿½iEx, Countï¿½jï¿½Ç‰ï¿½
+ï¿½@ï¿½@ï¿½Einiï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ÅƒEï¿½Cï¿½ï¿½ï¿½hï¿½Eï¿½Tï¿½Cï¿½Yï¿½ÏX
 
-@2007/09/05
-@@Ver1.14
-@@EEXŠÖ˜A‚Ì“¯Šú‚¸‚ê‘Îô
-@@E‘ŽŽ‡”•\Ž¦
+ï¿½@2007/09/05
+ï¿½@ï¿½@Ver1.14
+ï¿½@ï¿½@ï¿½EEXï¿½Ö˜Aï¿½Ì“ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Îï¿½
+ï¿½@ï¿½@ï¿½Eï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½\ï¿½ï¿½
 
-@2007/09/02
-@@Ver1.13
-@@Einiƒtƒ@ƒCƒ‹‚ÉƒEƒCƒ“ƒhƒE‚ÌƒfƒtƒHƒ‹ƒgˆÊ’uÝ’è
-@@EƒŠƒvƒŒƒC‘‘—‚èiÄ¶’†‚É›ƒ{ƒ^ƒ“j
-@@EFƒ‰ƒ“ƒN, Sƒ‰ƒ“ƒN‚Éƒ|ƒCƒ“ƒg§ŒÀ‚ðÝ’è
-@@EEnable ExCharacter‚ÌŽd—l•ÏX
-@@@‘o•û‚ªEnable ExCharacter—LŒø‚Ìê‡AExƒLƒƒƒ‰‚ð‘I‘ð‰Â”\
-@@@‘o•û‚Ü‚½‚Í‚Ç‚¿‚ç‚©‚ªEnable ExCharacter–³Œø‚Ìê‡A’Êí‚Ì‘Îí‚Æ‚È‚é
-@@@’A‚µA1.12-3ˆÈ‘O‚Æ‚ÍExÝ’è‚ªˆÙ‚È‚é‚Æ‘Îí•s”\i]—ˆ‚Æ‚¨‚èStatus‚ªEx Enable/Disable‚Æ‚È‚éj
-@@E“§–¾lŠÔƒoƒO‘Îô
-@@E‹‘”ÛƒR[ƒhŠg’£
+ï¿½@2007/09/02
+ï¿½@ï¿½@Ver1.13
+ï¿½@ï¿½@ï¿½Einiï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ÉƒEï¿½Cï¿½ï¿½ï¿½hï¿½Eï¿½Ìƒfï¿½tï¿½Hï¿½ï¿½ï¿½gï¿½Ê’uï¿½Ý’ï¿½
+ï¿½@ï¿½@ï¿½Eï¿½ï¿½ï¿½vï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½ï¿½iï¿½Äï¿½ï¿½ï¿½ï¿½Éï¿½ï¿½{ï¿½^ï¿½ï¿½ï¿½j
+ï¿½@ï¿½@ï¿½EFï¿½ï¿½ï¿½ï¿½ï¿½N, Sï¿½ï¿½ï¿½ï¿½ï¿½Nï¿½Éƒ|ï¿½Cï¿½ï¿½ï¿½gï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ý’ï¿½
+ï¿½@ï¿½@ï¿½EEnable ExCharacterï¿½ÌŽdï¿½lï¿½ÏX
+ï¿½@ï¿½@ï¿½@ï¿½oï¿½ï¿½ï¿½ï¿½Enable ExCharacterï¿½Lï¿½ï¿½ï¿½Ìê‡ï¿½AExï¿½Lï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Iï¿½ï¿½ï¿½Â”\
+ï¿½@ï¿½@ï¿½@ï¿½oï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Í‚Ç‚ï¿½ï¿½ç‚©ï¿½ï¿½Enable ExCharacterï¿½ï¿½ï¿½ï¿½ï¿½Ìê‡ï¿½Aï¿½Êï¿½Ì‘Îï¿½Æ‚È‚ï¿½
+ï¿½@ï¿½@ï¿½@ï¿½Aï¿½ï¿½ï¿½A1.12-3ï¿½È‘Oï¿½Æ‚ï¿½Exï¿½Ý’è‚ªï¿½Ù‚È‚ï¿½Æ‘Îï¿½sï¿½\ï¿½iï¿½]ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½Statusï¿½ï¿½Ex Enable/Disableï¿½Æ‚È‚ï¿½j
+ï¿½@ï¿½@ï¿½Eï¿½ï¿½ï¿½ï¿½ï¿½lï¿½Ôƒoï¿½Oï¿½Îï¿½
+ï¿½@ï¿½@ï¿½Eï¿½ï¿½ï¿½ÛƒRï¿½[ï¿½hï¿½gï¿½ï¿½
 
   2007/07/25
     Ver1.12-3
-@@Eƒƒr[‚ÌŽd—l‚ðver1.11-2ˆÈ‘O‚É–ß‚µ‚½
-      iver1.11Œn‚ÆŒÝŠ·‚ª‚Æ‚ê‚Ü‚·‚ªA1.12A1.12-2‚Æ‚ÍŒÝŠ·‚ ‚è‚Ü‚¹‚ñj
+ï¿½@ï¿½@ï¿½Eï¿½ï¿½ï¿½rï¿½[ï¿½ÌŽdï¿½lï¿½ï¿½ver1.11-2ï¿½È‘Oï¿½É–ß‚ï¿½ï¿½ï¿½
+      ï¿½iver1.11ï¿½nï¿½ÆŒÝŠï¿½ï¿½ï¿½ï¿½Æ‚ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½A1.12ï¿½A1.12-2ï¿½Æ‚ÍŒÝŠï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½j
 
   2007/07/21
     Ver1.12-2
-@@EPING‘—MŠÔŠuC³
+ï¿½@ï¿½@ï¿½EPINGï¿½ï¿½ï¿½Mï¿½ÔŠuï¿½Cï¿½ï¿½
 
   2007/07/21
     Ver1.12
-@@EGGƒ‚[ƒh‚ªŒ´ˆö‚Å“¯Šú‚ªŽæ‚ê‚È‚©‚Á‚½–â‘è
-@@EƒsƒNƒZƒ‹ƒVƒF[ƒ_[‚ª—LŒøŽž‚Ì•s‹ï‡
-@@E?ƒ‰ƒ“ƒN‚ð‹N“®Žž‚É‹­§“I‚É‰Šú‰»BƒXƒRƒAWŒv‚ðs‚í‚È‚¢‚æ‚¤‚É‚µA
-@@@‚Æ‚è‚ ‚¦‚¸‚Íƒ‰ƒ“ƒNƒoƒOAƒNƒ‰ƒbƒVƒ…“™‚Í‰ðÁ‚³‚ê‚½‚Í‚¸B
-@@Eƒƒr[‚ÌŽd—l‚ð•ÏX
-@@@‘ÎíI—¹Aƒƒr[‚Ì“ü‚è‚È‚¨‚µ“™‚ÅƒvƒŒƒCƒ„[î•ñ‚ðƒŠƒZƒbƒg‚µ‚È‚¢B
-@@@‚»‚Ì‘ã‚í‚èˆê’èŽžŠÔNoResponseó‘Ô‚ª‘±‚¢‚½ê‡AƒŠƒXƒg‚©‚çíœ
-@@Einiƒtƒ@ƒCƒ‹ƒTƒ|[ƒg(Ú×‚ÍŒãq)
-@@Epalƒtƒ@ƒCƒ‹‚Ìƒhƒ‰ƒbƒO•ƒhƒƒbƒv
-@@@iŒ»Ý‘I‘ð‚µ‚Ä‚¢‚éƒLƒƒƒ‰‚ÌƒpƒŒƒbƒg‚ÌF‚ª’u‚«Š·‚í‚éBƒLƒƒƒ‰‚ÌŽ©“®”»•Ê‚Í•s‰Â”\j
-    E‹‘”Û^”í‹‘”Ûƒ†[ƒU[‚Íƒ\[ƒg‚Ì—Dæ“x‚ð‰º‚°‚½
+ï¿½@ï¿½@ï¿½EGGï¿½ï¿½ï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å“ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ï¿½@ï¿½@ï¿½Eï¿½sï¿½Nï¿½Zï¿½ï¿½ï¿½Vï¿½Fï¿½[ï¿½_ï¿½[ï¿½ï¿½ï¿½Lï¿½ï¿½ï¿½ï¿½ï¿½Ì•sï¿½ï‡
+ï¿½@ï¿½@ï¿½E?ï¿½ï¿½ï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½ï¿½ï¿½É‹ï¿½ï¿½ï¿½ï¿½Iï¿½Éï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Bï¿½Xï¿½Rï¿½Aï¿½Wï¿½vï¿½ï¿½ï¿½sï¿½ï¿½È‚ï¿½ï¿½æ‚¤ï¿½É‚ï¿½ï¿½A
+ï¿½@ï¿½@ï¿½@ï¿½Æ‚è‚ ï¿½ï¿½ï¿½ï¿½ï¿½Íƒï¿½ï¿½ï¿½ï¿½Nï¿½oï¿½Oï¿½Aï¿½Nï¿½ï¿½ï¿½bï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½Í‰ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ê‚½ï¿½Í‚ï¿½ï¿½B
+ï¿½@ï¿½@ï¿½Eï¿½ï¿½ï¿½rï¿½[ï¿½ÌŽdï¿½lï¿½ï¿½ÏX
+ï¿½@ï¿½@ï¿½@ï¿½Îï¿½Iï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½rï¿½[ï¿½Ì“ï¿½ï¿½ï¿½È‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Åƒvï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Zï¿½bï¿½gï¿½ï¿½ï¿½È‚ï¿½ï¿½B
+ï¿½@ï¿½@ï¿½@ï¿½ï¿½ï¿½Ì‘ï¿½ï¿½ï¿½ï¿½èŽžï¿½ï¿½NoResponseï¿½ï¿½Ô‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ê‡ï¿½Aï¿½ï¿½ï¿½Xï¿½gï¿½ï¿½ï¿½ï¿½íœ
+ï¿½@ï¿½@ï¿½Einiï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½Tï¿½|ï¿½[ï¿½g(ï¿½Ú×‚ÍŒï¿½q)
+ï¿½@ï¿½@ï¿½Epalï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½Ìƒhï¿½ï¿½ï¿½bï¿½Oï¿½ï¿½ï¿½hï¿½ï¿½ï¿½bï¿½v
+ï¿½@ï¿½@ï¿½@ï¿½iï¿½ï¿½ï¿½Ý‘Iï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Lï¿½ï¿½ï¿½ï¿½ï¿½Ìƒpï¿½ï¿½ï¿½bï¿½gï¿½ÌFï¿½ï¿½ï¿½uï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Bï¿½Lï¿½ï¿½ï¿½ï¿½ï¿½ÌŽï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê‚Í•sï¿½Â”\ï¿½j
+    ï¿½Eï¿½ï¿½ï¿½Û^ï¿½í‹‘ï¿½Ûƒï¿½ï¿½[ï¿½Uï¿½[ï¿½Íƒ\ï¿½[ï¿½gï¿½Ì—Dï¿½ï¿½xï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 
   2007/06/29
     Ver1.11-2
-@@EƒXƒŒƒbƒh‚Ì—Dæ“x‚ð–ß‚µ‚Ä‚Ý‚½
-@@EƒAƒCƒRƒ“E•¶Žš‚ð16bitƒJƒ‰[‚É‘Î‰ž
+ï¿½@ï¿½@ï¿½Eï¿½Xï¿½ï¿½ï¿½bï¿½hï¿½Ì—Dï¿½ï¿½xï¿½ï¿½ß‚ï¿½ï¿½Ä‚Ý‚ï¿½
+ï¿½@ï¿½@ï¿½Eï¿½Aï¿½Cï¿½Rï¿½ï¿½ï¿½Eï¿½ï¿½ï¿½ï¿½ï¿½ï¿½16bitï¿½Jï¿½ï¿½ï¿½[ï¿½É‘Î‰ï¿½
 
   2007/06/26
     Ver1.11
-@@EƒXƒg[ƒŠ[ƒ‚[ƒh“™‚Ì‰¹º‚ªƒmƒCƒY‰»‚µ‚Ä‚é–â‘è
-    E1.10‚Å¬“ü‚µ‚½FX‚È•s‹ï‡
-@@EƒtƒHƒ“ƒg•`‰æ‚³‚ê‚È‚¢–â‘è
-@@Eƒƒr[‚Å‘I‘ð€–Ú‚ªƒnƒCƒ‰ƒCƒg‚³‚ê‚È‚¢–â‘è
-@@Ever1.08bˆÈ~‚ÌƒŠƒvƒŒƒC‚ÌŒÝŠ·«ˆÛŽ
-@@Eƒ‰ƒ“ƒNƒXƒRƒAŒvŽZ‚Ì–â‘è
-@@Eˆê•”‚ÌŠÂ‹«‚ÅPing’l‚ª‘å‚«‚­‚È‚éE‘Îí’†‚Ìƒ‰ƒO‚ª‚Ð‚Ç‚¢i‰ö‚µ‚¢‚Æ‚±‚ë‚ð’¼‚µ‚½‚¾‚¯‚Å‰ü‘PŠm”F‚Å‚«‚¸j
-@@EƒŠƒvƒŒƒC‚ÅƒfƒBƒŒƒNƒgƒŠˆÚ“®‚·‚é‚ÆƒJ[ƒ\ƒ‹‚ªÁ‚¦‚é–â‘è
+ï¿½@ï¿½@ï¿½Eï¿½Xï¿½gï¿½[ï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½[ï¿½hï¿½ï¿½ï¿½Ì‰ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½mï¿½Cï¿½Yï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½
+    ï¿½E1.10ï¿½Åï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Fï¿½Xï¿½È•sï¿½ï‡
+ï¿½@ï¿½@ï¿½Eï¿½tï¿½Hï¿½ï¿½ï¿½gï¿½`ï¿½æ‚³ï¿½ï¿½È‚ï¿½ï¿½ï¿½ï¿½
+ï¿½@ï¿½@ï¿½Eï¿½ï¿½ï¿½rï¿½[ï¿½Å‘Iï¿½ï¿½ï¿½ï¿½ï¿½Ú‚ï¿½ï¿½nï¿½Cï¿½ï¿½ï¿½Cï¿½gï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½ï¿½ï¿½
+ï¿½@ï¿½@ï¿½Ever1.08bï¿½È~ï¿½Ìƒï¿½ï¿½vï¿½ï¿½ï¿½Cï¿½ÌŒÝŠï¿½ï¿½ï¿½ï¿½ÛŽï¿½
+ï¿½@ï¿½@ï¿½Eï¿½ï¿½ï¿½ï¿½ï¿½Nï¿½Xï¿½Rï¿½Aï¿½vï¿½Zï¿½Ì–ï¿½ï¿½
+ï¿½@ï¿½@ï¿½Eï¿½ê•”ï¿½ÌŠÂ‹ï¿½ï¿½ï¿½Pingï¿½lï¿½ï¿½ï¿½å‚«ï¿½ï¿½ï¿½È‚ï¿½Eï¿½Îí’†ï¿½Ìƒï¿½ï¿½Oï¿½ï¿½ï¿½Ð‚Ç‚ï¿½ï¿½iï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ð’¼‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‰ï¿½ï¿½Pï¿½mï¿½Fï¿½Å‚ï¿½ï¿½ï¿½ï¿½j
+ï¿½@ï¿½@ï¿½Eï¿½ï¿½ï¿½vï¿½ï¿½ï¿½Cï¿½Åƒfï¿½Bï¿½ï¿½ï¿½Nï¿½gï¿½ï¿½ï¿½Ú“ï¿½ï¿½ï¿½ï¿½ï¿½ÆƒJï¿½[ï¿½\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 
   2007/06/24
     Ver1.10
-    E“Á’è‚ÌƒvƒŒƒCƒ„[‚Ì‹‘”Û‹@”\’Ç‰Á
-@@E‘Îíƒ‰ƒEƒ“ƒh‚Ì•ÏXi—“üæ‚ÌÝ’è‚É]‚¤j
-@@E–¼‘O‚É“ú–{Œê‚ðŽg—p‰Â”\
-@@EŽ©ŒÈPRƒƒbƒZ[ƒWŽg—p‰Â”\
-@@Eƒƒr[‰æ–Ê‚ÅL1^R1ƒy[ƒWˆÚ“®‘Î‰ž
-@@ElobbyScript‚Ì”¼ŠpƒXƒy[ƒX‚È‚Ç‚ð–³Ž‹‚·‚é‚æ‚¤‚É‚µ‚½
-@@E“¯ŠúƒYƒŒ‘Îô
-@@EMission > Replay‚Å‰Šú‰»‚³‚ê‚Ä‚È‚©‚Á‚½ƒoƒOC³
-@@E“r’†‚Ü‚Å‚ÌƒŠƒvƒŒƒC‚Å‚à•Û‘¶‚·‚é‚æ‚¤‚É‚µ‚½
-@@EƒJ[ƒ\ƒ‹‹L‰¯
-@@EƒJƒ‰[ƒGƒfƒBƒbƒg‚ªGGXX–{‘Ì‚ÆƒŠƒAƒ‹ƒ^ƒCƒ€‚É˜A“®‚·‚é‚æ‚¤‚É‚µ‚½
-@@EFPS‚Æƒo[ƒWƒ‡ƒ“•\Ž¦
+    ï¿½Eï¿½ï¿½ï¿½ï¿½Ìƒvï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½[ï¿½Ì‹ï¿½ï¿½Û‹@ï¿½\ï¿½Ç‰ï¿½
+ï¿½@ï¿½@ï¿½Eï¿½Îíƒ‰ï¿½Eï¿½ï¿½ï¿½hï¿½Ì•ÏXï¿½iï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÌÝ’ï¿½É]ï¿½ï¿½ï¿½j
+ï¿½@ï¿½@ï¿½Eï¿½ï¿½ï¿½Oï¿½É“ï¿½ï¿½{ï¿½ï¿½ï¿½ï¿½gï¿½pï¿½Â”\
+ï¿½@ï¿½@ï¿½Eï¿½ï¿½ï¿½ï¿½PRï¿½ï¿½ï¿½bï¿½Zï¿½[ï¿½Wï¿½gï¿½pï¿½Â”\
+ï¿½@ï¿½@ï¿½Eï¿½ï¿½ï¿½rï¿½[ï¿½ï¿½Ê‚ï¿½L1ï¿½^R1ï¿½yï¿½[ï¿½Wï¿½Ú“ï¿½ï¿½Î‰ï¿½
+ï¿½@ï¿½@ï¿½ElobbyScriptï¿½Ì”ï¿½ï¿½pï¿½Xï¿½yï¿½[ï¿½Xï¿½È‚Ç‚ð–³Žï¿½ï¿½ï¿½ï¿½ï¿½æ‚¤ï¿½É‚ï¿½ï¿½ï¿½
+ï¿½@ï¿½@ï¿½Eï¿½ï¿½ï¿½ï¿½ï¿½Yï¿½ï¿½ï¿½Îï¿½
+ï¿½@ï¿½@ï¿½EMission > Replayï¿½Åï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚È‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½oï¿½Oï¿½Cï¿½ï¿½
+ï¿½@ï¿½@ï¿½Eï¿½rï¿½ï¿½ï¿½Ü‚Å‚Ìƒï¿½ï¿½vï¿½ï¿½ï¿½Cï¿½Å‚ï¿½ï¿½Û‘ï¿½ï¿½ï¿½ï¿½ï¿½æ‚¤ï¿½É‚ï¿½ï¿½ï¿½
+ï¿½@ï¿½@ï¿½Eï¿½Jï¿½[ï¿½\ï¿½ï¿½ï¿½Lï¿½ï¿½
+ï¿½@ï¿½@ï¿½Eï¿½Jï¿½ï¿½ï¿½[ï¿½Gï¿½fï¿½Bï¿½bï¿½gï¿½ï¿½GGXXï¿½{ï¿½Ì‚Æƒï¿½ï¿½Aï¿½ï¿½ï¿½^ï¿½Cï¿½ï¿½ï¿½É˜Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½æ‚¤ï¿½É‚ï¿½ï¿½ï¿½
+ï¿½@ï¿½@ï¿½EFPSï¿½Æƒoï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½\ï¿½ï¿½
 
-@2007/05/15
-@@Ver1.09-4
-@@Eˆê•”‚ÌŠÂ‹«‚ÅCPU‚ª100%‚É‚È‚Á‚Ä‚µ‚Ü‚¤–â‘è
+ï¿½@2007/05/15
+ï¿½@ï¿½@Ver1.09-4
+ï¿½@ï¿½@ï¿½Eï¿½ê•”ï¿½ÌŠÂ‹ï¿½ï¿½ï¿½CPUï¿½ï¿½100%ï¿½É‚È‚ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½
 
-@2007/05/11
-@@Ver1.09-3
-@@@E’ÊMŠÖ˜A‚àˆÈ‘O‚ÌŽÀ‘•‚É–ß‚µ‚½B
+ï¿½@2007/05/11
+ï¿½@ï¿½@Ver1.09-3
+ï¿½@ï¿½@ï¿½@ï¿½Eï¿½ÊMï¿½Ö˜Aï¿½ï¿½ï¿½È‘Oï¿½ÌŽï¿½ï¿½ï¿½ï¿½É–ß‚ï¿½ï¿½ï¿½ï¿½B
 
-@2007/05/09
-@@Ver1.09-2
-@@@Eƒƒr[ŠÖ˜A‚ðŒ³‚É–ß‚µ‚½B
+ï¿½@2007/05/09
+ï¿½@ï¿½@Ver1.09-2
+ï¿½@ï¿½@ï¿½@ï¿½Eï¿½ï¿½ï¿½rï¿½[ï¿½Ö˜Aï¿½ï¿½ï¿½ï¿½ï¿½É–ß‚ï¿½ï¿½ï¿½ï¿½B
 
-@2007/05/09
-@@Ver1.09
-@@@EIgnore Mismatch Node‚ª‹@”\‚µ‚Ä‚¢‚È‚¢•s‹ï‡C³
+ï¿½@2007/05/09
+ï¿½@ï¿½@Ver1.09
+ï¿½@ï¿½@ï¿½@ï¿½EIgnore Mismatch Nodeï¿½ï¿½ï¿½@ï¿½\ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½È‚ï¿½ï¿½sï¿½ï‡ï¿½Cï¿½ï¿½
 
-@@@E“¯Šúƒ`ƒFƒbƒN’Ç‰Á
-@@@@¡‰ñ‚©‚ç“¯Šúƒ`ƒFƒbƒN‚ðs‚Á‚Ä‚Ü‚·‚Ì‚ÅA
-@@@@ƒQ[ƒ€‚Ìó‘Ô‚ª‚¸‚ê‚½‚Ü‚Üis‚·‚é‚±‚Æ‚Í‚ ‚è‚Ü‚¹‚ñB
-@@@@‚¸‚ê‚½ê‡‰æ–Ê’†‰›‚ÉSYNC ERROR‚Æ•\Ž¦‚³‚êˆê’èŽžŠÔ‚Åƒƒr[‚É–ß‚è‚Ü‚·B
+ï¿½@ï¿½@ï¿½@ï¿½Eï¿½ï¿½ï¿½ï¿½ï¿½`ï¿½Fï¿½bï¿½Nï¿½Ç‰ï¿½
+ï¿½@ï¿½@ï¿½@ï¿½@ï¿½ï¿½ï¿½ñ‚©‚ç“¯ï¿½ï¿½ï¿½`ï¿½Fï¿½bï¿½Nï¿½ï¿½ï¿½sï¿½ï¿½ï¿½Ä‚Ü‚ï¿½ï¿½Ì‚ÅA
+ï¿½@ï¿½@ï¿½@ï¿½@ï¿½Qï¿½[ï¿½ï¿½ï¿½Ìï¿½Ô‚ï¿½ï¿½ï¿½ï¿½ê‚½ï¿½Ü‚Üiï¿½sï¿½ï¿½ï¿½é‚±ï¿½Æ‚Í‚ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½B
+ï¿½@ï¿½@ï¿½@ï¿½@ï¿½ï¿½ï¿½ê‚½ï¿½ê‡ï¿½ï¿½Ê’ï¿½ï¿½ï¿½ï¿½ï¿½SYNC ERRORï¿½Æ•\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½èŽžï¿½Ô‚Åƒï¿½ï¿½rï¿½[ï¿½É–ß‚ï¿½Ü‚ï¿½ï¿½B
 
-@@@E“¯ŠúƒYƒŒ‘ÎôiFPU‰‰ŽZ‚ÅCW‚ª•s’è‚¾‚Á‚½–â‘èj
+ï¿½@ï¿½@ï¿½@ï¿½Eï¿½ï¿½ï¿½ï¿½ï¿½Yï¿½ï¿½ï¿½Îï¿½iFPUï¿½ï¿½ï¿½Zï¿½ï¿½CWï¿½ï¿½ï¿½sï¿½è‚¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½j
 
-@@@Eƒm[ƒhƒŠƒXƒgƒtƒ@ƒCƒ‹‚Ì•s‹ï‡C³
+ï¿½@ï¿½@ï¿½@ï¿½Eï¿½mï¿½[ï¿½hï¿½ï¿½ï¿½Xï¿½gï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½Ì•sï¿½ï‡ï¿½Cï¿½ï¿½
 
-@@@EƒŠƒvƒŒƒC‚ÌŠK‘w•\Ž¦iƒfƒBƒŒƒNƒgƒŠ‚Ì”FŽ¯j
+ï¿½@ï¿½@ï¿½@ï¿½Eï¿½ï¿½ï¿½vï¿½ï¿½ï¿½Cï¿½ÌŠKï¿½wï¿½\ï¿½ï¿½ï¿½iï¿½fï¿½Bï¿½ï¿½ï¿½Nï¿½gï¿½ï¿½ï¿½Ì”Fï¿½ï¿½ï¿½j
 
-@2007/04/22
-@@Ver1.08beta
-@@@Eƒ|[ƒg‚O‘Î‰žiTCP‚ðŽg—p‚µ‚È‚¢j
+ï¿½@2007/04/22
+ï¿½@ï¿½@Ver1.08beta
+ï¿½@ï¿½@ï¿½@ï¿½Eï¿½|ï¿½[ï¿½gï¿½Oï¿½Î‰ï¿½ï¿½iTCPï¿½ï¿½ï¿½gï¿½pï¿½ï¿½ï¿½È‚ï¿½ï¿½j
 
-@2007/04/19
+ï¿½@2007/04/19
     Ver1.07
-@@@Eˆê•”‚Ì—”‚Ì“¯Šú‚ªŽæ‚ê‚È‚¢–â‘èiƒtƒ@ƒEƒXƒgAƒUƒbƒpAƒ`ƒbƒv“™j
+ï¿½@ï¿½@ï¿½@ï¿½Eï¿½ê•”ï¿½Ì—ï¿½ï¿½ï¿½ï¿½Ì“ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½ï¿½ï¿½iï¿½tï¿½@ï¿½Eï¿½Xï¿½gï¿½Aï¿½Uï¿½bï¿½pï¿½Aï¿½`ï¿½bï¿½vï¿½ï¿½ï¿½j
 
-@2007/04/17
+ï¿½@2007/04/17
     Ver1.06
-      E•¡”‚ÌƒXƒNƒŠƒvƒgƒAƒhƒŒƒX“o˜^
+      ï¿½Eï¿½ï¿½ï¿½ï¿½ï¿½ÌƒXï¿½Nï¿½ï¿½ï¿½vï¿½gï¿½Aï¿½hï¿½ï¿½ï¿½Xï¿½oï¿½^
 
-@@@EƒeƒLƒXƒgƒtƒ@ƒCƒ‹‚©‚ç‚Ìƒm[ƒhƒŠƒXƒg‚ÌŽæ“¾
-@@@@¡‚Ü‚Å‚Ì‚æ‚¤‚Écgi‚ð‰î‚µ‚Ä‘ŠŽè‚ð’T‚·‚Ì‚Å‚Í‚È‚­A
-@@@@ƒm[ƒhƒŠƒXƒg‚É‹Lq‚µ‚½‘ŠŽè‚Æ‚¾‚¯‘Îí‰Â”\‚Å‚·B
-@@@@g“à‚¾‚¯‚Å‚â‚è‚½‚¢ê‡A‚í‚´‚í‚´cgi‚ðƒZƒbƒgƒAƒbƒv‚·‚é•K—v‚ª‚È‚­‚È‚è‚Ü‚·B
-@@@@‹»–¡‚È‚¢l‚Í¡‚Ü‚Å‚Æ‚¨‚ècgi‚Åok‚Å‚·B
+ï¿½@ï¿½@ï¿½@ï¿½Eï¿½eï¿½Lï¿½Xï¿½gï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ìƒmï¿½[ï¿½hï¿½ï¿½ï¿½Xï¿½gï¿½ÌŽæ“¾
+ï¿½@ï¿½@ï¿½@ï¿½@ï¿½ï¿½ï¿½Ü‚Å‚Ì‚æ‚¤ï¿½ï¿½cgiï¿½ï¿½ï¿½î‚µï¿½Ä‘ï¿½ï¿½ï¿½ï¿½Tï¿½ï¿½ï¿½Ì‚Å‚Í‚È‚ï¿½ï¿½A
+ï¿½@ï¿½@ï¿½@ï¿½@ï¿½mï¿½[ï¿½hï¿½ï¿½ï¿½Xï¿½gï¿½É‹Lï¿½qï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½Îï¿½Â”\ï¿½Å‚ï¿½ï¿½B
+ï¿½@ï¿½@ï¿½@ï¿½@ï¿½gï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½è‚½ï¿½ï¿½ï¿½ê‡ï¿½Aï¿½í‚´ï¿½í‚´cgiï¿½ï¿½ï¿½Zï¿½bï¿½gï¿½Aï¿½bï¿½vï¿½ï¿½ï¿½ï¿½Kï¿½vï¿½ï¿½ï¿½È‚ï¿½ï¿½È‚ï¿½Ü‚ï¿½ï¿½B
+ï¿½@ï¿½@ï¿½@ï¿½@ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½lï¿½Íï¿½ï¿½Ü‚Å‚Æ‚ï¿½ï¿½ï¿½cgiï¿½ï¿½okï¿½Å‚ï¿½ï¿½B
 
-      E“¯ŠúƒYƒŒ‘Îô
-@@@@—”‚Ì“¯Šúˆ—‚ð‘å‚«‚­•Ï‚¦‚½B
-@@@@‚»‚Ì•¾ŠQ‚Æ‚µ‚Ä¡‚Ü‚Å‚ÌƒŠƒvƒŒƒC‚ªÄ¶‚Å‚«‚È‚­‚È‚Á‚½B
-@@@@‚»‚à‚»‚à‚¢‚Ü‚Ü‚Å‚ÌƒŠƒvƒŒƒC‚Í‘Îí‚Æ“¯—lA“¯ŠúƒYƒŒ‚Ì–â‘è‚ð•ø‚¦‚Ä‚¢‚éˆ×A
-@@@@ƒQ[ƒ€‚Ìó‘ÔŽŸ‘æ‚Å³‚µ‚­ÄŒ»‚³‚ê‚Ä‚¢‚È‚©‚Á‚½B
+      ï¿½Eï¿½ï¿½ï¿½ï¿½ï¿½Yï¿½ï¿½ï¿½Îï¿½
+ï¿½@ï¿½@ï¿½@ï¿½@ï¿½ï¿½ï¿½ï¿½ï¿½Ì“ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½å‚«ï¿½ï¿½ï¿½Ï‚ï¿½ï¿½ï¿½ï¿½B
+ï¿½@ï¿½@ï¿½@ï¿½@ï¿½ï¿½ï¿½Ì•ï¿½ï¿½Qï¿½Æ‚ï¿½ï¿½Äï¿½ï¿½Ü‚Å‚Ìƒï¿½ï¿½vï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½Äï¿½ï¿½Å‚ï¿½ï¿½È‚ï¿½ï¿½È‚ï¿½ï¿½ï¿½ï¿½B
+ï¿½@ï¿½@ï¿½@ï¿½@ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚Ü‚Å‚Ìƒï¿½ï¿½vï¿½ï¿½ï¿½Cï¿½Í‘Îï¿½Æ“ï¿½ï¿½lï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½Yï¿½ï¿½ï¿½Ì–ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½×A
+ï¿½@ï¿½@ï¿½@ï¿½@ï¿½Qï¿½[ï¿½ï¿½ï¿½Ìï¿½ÔŽï¿½ï¿½ï¿½Åï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÄŒï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½È‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B
 
-	–ƒYƒŒ‚ªŠ®‘S‚É–³‚­‚È‚Á‚½‚í‚¯‚Å‚Í‚È‚¢i—”‚Ì‰e‹¿‚Ì‘½‚¢ƒLƒƒƒ‰‚ÅƒYƒŒ‚â‚·‚¢j
+	ï¿½ï¿½ï¿½Yï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Sï¿½É–ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½ï¿½ï¿½í‚¯ï¿½Å‚Í‚È‚ï¿½ï¿½iï¿½ï¿½ï¿½ï¿½ï¿½Ì‰eï¿½ï¿½ï¿½Ì‘ï¿½ï¿½ï¿½ï¿½Lï¿½ï¿½ï¿½ï¿½ï¿½ÅƒYï¿½ï¿½ï¿½â‚·ï¿½ï¿½ï¿½j
 
-@2007/04/11
+ï¿½@2007/04/11
     Ver1.05
-      E60fps‚ðƒL[ƒv‚Å‚«‚È‚¢Ú‘±‚ð‹‘”Û‚·‚éƒIƒvƒVƒ‡ƒ“uDeny Slow Connectionsv’Ç‰ÁB
-@@@Eƒƒr[‰æ–Ê‚Ìƒ\[ƒg‹@”\
-@@@E“¯ŠúƒYƒŒ‘Îôi‚Ü‚¾‚¸‚ê‚Ä‚écj
+      ï¿½E60fpsï¿½ï¿½ï¿½Lï¿½[ï¿½vï¿½Å‚ï¿½ï¿½È‚ï¿½ï¿½Ú‘ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Û‚ï¿½ï¿½ï¿½Iï¿½vï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½uDeny Slow Connectionsï¿½vï¿½Ç‰ï¿½ï¿½B
+ï¿½@ï¿½@ï¿½@ï¿½Eï¿½ï¿½ï¿½rï¿½[ï¿½ï¿½Ê‚Ìƒ\ï¿½[ï¿½gï¿½@ï¿½\
+ï¿½@ï¿½@ï¿½@ï¿½Eï¿½ï¿½ï¿½ï¿½ï¿½Yï¿½ï¿½ï¿½Îï¿½iï¿½Ü‚ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½cï¿½j
 
-@2007/04/08
+ï¿½@2007/04/08
     Ver1.04
-      Eƒƒ{ƒJƒCAƒGƒfƒB‚ÌƒpƒŒƒbƒg‚ª”½‰f‚³‚ê‚È‚¢•s‹ï‡
-@@@E“¯ŠúƒYƒŒ‘Îôi’¼‚Á‚Ä‚È‚¢‚©‚àcj
+      ï¿½Eï¿½ï¿½ï¿½{ï¿½Jï¿½Cï¿½Aï¿½Gï¿½fï¿½Bï¿½Ìƒpï¿½ï¿½ï¿½bï¿½gï¿½ï¿½ï¿½ï¿½ï¿½fï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½sï¿½ï‡
+ï¿½@ï¿½@ï¿½@ï¿½Eï¿½ï¿½ï¿½ï¿½ï¿½Yï¿½ï¿½ï¿½Îï¿½iï¿½ï¿½ï¿½ï¿½ï¿½Ä‚È‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½cï¿½j
 
-@2007/04/06
+ï¿½@2007/04/06
     Ver1.03
-      Eƒƒr[‚Ì“à•”ˆ—‚ð‚©‚È‚è•Ï‚¦‚½i‚Ç‚¤‚È‚é‚©”»‚ç‚ñ‚Ì‚Å‰Ò“®‚³‚¹‚Ä—lŽqŒ©j
-@@@EƒLƒƒƒ‰ƒZƒŒ’¼Œã‚ÉØ‚ê‚Ä‚¢‚½–â‘èi­‚È‚­‚Æ‚àƒIƒtƒ‰ƒCƒ“ŠÂ‹«‚Å‚Í–â‘è‚È‚µj
-@@@E‹à•ƒLƒƒƒ‰«”\‚É‚È‚Á‚Ä‚µ‚Ü‚¤–â‘èi‚±‚ê‚àƒIƒtƒ‰ƒCƒ“ŠÂ‹«‚Å‚ÍÄŒ»‚µ‚Ä‚¢‚È‚¢‚Ì‚Å—lŽqŒ©j
-@@@Eƒ‰ƒ“ƒNŒ©’¼‚µ
-@@@Eƒ‰ƒEƒ“ƒh‚Ìß–Ú‚ÅØ‚ê‚Ä‚¢‚½–â‘è
-@@@E‘ŠŽè‚ªAuto Connect WaitŽžŠÔ’†‚¾‚Á‚½‚çNot Ready‚Æ•\Ž¦‚³‚ê‚é‚æ‚¤‚É‚µ‚½B
-@@@EƒŠƒvƒŒƒC‚ª•Û‘¶‚³‚ê‚Ä‚¢‚È‚¢‚±‚Æ‚ª‚ ‚é–â‘è‚ðC³B
+      ï¿½Eï¿½ï¿½ï¿½rï¿½[ï¿½Ì“ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½Ï‚ï¿½ï¿½ï¿½ï¿½iï¿½Ç‚ï¿½ï¿½È‚é‚©ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚Å‰Ò“ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä—lï¿½qï¿½ï¿½ï¿½j
+ï¿½@ï¿½@ï¿½@ï¿½Eï¿½Lï¿½ï¿½ï¿½ï¿½ï¿½Zï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÉØ‚ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½iï¿½ï¿½ï¿½È‚ï¿½ï¿½Æ‚ï¿½ï¿½Iï¿½tï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½Â‹ï¿½ï¿½Å‚Í–ï¿½ï¿½È‚ï¿½ï¿½j
+ï¿½@ï¿½@ï¿½@ï¿½Eï¿½ï¿½ï¿½ï¿½ï¿½Lï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½\ï¿½É‚È‚ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½iï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Iï¿½tï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½Â‹ï¿½ï¿½Å‚ÍÄŒï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½È‚ï¿½ï¿½Ì‚Å—lï¿½qï¿½ï¿½ï¿½j
+ï¿½@ï¿½@ï¿½@ï¿½Eï¿½ï¿½ï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ï¿½@ï¿½@ï¿½@ï¿½Eï¿½ï¿½ï¿½Eï¿½ï¿½ï¿½hï¿½Ìß–Ú‚ÅØ‚ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ï¿½@ï¿½@ï¿½@ï¿½Eï¿½ï¿½ï¿½è‚ªAuto Connect Waitï¿½ï¿½ï¿½Ô’ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Not Readyï¿½Æ•\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½æ‚¤ï¿½É‚ï¿½ï¿½ï¿½ï¿½B
+ï¿½@ï¿½@ï¿½@ï¿½Eï¿½ï¿½ï¿½vï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½Û‘ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½È‚ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½B
 
-@2007/04/03
+ï¿½@2007/04/03
     Ver1.02
-      EÚ‘±Ž¸”sŒyŒ¸i–¢Šm”F‚¾‚ªƒ}ƒV‚É‚Í‚È‚Á‚Ä‚é‚Í‚¸j
-@@@EƒfƒBƒŒƒCAƒI[ƒgƒRƒlƒNƒgƒEƒFƒCƒg•œŠˆ
-@@@Eƒ~ƒXƒ}ƒbƒ`ƒm[ƒh‚ÌƒfƒBƒŒƒC‚âEX—LŒø^–³Œø‚ð•\Ž¦‚µ‚½
-@@@Eƒm[ƒh‚ðƒŠƒZƒbƒg‚·‚é‹@”\‚ð’Ç‰Á
-@@@Eƒƒr[‰æ–Ê‚Å‘ŠŽè‚Ì˜AŸ”‚ð•\Ž¦
-@@@Eƒ~ƒXƒ}ƒbƒ`ƒm[ƒh‚ð–³Ž‹‚·‚éƒIƒvƒVƒ‡ƒ“’Ç‰Á
-@@@Erank‚Ì’²®
-@@@EƒgƒŠƒbƒvŽ×–‚‚È‚Ì‚Å4Œ…‚É‚µ‚½
+      ï¿½Eï¿½Ú‘ï¿½ï¿½ï¿½ï¿½sï¿½yï¿½ï¿½ï¿½iï¿½ï¿½ï¿½mï¿½Fï¿½ï¿½ï¿½ï¿½ï¿½}ï¿½Vï¿½É‚Í‚È‚ï¿½ï¿½Ä‚ï¿½Í‚ï¿½ï¿½j
+ï¿½@ï¿½@ï¿½@ï¿½Eï¿½fï¿½Bï¿½ï¿½ï¿½Cï¿½Aï¿½Iï¿½[ï¿½gï¿½Rï¿½lï¿½Nï¿½gï¿½Eï¿½Fï¿½Cï¿½gï¿½ï¿½ï¿½ï¿½
+ï¿½@ï¿½@ï¿½@ï¿½Eï¿½~ï¿½Xï¿½}ï¿½bï¿½`ï¿½mï¿½[ï¿½hï¿½Ìƒfï¿½Bï¿½ï¿½ï¿½Cï¿½ï¿½EXï¿½Lï¿½ï¿½ï¿½^ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ï¿½@ï¿½@ï¿½@ï¿½Eï¿½mï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½Zï¿½bï¿½gï¿½ï¿½ï¿½ï¿½@ï¿½\ï¿½ï¿½Ç‰ï¿½
+ï¿½@ï¿½@ï¿½@ï¿½Eï¿½ï¿½ï¿½rï¿½[ï¿½ï¿½Ê‚Å‘ï¿½ï¿½ï¿½Ì˜Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½\ï¿½ï¿½
+ï¿½@ï¿½@ï¿½@ï¿½Eï¿½~ï¿½Xï¿½}ï¿½bï¿½`ï¿½mï¿½[ï¿½hï¿½ð–³Žï¿½ï¿½ï¿½ï¿½ï¿½Iï¿½vï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½Ç‰ï¿½
+ï¿½@ï¿½@ï¿½@ï¿½Erankï¿½Ì’ï¿½ï¿½ï¿½
+ï¿½@ï¿½@ï¿½@ï¿½Eï¿½gï¿½ï¿½ï¿½bï¿½vï¿½×–ï¿½ï¿½È‚Ì‚ï¿½4ï¿½ï¿½ï¿½É‚ï¿½ï¿½ï¿½
 
-@2007/04/02
-@@Ver1.01
-@@@E‘Îí’†‚É‘¼‚©‚ç‚ÌÚ‘±‚ÅØ’f‚µ‚Ä‚µ‚Ü‚¤•s‹ï‡i“®ì–¢Šm”Fj
-@@@E–³ˆÓ–¡E•s—v‚ÆŽv‚í‚ê‚éƒIƒvƒVƒ‡ƒ“‚ðíœiƒfƒBƒŒƒC‚Í‚SŒÅ’è‚Å—lŽq‚ðŒ©‚Ü‚·j
-@@@Eƒo[ƒWƒ‡ƒ“ƒGƒ‰[‚Å‘ŠŽè‚Ìƒo[ƒWƒ‡ƒ“‚ð•\Ž¦
-@@@Eggxx‚ÌƒEƒCƒ“ƒhƒE‚ªƒoƒbƒNƒOƒ‰ƒEƒ“ƒh‚É‚ ‚Á‚Ä‚àˆ—‚ði‚ß‚é‚æ‚¤‚É‚µ‚½
-@@@EconnectŽž‚Ìˆ—‚ð•Ï‚¦‚Ä‚Ý‚½i‚Ü‚¾‚½‚Ü‚ÉØ’f‚³‚ê‚Ä‚Ü‚·‚ªcj
-@@@Eƒƒr[cgi‚Ì•s‹ï‡C³
-@@@Erank‚Ìã¸ðŒ‚ðŠÉ‚­‚µ‚½
+ï¿½@2007/04/02
+ï¿½@ï¿½@Ver1.01
+ï¿½@ï¿½@ï¿½@ï¿½Eï¿½Îí’†ï¿½É‘ï¿½ï¿½ï¿½ï¿½ï¿½ÌÚ‘ï¿½ï¿½ÅØ’fï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½sï¿½ï‡ï¿½iï¿½ï¿½ï¿½ì–¢ï¿½mï¿½Fï¿½j
+ï¿½@ï¿½@ï¿½@ï¿½Eï¿½ï¿½ï¿½Ó–ï¿½ï¿½Eï¿½sï¿½vï¿½ÆŽvï¿½ï¿½ï¿½ï¿½Iï¿½vï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½íœï¿½iï¿½fï¿½Bï¿½ï¿½ï¿½Cï¿½Í‚Sï¿½Å’ï¿½Å—lï¿½qï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½j
+ï¿½@ï¿½@ï¿½@ï¿½Eï¿½oï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½Gï¿½ï¿½ï¿½[ï¿½Å‘ï¿½ï¿½ï¿½Ìƒoï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½ï¿½\ï¿½ï¿½
+ï¿½@ï¿½@ï¿½@ï¿½Eggxxï¿½ÌƒEï¿½Cï¿½ï¿½ï¿½hï¿½Eï¿½ï¿½ï¿½oï¿½bï¿½Nï¿½Oï¿½ï¿½ï¿½Eï¿½ï¿½ï¿½hï¿½É‚ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½iï¿½ß‚ï¿½æ‚¤ï¿½É‚ï¿½ï¿½ï¿½
+ï¿½@ï¿½@ï¿½@ï¿½Econnectï¿½ï¿½ï¿½Ìï¿½ï¿½ï¿½ï¿½ï¿½Ï‚ï¿½ï¿½Ä‚Ý‚ï¿½ï¿½iï¿½Ü‚ï¿½ï¿½ï¿½ï¿½Ü‚ÉØ’fï¿½ï¿½ï¿½ï¿½Ä‚Ü‚ï¿½ï¿½ï¿½ï¿½cï¿½j
+ï¿½@ï¿½@ï¿½@ï¿½Eï¿½ï¿½ï¿½rï¿½[cgiï¿½Ì•sï¿½ï‡ï¿½Cï¿½ï¿½
+ï¿½@ï¿½@ï¿½@ï¿½Erankï¿½Ìã¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É‚ï¿½ï¿½ï¿½ï¿½ï¿½
 
-@2007/04/01
-@@Ver1.00
-      ŒöŠJ
+ï¿½@2007/04/01
+ï¿½@ï¿½@Ver1.00
+      ï¿½ï¿½ï¿½J
 
-@2007/01/07
-    ŠJ”­’…Žè
-
-
-yƒtƒ@ƒCƒ‹à–¾z
-@ggxxnet_readme.txt¥¥¥¥¥¥¥¥¥¥¥¥¥¥‚±‚Ìƒtƒ@ƒCƒ‹
-@ggxxnet.dll¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥‹@”\’Ç‰Á‚·‚éˆ×‚Ì‚c‚k‚k
-@ggxxnet_patcher.exe¥¥¥¥¥¥¥¥¥¥¥¥¥ggxx.exe‰ü•Ïƒpƒbƒ`
-@ggxxnet_config.exe¥¥¥¥¥¥¥¥¥¥¥¥¥¥ƒlƒbƒg‘Îí‹@”\‚ÌÝ’èƒc[ƒ‹
-@ggnlobby.cgi¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥ƒƒr[cgii•’Ê‚Í•K—v‚ ‚è‚Ü‚¹‚ñj
-
-yƒCƒ“ƒXƒg[ƒ‹z
-@‚PDGGXX#R‚ªƒCƒ“ƒXƒg[ƒ‹‚³‚ê‚Ä‚¢‚éƒfƒBƒŒƒNƒgƒŠ‚Éˆ³kƒtƒ@ƒCƒ‹‚Ì“à—e‚ð“WŠJ‚µ‚Ü‚·B
-
-@‚QDggxxnet_patcher.exe‚ðŽÀs‚µ³íI—¹‚ÌƒƒbƒZ[ƒW‚ª•\Ž¦‚³‚ê‚é‚±‚Æ‚ðŠm”F‚µ‚Ü‚·B
-@@@¦‚±‚±‚Å¶¬‚³‚ê‚éggxx.OLD‚Í‘‚«Š·‚¦‘O‚ÌƒvƒƒOƒ‰ƒ€ƒtƒ@ƒCƒ‹
-
-@‚RDggxxnet_config.exe‚É‚ÄŠeŽíÝ’è‚ðs‚¢‚Ü‚·BiŒãqj
+ï¿½@2007/01/07
+    ï¿½Jï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 
 
-yƒlƒbƒg‘Îí‚ðs‚¤z
-@‚PDggxx.exe‚ð‹N“®‚µ‚Ü‚·Biggxx.exe‰‰ñ‹N“®‚ÌƒuƒƒbƒLƒ“ƒO‰ðœŠm”F‚Å‚Í‰ðœ‚·‚é‚ð‘I‘ð‚µ‚Ä‚­‚¾‚³‚¢j
+ï¿½yï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½z
+ï¿½@ggxxnet_readme.txtï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ìƒtï¿½@ï¿½Cï¿½ï¿½
+ï¿½@ggxxnet.dllï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½@ï¿½\ï¿½Ç‰ï¿½ï¿½ï¿½ï¿½ï¿½×‚Ì‚cï¿½kï¿½k
+ï¿½@ggxxnet_patcher.exeï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ggxx.exeï¿½ï¿½ï¿½Ïƒpï¿½bï¿½`
+ï¿½@skin_generator.exeï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½lï¿½bï¿½gï¿½Îï¿½@ï¿½\ï¿½ÌÝ’ï¿½cï¿½[ï¿½ï¿½
+ï¿½@ggnlobby.cgiï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½rï¿½[cgiï¿½iï¿½ï¿½ï¿½Ê‚Í•Kï¿½vï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½j
 
-@‚QDMENU‰æ–Ê > OPTION > GAME OPTIONS‚ÅSHORT CUT‚ðON‚ÉÝ’è‚µ‚Ä‚­‚¾‚³‚¢B
-@@@EXIT > GO BACK > QUIT‚Åˆê’Uƒ^ƒCƒgƒ‹‚É–ß‚èAÄ“xMENU‰æ–Ê‚É“ü‚è‚È‚¨‚·‚Æ
-@@@VS NET‚ÆREPLAY‚Ì€–Ú‚ª’Ç‰Á‚³‚ê‚Ä‚¢‚Ü‚·B
+ï¿½yï¿½Cï¿½ï¿½ï¿½Xï¿½gï¿½[ï¿½ï¿½ï¿½z
+ï¿½@ï¿½Pï¿½DGGXX#Rï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½Xï¿½gï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½fï¿½Bï¿½ï¿½ï¿½Nï¿½gï¿½ï¿½ï¿½Éˆï¿½ï¿½kï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½Ì“ï¿½ï¿½eï¿½ï¿½Wï¿½Jï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
 
-@‚RDVS NET‚ð‘I‘ð‚·‚é‚ÆVS NET‰æ–Ê‚ÉˆÚs‚µA‚¨‚æ‚»‚Q•b‘OŒã‚Å‘Îí‘ŠŽèˆê——‚ª•\Ž¦‚³‚ê‚Ü‚·B
+ï¿½@ï¿½Qï¿½Dggxxnet_patcher.exeï¿½ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Iï¿½ï¿½ï¿½Ìƒï¿½ï¿½bï¿½Zï¿½[ï¿½Wï¿½ï¿½ï¿½\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½é‚±ï¿½Æ‚ï¿½ï¿½mï¿½Fï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
+ï¿½@ï¿½@ï¿½@ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Åï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ggxx.OLDï¿½Íï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Oï¿½Ìƒvï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½ï¿½tï¿½@ï¿½Cï¿½ï¿½
 
-@‚SD‘ŠŽè‚ð‘I‚ÑŒˆ’èƒ{ƒ^ƒ“‚ð‰Ÿ‚µƒƒjƒ…[‚©‚çPlayGame‚ð‘I‘ð‚·‚é‚©A‘ŠŽè‚©‚çÚ‘±‚³‚ê‚é‚Æ‘Îí‚ªŽn‚Ü‚è‚Ü‚·B
+ï¿½@ï¿½Rï¿½skin_generator.exeï¿½É‚ÄŠeï¿½ï¿½Ý’ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½iï¿½ï¿½qï¿½j
 
-@‚TD‘Îí‚ªI—¹‚·‚é‚ÆŽ©“®“I‚ÉƒŠƒvƒŒƒC‚ª•Û‘¶‚³‚ê‚Ü‚·B
-@
-@Eƒlƒbƒg‘Îíƒ‹[ƒ‹
-@@‡@‚Ror‚Tƒ‰ƒEƒ“ƒh‚X‚X•b‚ÉŒÅ’è‚³‚ê‚Ü‚·
-@@‡A‹àƒLƒƒƒ‰A•ƒLƒƒƒ‰‚É‚æ‚é«”\•Ï‰»‚Í‚ ‚è‚Ü‚¹‚ñB
-@@‡BGGƒ‚[ƒh‚ªOFF‚ÉŒÅ’è‚³‚ê‚Ü‚·B
-@@‡CÚ‘±‚µ‚½‘¤‚ª1P‚É‚È‚è‚Ü‚·B
 
-  ERANK‚É‚Â‚¢‚Ä
-@@ƒvƒŒƒCƒ„[‚ÍíÑ‚É‰ž‚¶‚Äƒ‰ƒ“ƒN•t‚¯‚³‚ê‚Ü‚·B
-@@“KØ‚È‘Îí‘ŠŽè‚Ì‘I‘ð‚Ì–ÚˆÀ‚Æ‚µ‚Ä‚­‚¾‚³‚¢B
+ï¿½yï¿½lï¿½bï¿½gï¿½Îï¿½ï¿½ï¿½sï¿½ï¿½ï¿½z
+ï¿½@ï¿½Pï¿½Dggxx.exeï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½iggxx.exeï¿½ï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½Ìƒuï¿½ï¿½ï¿½bï¿½Lï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½ï¿½mï¿½Fï¿½Å‚Í‰ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Iï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½j
 
-@EPING‚É‚Â‚¢‚Ä
-@@ƒ~ƒŠ•b’PˆÊ‚Åƒm[ƒh‚Æ‚Ìƒlƒbƒgƒ[ƒN‚Ì‘¬“x‚ð•\‚µ‚Ü‚·B
-@@Šî–{“I‚É¬‚³‚¢‚Ù‚Ç‰õ“K‚É‘Îí‚ª‰Â”\‚Å‚·B
-@@Šî€’l‚ðã‰ñ‚éƒm[ƒh‚ÍSTATUS‚ªNG‚Æ‚È‚èÚ‘±‚Å‚«‚È‚­‚È‚è‚Ü‚·B
+ï¿½@ï¿½Qï¿½DMENUï¿½ï¿½ï¿½ > OPTION > GAME OPTIONSï¿½ï¿½SHORT CUTï¿½ï¿½ONï¿½ÉÝ’è‚µï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B
+ï¿½@ï¿½@ï¿½@EXIT > GO BACK > QUITï¿½Åˆï¿½Uï¿½^ï¿½Cï¿½gï¿½ï¿½ï¿½É–ß‚ï¿½Aï¿½Ä“xMENUï¿½ï¿½Ê‚É“ï¿½ï¿½ï¿½È‚ï¿½ï¿½ï¿½ï¿½ï¿½
+ï¿½@ï¿½@ï¿½@VS NETï¿½ï¿½REPLAYï¿½Ìï¿½ï¿½Ú‚ï¿½ï¿½Ç‰ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B
 
-@ESTATUS‚É‚Â‚¢‚Ä
+ï¿½@ï¿½Rï¿½DVS NETï¿½ï¿½Iï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½VS NETï¿½ï¿½Ê‚ÉˆÚsï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½æ‚»ï¿½Qï¿½bï¿½Oï¿½ï¿½Å‘Îí‘Šï¿½ï¿½ê——ï¿½ï¿½ï¿½\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
 
-@@@@Idle
-@@@@@‘Îí‰Â”\‚Å‚·
+ï¿½@ï¿½Sï¿½Dï¿½ï¿½ï¿½ï¿½ï¿½Iï¿½ÑŒï¿½ï¿½ï¿½{ï¿½^ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½jï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½PlayGameï¿½ï¿½Iï¿½ï¿½ï¿½ï¿½ï¿½é‚©ï¿½Aï¿½ï¿½ï¿½è‚©ï¿½ï¿½Ú‘ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‘Îí‚ªï¿½nï¿½Ü‚ï¿½Ü‚ï¿½ï¿½B
 
-@@@@Busy
-          ‘¼‚Ìƒm[ƒh‚Æ‘Îí’†‚Å‚·
+ï¿½@ï¿½Tï¿½Dï¿½Îí‚ªï¿½Iï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÆŽï¿½ï¿½ï¿½ï¿½Iï¿½Éƒï¿½ï¿½vï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½Û‘ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
+ï¿½@
+ï¿½@ï¿½Eï¿½lï¿½bï¿½gï¿½Îíƒ‹ï¿½[ï¿½ï¿½
+ï¿½@ï¿½@ï¿½@ï¿½Rorï¿½Tï¿½ï¿½ï¿½Eï¿½ï¿½ï¿½hï¿½Xï¿½Xï¿½bï¿½ÉŒÅ’è‚³ï¿½ï¿½Ü‚ï¿½
+ï¿½@ï¿½@ï¿½Aï¿½ï¿½ï¿½Lï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½Lï¿½ï¿½ï¿½ï¿½ï¿½É‚ï¿½é«ï¿½\ï¿½Ï‰ï¿½ï¿½Í‚ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½B
+ï¿½@ï¿½@ï¿½BGGï¿½ï¿½ï¿½[ï¿½hï¿½ï¿½OFFï¿½ÉŒÅ’è‚³ï¿½ï¿½Ü‚ï¿½ï¿½B
+ï¿½@ï¿½@ï¿½Cï¿½Ú‘ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½1Pï¿½É‚È‚ï¿½Ü‚ï¿½ï¿½B
+
+  ï¿½ERANKï¿½É‚Â‚ï¿½ï¿½ï¿½
+ï¿½@ï¿½@ï¿½vï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½[ï¿½Íï¿½Ñ‚É‰ï¿½ï¿½ï¿½ï¿½Äƒï¿½ï¿½ï¿½ï¿½Nï¿½tï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
+ï¿½@ï¿½@ï¿½Kï¿½Ø‚È‘Îí‘Šï¿½ï¿½Ì‘Iï¿½ï¿½ï¿½Ì–Úˆï¿½ï¿½Æ‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B
+
+ï¿½@ï¿½EPINGï¿½É‚Â‚ï¿½ï¿½ï¿½
+ï¿½@ï¿½@ï¿½~ï¿½ï¿½ï¿½bï¿½Pï¿½Ê‚Åƒmï¿½[ï¿½hï¿½Æ‚Ìƒlï¿½bï¿½gï¿½ï¿½ï¿½[ï¿½Nï¿½Ì‘ï¿½ï¿½xï¿½ï¿½\ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
+ï¿½@ï¿½@ï¿½ï¿½{ï¿½Iï¿½Éï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ù‚Ç‰ï¿½ï¿½Kï¿½É‘Îí‚ªï¿½Â”\ï¿½Å‚ï¿½ï¿½B
+ï¿½@ï¿½@ï¿½î€ï¿½lï¿½ï¿½ï¿½ï¿½ï¿½ï¿½mï¿½[ï¿½hï¿½ï¿½STATUSï¿½ï¿½NGï¿½Æ‚È‚ï¿½Ú‘ï¿½ï¿½Å‚ï¿½ï¿½È‚ï¿½ï¿½È‚ï¿½Ü‚ï¿½ï¿½B
+
+ï¿½@ï¿½ESTATUSï¿½É‚Â‚ï¿½ï¿½ï¿½
+
+ï¿½@ï¿½@ï¿½@ï¿½@Idle
+ï¿½@ï¿½@ï¿½@ï¿½@ï¿½@ï¿½Îï¿½Â”\ï¿½Å‚ï¿½
+
+ï¿½@ï¿½@ï¿½@ï¿½@Busy
+          ï¿½ï¿½ï¿½Ìƒmï¿½[ï¿½hï¿½Æ‘Îí’†ï¿½Å‚ï¿½
 	
-	Busy(Casting) [ˆÃ—ÎF•\Ž¦]
-	@ŠÏí‰Â”\‚Å‚·‚ª‚Ü‚¾ŽŽ‡‚ªŽn‚Ü‚Á‚Ä‚¢‚È‚¢ó‘Ô‚Å‚·B
+	Busy(Casting) [ï¿½Ã—ÎFï¿½\ï¿½ï¿½]
+	ï¿½@ï¿½Ïï¿½Â”\ï¿½Å‚ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½nï¿½Ü‚ï¿½ï¿½Ä‚ï¿½ï¿½È‚ï¿½ï¿½ï¿½Ô‚Å‚ï¿½ï¿½B
 
-	Busy(Casting) [–¾—Î•\Ž¦]
-	@ŠÏí‰Â”\‚Å‚·B
+	Busy(Casting) [ï¿½ï¿½ï¿½Î•\ï¿½ï¿½]
+	ï¿½@ï¿½Ïï¿½Â”\ï¿½Å‚ï¿½ï¿½B
 
-@@@@Watch  [ŠDF•\Ž¦]
-@@@@@ŠÏí’†‚Ì‚½‚ßÚ‘±‚Å‚«‚Ü‚¹‚ñB
+ï¿½@ï¿½@ï¿½@ï¿½@Watch  [ï¿½Dï¿½Fï¿½\ï¿½ï¿½]
+ï¿½@ï¿½@ï¿½@ï¿½@ï¿½@ï¿½Ïí’†ï¿½Ì‚ï¿½ï¿½ßÚ‘ï¿½ï¿½Å‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½B
 
-@@@@Watch  [”’F•\Ž¦]
-@@@@@ŠÏí’†‚Å‚·‚ª—“ü‚ª‹–‰Â‚³‚ê‚Ä‚¢‚Ü‚·B
-@@@@@iConfig‚ÌWatch -> Allow Intrusion‚É‚æ‚èÝ’è‰Â”\j
+ï¿½@ï¿½@ï¿½@ï¿½@Watch  [ï¿½ï¿½ï¿½Fï¿½\ï¿½ï¿½]
+ï¿½@ï¿½@ï¿½@ï¿½@ï¿½@ï¿½Ïí’†ï¿½Å‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â‚ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B
+ï¿½@ï¿½@ï¿½@ï¿½@ï¿½@ï¿½iConfigï¿½ï¿½Watch -> Allow Intrusionï¿½É‚ï¿½ï¿½Ý’ï¿½Â”\ï¿½j
 
-@@@@No Response
-          VSNET‰æ–Ê‚É‚¢‚È‚¢‚©AƒQ[ƒ€Ž©‘Ì‚ðI—¹‚µ‚Ä‚¢‚Ü‚·
+ï¿½@ï¿½@ï¿½@ï¿½@No Response
+          VSNETï¿½ï¿½Ê‚É‚ï¿½ï¿½È‚ï¿½ï¿½ï¿½ï¿½Aï¿½Qï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½ï¿½Iï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½
 
-@@@@Delay?
-@@@@@Delay Frame‚ÌÝ’è’l‚ªˆÙ‚È‚é
+ï¿½@ï¿½@ï¿½@ï¿½@Delay?
+ï¿½@ï¿½@ï¿½@ï¿½@ï¿½@Delay Frameï¿½ÌÝ’ï¿½lï¿½ï¿½ï¿½Ù‚È‚ï¿½
 
-@@@@Version Error
-          ‘ŠŽè‚ÌGGXXNET‚Ìƒo[ƒWƒ‡ƒ“‚ÉŒÝŠ·«‚ª–³‚¢
-@@@@  ’ÊMŽ©‘Ì‚ÉŒÝŠ·«‚ª‚È‚¢‚ÆƒŠƒXƒg‚É‚·‚ç•\Ž¦‚³‚ê‚Ü‚¹‚ñ
-@@@@
-@@@@Not Ready
-          ‘ŠŽè‚ª‚Ü‚¾Ú‘±‚ðŽó‚¯•t‚¯‚Ä‚¢‚Ü‚¹‚ñ
-@@@@@E‘ŠŽè‚ªƒƒjƒ…[‚ðŠJ‚¢‚Ä‚¢‚é‚Æ‚«
-@@@@@EŽŽ‡I—¹’¼Œã‚R•b’ö“x
+ï¿½@ï¿½@ï¿½@ï¿½@Version Error
+          ï¿½ï¿½ï¿½ï¿½ï¿½GGXXNETï¿½Ìƒoï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½ÉŒÝŠï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ï¿½@ï¿½@ï¿½@ï¿½@  ï¿½ÊMï¿½ï¿½ï¿½Ì‚ÉŒÝŠï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½Æƒï¿½ï¿½Xï¿½gï¿½É‚ï¿½ï¿½ï¿½\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½
+ï¿½@ï¿½@ï¿½@ï¿½@
+ï¿½@ï¿½@ï¿½@ï¿½@Not Ready
+          ï¿½ï¿½ï¿½è‚ªï¿½Ü‚ï¿½ï¿½Ú‘ï¿½ï¿½ï¿½ï¿½ó‚¯•tï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½
+ï¿½@ï¿½@ï¿½@ï¿½@ï¿½@ï¿½Eï¿½ï¿½ï¿½è‚ªï¿½ï¿½ï¿½jï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½Jï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Æ‚ï¿½
+ï¿½@ï¿½@ï¿½@ï¿½@ï¿½@ï¿½Eï¿½ï¿½ï¿½ï¿½ï¿½Iï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Rï¿½bï¿½ï¿½ï¿½x
 
-@@@@Ping Over
-          PING’l‚ª‹K’è’l‚ðã‰ñ‚Á‚Ä‚¢‚Ü‚·B
+ï¿½@ï¿½@ï¿½@ï¿½@Ping Over
+          PINGï¿½lï¿½ï¿½ï¿½Kï¿½ï¿½lï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B
           
-@@@@@Delay Frame = 1	 30msˆÈã
-	  Delay Frame = 2	 63msˆÈã
-	  Delay Frame = 3	 96msˆÈã
-	  Delay Frame = 4	129msˆÈã
-	  Delay Frame = 5	162msˆÈã
-	  Delay Frame = 6	195msˆÈã
-@@@@
-@@@@Denied
-          ‚»‚ÌƒvƒŒƒCƒ„[‚©‚ç‹‘”Û‚³‚ê‚Ä‚¢‚Ü‚·B
+ï¿½@ï¿½@ï¿½@ï¿½@ï¿½@Delay Frame = 1	 30msï¿½Èï¿½
+	  Delay Frame = 2	 63msï¿½Èï¿½
+	  Delay Frame = 3	 96msï¿½Èï¿½
+	  Delay Frame = 4	129msï¿½Èï¿½
+	  Delay Frame = 5	162msï¿½Èï¿½
+	  Delay Frame = 6	195msï¿½Èï¿½
+ï¿½@ï¿½@ï¿½@ï¿½@
+ï¿½@ï¿½@ï¿½@ï¿½@Denied
+          ï¿½ï¿½ï¿½Ìƒvï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ç‹‘ï¿½Û‚ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½B
 
-@Eƒ\[ƒg‹@”\
-@@©¨‚Åƒ\[ƒg•û–@‚ð‘I‘ð‚µA¢ƒ{ƒ^ƒ“‚Åƒ\[ƒg‰Â”\B
+ï¿½@ï¿½Eï¿½\ï¿½[ï¿½gï¿½@ï¿½\
+ï¿½@ï¿½@ï¿½ï¿½ï¿½ï¿½ï¿½Åƒ\ï¿½[ï¿½gï¿½ï¿½ï¿½@ï¿½ï¿½Iï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½{ï¿½^ï¿½ï¿½ï¿½Åƒ\ï¿½[ï¿½gï¿½Â”\ï¿½B
 
-  Eƒm[ƒhƒŠƒXƒg
-@@Žå‚Éƒƒr[ƒXƒNƒŠƒvƒg‚ðŽg—p‚¹‚¸‚Ég“à‚Å‘Îí‚µ‚½‚¢ê‡‚É—˜—p‚µ‚Ü‚·B
-@@Config‚ÌLobbyScriptAddress‚Énodelist.txt‚Æ“ü—Í‚µ‚Ü‚·Bi‘Š‘ÎEâ‘ÎƒpƒX‚Å‚Í”FŽ¯‚³‚ê‚Ü‚¹‚ñj
-@@ggxx.exe‚Æ“¯‚¶ƒfƒBƒŒƒNƒgƒŠ‚Énodelist.txt‚ðì¬‚µA
-@@IPƒAƒhƒŒƒX:ƒ|[ƒg”Ô†‚Ì‘Ž®‚Å‘Îí‘ŠŽè‚Ìƒm[ƒh‚ð‹Lq‚µ‚Ü‚·B
-@@Ž©•ª‚Ìƒm[ƒh‚Í‹Lq‚·‚é•K—v‚Í‚ ‚è‚Ü‚¹‚ñB
+  ï¿½Eï¿½mï¿½[ï¿½hï¿½ï¿½ï¿½Xï¿½g
+ï¿½@ï¿½@ï¿½ï¿½Éƒï¿½ï¿½rï¿½[ï¿½Xï¿½Nï¿½ï¿½ï¿½vï¿½gï¿½ï¿½ï¿½gï¿½pï¿½ï¿½ï¿½ï¿½ï¿½Égï¿½ï¿½ï¿½Å‘Îí‚µï¿½ï¿½ï¿½ï¿½ï¿½ê‡ï¿½É—ï¿½ï¿½pï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
+ï¿½@ï¿½@Configï¿½ï¿½LobbyScriptAddressï¿½ï¿½nodelist.txtï¿½Æ“ï¿½ï¿½Í‚ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½iï¿½ï¿½ï¿½ÎEï¿½ï¿½Îƒpï¿½Xï¿½Å‚Í”Fï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½j
+ï¿½@ï¿½@ggxx.exeï¿½Æ“ï¿½ï¿½ï¿½ï¿½fï¿½Bï¿½ï¿½ï¿½Nï¿½gï¿½ï¿½ï¿½ï¿½nodelist.txtï¿½ï¿½ï¿½ì¬ï¿½ï¿½ï¿½A
+ï¿½@ï¿½@IPï¿½Aï¿½hï¿½ï¿½ï¿½X:ï¿½|ï¿½[ï¿½gï¿½Ôï¿½ï¿½Ìï¿½ï¿½ï¿½ï¿½Å‘Îí‘Šï¿½ï¿½Ìƒmï¿½[ï¿½hï¿½ï¿½ï¿½Lï¿½qï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
+ï¿½@ï¿½@ï¿½ï¿½ï¿½ï¿½ï¿½Ìƒmï¿½[ï¿½hï¿½Í‹Lï¿½qï¿½ï¿½ï¿½ï¿½Kï¿½vï¿½Í‚ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½B
 
-    —áj
-@@127.0.0.2:1192
-@@127.0.0.3:14562
+    ï¿½ï¿½j
+ï¿½@ï¿½@127.0.0.2:1192
+ï¿½@ï¿½@127.0.0.3:14562
 
-@E‹‘”Û‹@”\
-@@”CˆÓ‚ÌƒvƒŒƒCƒ„[‚©‚ç‚ÌÚ‘±‚ð‹‘”Û‚µ‚Ü‚·B
-@@
-@@‚PDƒƒr[‚æ‚è‹‘”Û‚µ‚½‚¢ƒvƒŒƒCƒ„[‚ð‘I‘ð‚µAŒˆ’èƒ{ƒ^ƒ“‚ð‰Ÿ‚µ‚Ü‚·B
-@@
-@@‚QD•\Ž¦‚³‚ê‚½ƒƒjƒ…[‚©‚çdeny this player‚ð‘I‘ð‚µ‚Ü‚·B
-@@@@‹‘”Û‚µ‚Ä‚¢‚éƒvƒŒƒCƒ„[‚Í–¼‘O‚ªÔ‚­•\Ž¦‚³‚ê‚Ü‚·B
-@@
-@@‚RD‹t‚É‹‘”Û‚µ‚Ä‚¢‚éƒvƒŒƒCƒ„[‚ÉÚ‘±‚ð‹–‰Â‚µ‚½‚¢ê‡A
-@@@@Permit this player‚ð‘I‘ð‚·‚é‚Æ‹‘”Û‚ð‰ðœ‚Å‚«‚Ü‚·B
+ï¿½@ï¿½Eï¿½ï¿½ï¿½Û‹@ï¿½\
+ï¿½@ï¿½@ï¿½Cï¿½Ó‚Ìƒvï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½ÌÚ‘ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Û‚ï¿½ï¿½Ü‚ï¿½ï¿½B
+ï¿½@ï¿½@
+ï¿½@ï¿½@ï¿½Pï¿½Dï¿½ï¿½ï¿½rï¿½[ï¿½ï¿½è‹‘ï¿½Û‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½vï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½[ï¿½ï¿½Iï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½{ï¿½^ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
+ï¿½@ï¿½@
+ï¿½@ï¿½@ï¿½Qï¿½Dï¿½\ï¿½ï¿½ï¿½ï¿½ï¿½ê‚½ï¿½ï¿½ï¿½jï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½deny this playerï¿½ï¿½Iï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
+ï¿½@ï¿½@ï¿½@ï¿½@ï¿½ï¿½ï¿½Û‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½vï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½[ï¿½Í–ï¿½ï¿½Oï¿½ï¿½ï¿½Ô‚ï¿½ï¿½\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
+ï¿½@ï¿½@
+ï¿½@ï¿½@ï¿½Rï¿½Dï¿½tï¿½É‹ï¿½ï¿½Û‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½vï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½[ï¿½ÉÚ‘ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ê‡ï¿½A
+ï¿½@ï¿½@ï¿½@ï¿½@Permit this playerï¿½ï¿½Iï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‹ï¿½ï¿½Û‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½ï¿½Ü‚ï¿½ï¿½B
 
-yƒŠƒvƒŒƒCŠÓÜz
-@‚PDMENU‰æ–Ê‚©‚çREPLAY‚ð‘I‘ð‚µAŒˆ’èƒ{ƒ^ƒ“‚ÅÄ¶‚µ‚Ü‚·B
+ï¿½yï¿½ï¿½ï¿½vï¿½ï¿½ï¿½Cï¿½ÓÜz
+ï¿½@ï¿½Pï¿½DMENUï¿½ï¿½Ê‚ï¿½ï¿½ï¿½REPLAYï¿½ï¿½Iï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½{ï¿½^ï¿½ï¿½ï¿½ÅÄï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
 
-@‚QDggxxã‚ÅƒŠƒvƒŒƒC‚Ìíœ‚Í‚Å‚«‚Ü‚¹‚ñB‘ÎÛ‚Ì*.rpyƒtƒ@ƒCƒ‹‚ðíœ‚µ‚Ä‚­‚¾‚³‚¢B
+ï¿½@ï¿½Qï¿½Dggxxï¿½ï¿½Åƒï¿½ï¿½vï¿½ï¿½ï¿½Cï¿½Ìíœï¿½Í‚Å‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½Bï¿½ÎÛ‚ï¿½*.rpyï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½íœï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B
 
-@EÄ¶’†’f
-@@ƒŠƒvƒŒƒCÄ¶’†‚É~ƒ{ƒ^ƒ“‚ð‰Ÿ‚·‚ÆÄ¶‚ð’†’f‚µAREPLAY‘I‘ð‰æ–Ê‚É–ß‚è‚Ü‚·B
+ï¿½@ï¿½Eï¿½Äï¿½ï¿½ï¿½ï¿½f
+ï¿½@ï¿½@ï¿½ï¿½ï¿½vï¿½ï¿½ï¿½Cï¿½Äï¿½ï¿½ï¿½ï¿½É~ï¿½{ï¿½^ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÆÄï¿½ï¿½ð’†’fï¿½ï¿½ï¿½AREPLAYï¿½Iï¿½ï¿½ï¿½ï¿½Ê‚É–ß‚ï¿½Ü‚ï¿½ï¿½B
 
-@E‘‘—‚è
-@@ƒŠƒvƒŒƒCÄ¶’†‚É›ƒ{ƒ^ƒ“‚ð‰Ÿ‚·‚Æ‘‘—‚èÄ¶‚Å‚«‚Ü‚·B
+ï¿½@ï¿½Eï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ï¿½@ï¿½@ï¿½ï¿½ï¿½vï¿½ï¿½ï¿½Cï¿½Äï¿½ï¿½ï¿½ï¿½Éï¿½ï¿½{ï¿½^ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‘ï¿½ï¿½ï¿½ï¿½ï¿½Äï¿½ï¿½Å‚ï¿½ï¿½Ü‚ï¿½ï¿½B
 
-yƒRƒ“ƒtƒBƒOz
-@<Profile>
-@@UserName			: ƒvƒŒƒCƒ„[‚Ì–¼‘O‚ð‰p”Žš‚Ì‚Ý‚Å“ü—Í‚µ‚Ü‚·B
+ï¿½yï¿½Rï¿½ï¿½ï¿½tï¿½Bï¿½Oï¿½z
+ï¿½@<Profile>
+ï¿½@ï¿½@UserName			: ï¿½vï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½[ï¿½Ì–ï¿½ï¿½Oï¿½ï¿½ï¿½pï¿½ï¿½ï¿½ï¿½ï¿½Ì‚Ý‚Å“ï¿½ï¿½Í‚ï¿½ï¿½Ü‚ï¿½ï¿½B
 
-    TripKey			: ƒvƒŒƒCƒ„[–¼‚Ìéx‚è‚âd•¡‚ð–hŽ~‚·‚é‚½‚ß‚ÌƒgƒŠƒbƒv‚ÌƒL[‚ð“ü—Í‚µ‚Ü‚·B
-				@•s—v‚Å‚ ‚ê‚Î‹ó”’‚Å‚à–â‘è‚ ‚è‚Ü‚¹‚ñB
+    TripKey			: ï¿½vï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½xï¿½ï¿½ï¿½dï¿½ï¿½ï¿½ï¿½hï¿½~ï¿½ï¿½ï¿½é‚½ï¿½ß‚Ìƒgï¿½ï¿½ï¿½bï¿½vï¿½ÌƒLï¿½[ï¿½ï¿½ï¿½ï¿½Í‚ï¿½ï¿½Ü‚ï¿½ï¿½B
+				ï¿½@ï¿½sï¿½vï¿½Å‚ï¿½ï¿½ï¿½Î‹ó”’‚Å‚ï¿½ï¿½ï¿½è‚ ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½B
 
-@@Edit Message		: Ž©ŒÈPRƒƒbƒZ[ƒW‚ð•ÒW‚µ‚Ü‚·B
+ï¿½@ï¿½@Edit Message		: ï¿½ï¿½ï¿½ï¿½PRï¿½ï¿½ï¿½bï¿½Zï¿½[ï¿½Wï¿½ï¿½ÒWï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
 
-@<Network>
-@@Enable Network		: ƒlƒbƒg‘Îí‹@”\‚ð—LŒø‚É‚µ‚Ü‚·Bi’ÊíONj
+ï¿½@<Network>
+ï¿½@ï¿½@Enable Network		: ï¿½lï¿½bï¿½gï¿½Îï¿½@ï¿½\ï¿½ï¿½Lï¿½ï¿½ï¿½É‚ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½iï¿½Êï¿½ONï¿½j
 
-@@Enable ExCharacters		: ƒlƒbƒg‘Îí‚ÅExƒLƒƒƒ‰EƒNƒŠƒtEƒWƒƒƒXƒeƒBƒX‚ªŽg—p‰Â”\‚É‚È‚è‚Ü‚·B
-				@‘o•û‚ªEnable ExCharacter—LŒø‚Ìê‡AExƒLƒƒƒ‰‚ð‘I‘ð‰Â”\
-@@@@@@@@@@@@@@@@@‘o•û‚Ü‚½‚Í‚Ç‚¿‚ç‚©‚ªEnable ExCharacter–³Œø‚Ìê‡A’Êí‚Ì‘Îí‚Æ‚È‚é
-@@@@@@@@@@@@@@@@@’A‚µA1.12-3ˆÈ‘O‚Æ‚ÍExÝ’è‚ªˆÙ‚È‚é‚Æ‘Îí•s”\i]—ˆ‚Æ‚¨‚èStatus‚ªEx Enable/Disable‚Æ‚È‚éj
+ï¿½@ï¿½@Enable ExCharacters		: ï¿½lï¿½bï¿½gï¿½Îï¿½ï¿½Exï¿½Lï¿½ï¿½ï¿½ï¿½ï¿½Eï¿½Nï¿½ï¿½ï¿½tï¿½Eï¿½Wï¿½ï¿½ï¿½Xï¿½eï¿½Bï¿½Xï¿½ï¿½ï¿½gï¿½pï¿½Â”\ï¿½É‚È‚ï¿½Ü‚ï¿½ï¿½B
+				ï¿½@ï¿½oï¿½ï¿½ï¿½ï¿½Enable ExCharacterï¿½Lï¿½ï¿½ï¿½Ìê‡ï¿½AExï¿½Lï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Iï¿½ï¿½ï¿½Â”\
+ï¿½@ï¿½@ï¿½@ï¿½@ï¿½@ï¿½@ï¿½@ï¿½@ï¿½@ï¿½@ï¿½@ï¿½@ï¿½@ï¿½@ï¿½@ï¿½@ï¿½@ï¿½oï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Í‚Ç‚ï¿½ï¿½ç‚©ï¿½ï¿½Enable ExCharacterï¿½ï¿½ï¿½ï¿½ï¿½Ìê‡ï¿½Aï¿½Êï¿½Ì‘Îï¿½Æ‚È‚ï¿½
+ï¿½@ï¿½@ï¿½@ï¿½@ï¿½@ï¿½@ï¿½@ï¿½@ï¿½@ï¿½@ï¿½@ï¿½@ï¿½@ï¿½@ï¿½@ï¿½@ï¿½@ï¿½Aï¿½ï¿½ï¿½A1.12-3ï¿½È‘Oï¿½Æ‚ï¿½Exï¿½Ý’è‚ªï¿½Ù‚È‚ï¿½Æ‘Îï¿½sï¿½\ï¿½iï¿½]ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½Statusï¿½ï¿½Ex Enable/Disableï¿½Æ‚È‚ï¿½j
 
-@@Port			: ŠJ•ú‚³‚ê‚½ƒ|[ƒg‚ðŽw’è‚µ‚Ü‚·B
+ï¿½@ï¿½@Port			: ï¿½Jï¿½ï¿½ï¿½ï¿½ï¿½ê‚½ï¿½|ï¿½[ï¿½gï¿½ï¿½ï¿½wï¿½è‚µï¿½Ü‚ï¿½ï¿½B
 
-@@Delay Frame			: ƒpƒbƒh‚Ì“ü—Í‚ª”½‰f‚³‚ê‚é‚Ü‚Å‚Ì’x‰„ŽžŠÔ‚ð1/60•b’PˆÊ‚ÅŽw’è‚µ‚Ü‚·B
-				@[Enable Network]‚ªON‚ÌŽžA­‚È‚­‚Æ‚à1ƒtƒŒ[ƒ€‚ÌƒfƒBƒŒƒC‚ª”­¶‚µ‚Ü‚·B
-				@ƒfƒBƒŒƒC–³‚µ‚ÅƒIƒtƒ‰ƒCƒ“ƒvƒŒƒC‚·‚éê‡[Enable Network]‚ðƒIƒt‚É‚µ‚Ü‚·B
+ï¿½@ï¿½@Delay Frame			: ï¿½pï¿½bï¿½hï¿½Ì“ï¿½ï¿½Í‚ï¿½ï¿½ï¿½ï¿½fï¿½ï¿½ï¿½ï¿½ï¿½Ü‚Å‚Ì’xï¿½ï¿½ï¿½ï¿½ï¿½Ô‚ï¿½1/60ï¿½bï¿½Pï¿½Ê‚ÅŽwï¿½è‚µï¿½Ü‚ï¿½ï¿½B
+				ï¿½@[Enable Network]ï¿½ï¿½ONï¿½ÌŽï¿½ï¿½Aï¿½ï¿½ï¿½È‚ï¿½ï¿½Æ‚ï¿½1ï¿½tï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½Ìƒfï¿½Bï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
+				ï¿½@ï¿½fï¿½Bï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½ÅƒIï¿½tï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½vï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½ï¿½ê‡[Enable Network]ï¿½ï¿½ï¿½Iï¿½tï¿½É‚ï¿½ï¿½Ü‚ï¿½ï¿½B
 
-    Game Rounds			: ‘Îíƒ‰ƒEƒ“ƒh‚ðÝ’è‚µ‚Ü‚·B
-				@Ý’è‚ªˆÙ‚È‚éê‡A—“ü‚µ‚½‘¤‚ª‘ŠŽè‚Ìƒ‹[ƒ‹‚É]‚¢‚Ü‚·B
+    Game Rounds			: ï¿½Îíƒ‰ï¿½Eï¿½ï¿½ï¿½hï¿½ï¿½Ý’è‚µï¿½Ü‚ï¿½ï¿½B
+				ï¿½@ï¿½Ý’è‚ªï¿½Ù‚È‚ï¿½ê‡ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ìƒï¿½ï¿½[ï¿½ï¿½ï¿½É]ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
 
   <Watch>
-    Enable Broadcast            : ŠÏí‹@”\‚ð—LŒø‚É‚µ‚Ü‚·B
-@@@@@@@@@@@@@@@@@Off‚Å‚ ‚ê‚Î‘ŠŽè‚ªOn‚Å‚àŠÏí‚³‚ê‚é‚±‚Æ‚Í‚ ‚è‚Ü‚¹‚ñB
-@@
-    Allow Intrusion             : ŠÏí’†‚Ì—“ü‚ð‹–‰Â‚µ‚Ü‚·B
-@@
-    Save Replay                 : ŠÏí‚µ‚½Replay‚ð•Û‘¶‚µ‚Ü‚·Bireplay/watchˆÈ‰º‚É•Û‘¶j
+    Enable Broadcast            : ï¿½Ïï¿½@ï¿½\ï¿½ï¿½Lï¿½ï¿½ï¿½É‚ï¿½ï¿½Ü‚ï¿½ï¿½B
+ï¿½@ï¿½@ï¿½@ï¿½@ï¿½@ï¿½@ï¿½@ï¿½@ï¿½@ï¿½@ï¿½@ï¿½@ï¿½@ï¿½@ï¿½@ï¿½@ï¿½@Offï¿½Å‚ï¿½ï¿½ï¿½Î‘ï¿½ï¿½è‚ªOnï¿½Å‚ï¿½ï¿½Ïí‚³ï¿½ï¿½é‚±ï¿½Æ‚Í‚ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½B
+ï¿½@ï¿½@
+    Allow Intrusion             : ï¿½Ïí’†ï¿½Ì—ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â‚ï¿½ï¿½Ü‚ï¿½ï¿½B
+ï¿½@ï¿½@
+    Save Replay                 : ï¿½Ïí‚µï¿½ï¿½Replayï¿½ï¿½Û‘ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½ireplay/watchï¿½È‰ï¿½ï¿½É•Û‘ï¿½ï¿½j
 
-@@Max Relay Node              : ‘Îí’†‚Ì’¼ÚÚ‘±‰Â”\‚ÈŠÏíŽÒ”‚ðŽw’è‚µ‚Ü‚·B
-@@@@@@@@@@@@@@@@@‘Îí‚ªd‚½‚¢ê‡A‚±‚Ì’l‚ð‚Å‚«‚é‚¾‚¯­‚È‚­‚µ‚Ä‚­‚¾‚³‚¢B
-@@@@@@@@@@@@@@@@@ŠÏí’†‚ÍŽw’è‚µ‚½’l{‚Q‚ÌŠÏíŽÒ‚ðŽó‚¯“ü‚ê‚Ü‚·B
+ï¿½@ï¿½@Max Relay Node              : ï¿½Îí’†ï¿½Ì’ï¿½ï¿½ÚÚ‘ï¿½ï¿½Â”\ï¿½ÈŠÏï¿½Òï¿½ï¿½ï¿½ï¿½wï¿½è‚µï¿½Ü‚ï¿½ï¿½B
+ï¿½@ï¿½@ï¿½@ï¿½@ï¿½@ï¿½@ï¿½@ï¿½@ï¿½@ï¿½@ï¿½@ï¿½@ï¿½@ï¿½@ï¿½@ï¿½@ï¿½@ï¿½Îí‚ªï¿½dï¿½ï¿½ï¿½ï¿½ï¿½ê‡ï¿½Aï¿½ï¿½ï¿½Ì’lï¿½ï¿½ï¿½Å‚ï¿½ï¿½é‚¾ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B
+ï¿½@ï¿½@ï¿½@ï¿½@ï¿½@ï¿½@ï¿½@ï¿½@ï¿½@ï¿½@ï¿½@ï¿½@ï¿½@ï¿½@ï¿½@ï¿½@ï¿½@ï¿½Ïí’†ï¿½ÍŽwï¿½è‚µï¿½ï¿½ï¿½lï¿½{ï¿½Qï¿½ÌŠÏï¿½Ò‚ï¿½ï¿½ó‚¯“ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
 
-@<Others>
-    Show Invalid Combo	  	: ƒRƒ“ƒ{‚ª¬—§‚µ‚È‚¢ê‡ABEAT‚ðˆÃ‚­•\Ž¦‚µ‚Ü‚·B
+ï¿½@<Others>
+    Show Invalid Combo	  	: ï¿½Rï¿½ï¿½ï¿½{ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½ê‡ï¿½ABEATï¿½ï¿½ï¿½Ã‚ï¿½ï¿½\ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
 
-@@Show GGXXNET Version & FPS	: GGXXNET‚Ìƒo[ƒWƒ‡ƒ“‚ÆFPS‚ð•\Ž¦‚µ‚Ü‚·B
-@@@@@@@@@@@@@
-@<Lobby Script/Text Address>	: ƒƒr[cgi‚ÌURL‚Ü‚½‚Íƒm[ƒhƒŠƒXƒgƒtƒ@ƒCƒ‹–¼‚ðŽw’è‚µ‚Ü‚·B(10ŒÂ‚Ü‚ÅƒAƒhƒŒƒX“o˜^‰Â)
+ï¿½@ï¿½@Show GGXXNET Version & FPS	: GGXXNETï¿½Ìƒoï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½ï¿½FPSï¿½ï¿½\ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
+ï¿½@ï¿½@ï¿½@ï¿½@ï¿½@ï¿½@ï¿½@ï¿½@ï¿½@ï¿½@ï¿½@ï¿½@ï¿½@
+ï¿½@<Lobby Script/Text Address>	: ï¿½ï¿½ï¿½rï¿½[cgiï¿½ï¿½URLï¿½Ü‚ï¿½ï¿½Íƒmï¿½[ï¿½hï¿½ï¿½ï¿½Xï¿½gï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½wï¿½è‚µï¿½Ü‚ï¿½ï¿½B(10ï¿½Â‚Ü‚ÅƒAï¿½hï¿½ï¿½ï¿½Xï¿½oï¿½^ï¿½ï¿½)
 
-@<Color Edit>			: ƒJƒ‰[ƒpƒŒƒbƒg‚ðƒGƒfƒBƒbƒg‰Â”\‚Å‚·B
-				@palƒfƒBƒŒƒNƒgƒŠ‰º‚ÉƒpƒŒƒbƒgƒtƒ@ƒCƒ‹‚ªì¬‚³‚ê‚Ü‚·B
-				@
-				@ggxx.exe‚ð‹N“®‚µ‚Ä‚¢‚ÄŠY“–‚·‚éƒpƒŒƒbƒg‚ªŽg‚í‚ê‚Ä‚¢‚éê‡
-				@ggxx.exe‘¤‚É•ÏX‚µ‚½ƒJƒ‰[‚ªƒŠƒAƒ‹ƒ^ƒCƒ€‚É”½‰f‚³‚ê‚Ü‚·B
-				@‚±‚ê‚ð—˜—p‚·‚é‚Æconfig‚É•\Ž¦‚³‚ê‚È‚¢‰æ‘œ‚ÌF‚Ì•ÒW‚ª‰Â”\‚Å‚·B
+ï¿½@<Color Edit>			: ï¿½Jï¿½ï¿½ï¿½[ï¿½pï¿½ï¿½ï¿½bï¿½gï¿½ï¿½ï¿½Gï¿½fï¿½Bï¿½bï¿½gï¿½Â”\ï¿½Å‚ï¿½ï¿½B
+				ï¿½@palï¿½fï¿½Bï¿½ï¿½ï¿½Nï¿½gï¿½ï¿½ï¿½ï¿½ï¿½Éƒpï¿½ï¿½ï¿½bï¿½gï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½ì¬ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
+				ï¿½@
+				ï¿½@ggxx.exeï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ÄŠYï¿½ï¿½ï¿½ï¿½ï¿½ï¿½pï¿½ï¿½ï¿½bï¿½gï¿½ï¿½ï¿½gï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ê‡
+				ï¿½@ggxx.exeï¿½ï¿½ï¿½É•ÏXï¿½ï¿½ï¿½ï¿½ï¿½Jï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½^ï¿½Cï¿½ï¿½ï¿½É”ï¿½ï¿½fï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
+				ï¿½@ï¿½ï¿½ï¿½ï¿½ð—˜—pï¿½ï¿½ï¿½ï¿½ï¿½configï¿½É•\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½æ‘œï¿½ÌFï¿½Ì•ÒWï¿½ï¿½ï¿½Â”\ï¿½Å‚ï¿½ï¿½B
 
-				@*.palƒtƒ@ƒCƒ‹‚ðƒ_ƒCƒAƒƒO‚Éƒhƒ‰ƒbƒO•ƒhƒƒbƒv‚·‚é‚ÆA
-				@Œ»Ý‘I‘ð‚µ‚Ä‚¢‚éƒLƒƒƒ‰‚ÌƒpƒŒƒbƒg‚ÌF‚ª’u‚«Š·‚í‚è‚Ü‚·B
-				@
-yiniƒtƒ@ƒCƒ‹‚É‚Â‚¢‚Äz
-@ƒvƒƒOƒ‰ƒ€‚ÌÚ×‚ÉŠÖ‚í‚éÝ’è‚ðs‚¢‚Ü‚·B
-@‘¶Ý‚µ‚È‚¯‚ê‚Îggxx.exe‚ÌI—¹Žž‚ÉŽ©“®“I‚É¶¬‚³‚ê‚Ü‚·B
+				ï¿½@*.palï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½_ï¿½Cï¿½Aï¿½ï¿½ï¿½Oï¿½Éƒhï¿½ï¿½ï¿½bï¿½Oï¿½ï¿½ï¿½hï¿½ï¿½ï¿½bï¿½vï¿½ï¿½ï¿½ï¿½ÆA
+				ï¿½@ï¿½ï¿½ï¿½Ý‘Iï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Lï¿½ï¿½ï¿½ï¿½ï¿½Ìƒpï¿½ï¿½ï¿½bï¿½gï¿½ÌFï¿½ï¿½ï¿½uï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
+				ï¿½@
+ï¿½yiniï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½É‚Â‚ï¿½ï¿½Äz
+ï¿½@ï¿½vï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½ï¿½ÌÚ×‚ÉŠÖ‚ï¿½ï¿½Ý’ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
+ï¿½@ï¿½ï¿½ï¿½Ý‚ï¿½ï¿½È‚ï¿½ï¿½ï¿½ï¿½ggxx.exeï¿½ÌIï¿½ï¿½ï¿½ï¿½ï¿½ÉŽï¿½ï¿½ï¿½ï¿½Iï¿½Éï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
 
-@[Font]
-@FontName		Fƒƒr[“™‚ÉŽg—p‚·‚éƒtƒHƒ“ƒg–¼‚ðŽw’è‚µ‚Ü‚·
-@FontSize		Fƒƒr[“™‚ÉŽg—p‚·‚éƒtƒHƒ“ƒgƒTƒCƒY‚ðŽw’è‚µ‚Ü‚·
-@Antialias		Fƒƒr[“™‚ÉŽg—p‚·‚éƒtƒHƒ“ƒg‚ÌƒAƒ“ƒ`ƒGƒCƒŠƒAƒX 0=–³Œø, 1=—LŒø
+ï¿½@[Font]
+ï¿½@FontName		ï¿½Fï¿½ï¿½ï¿½rï¿½[ï¿½ï¿½ï¿½ÉŽgï¿½pï¿½ï¿½ï¿½ï¿½tï¿½Hï¿½ï¿½ï¿½gï¿½ï¿½ï¿½ï¿½ï¿½wï¿½è‚µï¿½Ü‚ï¿½
+ï¿½@FontSize		ï¿½Fï¿½ï¿½ï¿½rï¿½[ï¿½ï¿½ï¿½ÉŽgï¿½pï¿½ï¿½ï¿½ï¿½tï¿½Hï¿½ï¿½ï¿½gï¿½Tï¿½Cï¿½Yï¿½ï¿½ï¿½wï¿½è‚µï¿½Ü‚ï¿½
+ï¿½@Antialias		ï¿½Fï¿½ï¿½ï¿½rï¿½[ï¿½ï¿½ï¿½ÉŽgï¿½pï¿½ï¿½ï¿½ï¿½tï¿½Hï¿½ï¿½ï¿½gï¿½ÌƒAï¿½ï¿½ï¿½`ï¿½Gï¿½Cï¿½ï¿½ï¿½Aï¿½X 0=ï¿½ï¿½ï¿½ï¿½, 1=ï¿½Lï¿½ï¿½
 
-@[Network]
-@ReceiveThreadPriority	FŽóMƒXƒŒƒbƒh—Dæ“x -1=’á, 0=’Êí, 1=‚
-@ReceiveThreadInterval	FŽóMƒXƒŒƒbƒh„‰ñŠÔŠu ƒ~ƒŠ•b’PˆÊ
-@ReceiveThreadMethod	FŽóMƒXƒŒƒbƒhƒ^ƒCƒv 0=’Êí, 1=V
-  IgnoreSlowConnections	F’ÊM‘¬“x‚ªˆê’èˆÈã‚Ìƒm[ƒh‚ðPingOver‚Æ‚µ‚Ä‘Îí•s”\‚É‚·‚é 0=–³Œø 1=—LŒø(default)
-  MaxPacketSize		F’ÊM‚ÌÅ‘åƒpƒPƒbƒgƒTƒCƒY‚ðŽw’èB byte’PˆÊ
+ï¿½@[Network]
+ï¿½@ReceiveThreadPriority	ï¿½Fï¿½ï¿½Mï¿½Xï¿½ï¿½ï¿½bï¿½hï¿½Dï¿½ï¿½x -1=ï¿½ï¿½, 0=ï¿½Êï¿½, 1=ï¿½ï¿½
+ï¿½@ReceiveThreadInterval	ï¿½Fï¿½ï¿½Mï¿½Xï¿½ï¿½ï¿½bï¿½hï¿½ï¿½ï¿½ï¿½ÔŠu ï¿½~ï¿½ï¿½ï¿½bï¿½Pï¿½ï¿½
+ï¿½@ReceiveThreadMethod	ï¿½Fï¿½ï¿½Mï¿½Xï¿½ï¿½ï¿½bï¿½hï¿½^ï¿½Cï¿½v 0=ï¿½Êï¿½, 1=ï¿½V
+  IgnoreSlowConnections	ï¿½Fï¿½ÊMï¿½ï¿½ï¿½xï¿½ï¿½ï¿½ï¿½ï¿½Èï¿½Ìƒmï¿½[ï¿½hï¿½ï¿½PingOverï¿½Æ‚ï¿½ï¿½Ä‘Îï¿½sï¿½\ï¿½É‚ï¿½ï¿½ï¿½ 0=ï¿½ï¿½ï¿½ï¿½ 1=ï¿½Lï¿½ï¿½(default)
+  MaxPacketSize		ï¿½Fï¿½ÊMï¿½ÌÅ‘ï¿½pï¿½Pï¿½bï¿½gï¿½Tï¿½Cï¿½Yï¿½ï¿½ï¿½wï¿½ï¿½B byteï¿½Pï¿½ï¿½
 
-@[Window]
-@PosX			F‰æ–Ê¶’[‚ð 0 ‚Æ‚µ‚ÄƒEƒCƒ“ƒhƒEƒ‚[ƒh‚Å‚ÌƒfƒtƒHƒ‹ƒgXˆÊ’u‚ðÝ’è‚µ‚Ü‚·(-999‚É‚·‚é‚Æ“Á‚ÉÝ’è‚µ‚Ü‚¹‚ñ)
-@PosY			F‰æ–Êã’[‚ð 0 ‚Æ‚µ‚ÄƒEƒCƒ“ƒhƒEƒ‚[ƒh‚Å‚ÌƒfƒtƒHƒ‹ƒgYˆÊ’u‚ðÝ’è‚µ‚Ü‚·(-999‚É‚·‚é‚Æ“Á‚ÉÝ’è‚µ‚Ü‚¹‚ñ)
-@ZoomX			F“™”{‚ð 1.0 ‚Æ‚µ‚ÄƒEƒCƒ“ƒhƒEƒ‚[ƒh‚Å‚ÌƒfƒtƒHƒ‹ƒg•‚ðÝ’è‚µ‚Ü‚·(1.0‚É‚·‚é‚Æ“Á‚ÉÝ’è‚µ‚Ü‚¹‚ñ)
-@ZoomY			F“™”{‚ð 1.0 ‚Æ‚µ‚ÄƒEƒCƒ“ƒhƒEƒ‚[ƒh‚Å‚ÌƒfƒtƒHƒ‹ƒg‚‚³‚ðÝ’è‚µ‚Ü‚·(1.0‚É‚·‚é‚Æ“Á‚ÉÝ’è‚µ‚Ü‚¹‚ñ)
+ï¿½@[Window]
+ï¿½@PosX			ï¿½Fï¿½ï¿½Êï¿½ï¿½[ï¿½ï¿½ 0 ï¿½Æ‚ï¿½ï¿½ÄƒEï¿½Cï¿½ï¿½ï¿½hï¿½Eï¿½ï¿½ï¿½[ï¿½hï¿½Å‚Ìƒfï¿½tï¿½Hï¿½ï¿½ï¿½gXï¿½Ê’uï¿½ï¿½Ý’è‚µï¿½Ü‚ï¿½(-999ï¿½É‚ï¿½ï¿½ï¿½Æ“ï¿½ï¿½ÉÝ’è‚µï¿½Ü‚ï¿½ï¿½ï¿½)
+ï¿½@PosY			ï¿½Fï¿½ï¿½Êï¿½[ï¿½ï¿½ 0 ï¿½Æ‚ï¿½ï¿½ÄƒEï¿½Cï¿½ï¿½ï¿½hï¿½Eï¿½ï¿½ï¿½[ï¿½hï¿½Å‚Ìƒfï¿½tï¿½Hï¿½ï¿½ï¿½gYï¿½Ê’uï¿½ï¿½Ý’è‚µï¿½Ü‚ï¿½(-999ï¿½É‚ï¿½ï¿½ï¿½Æ“ï¿½ï¿½ÉÝ’è‚µï¿½Ü‚ï¿½ï¿½ï¿½)
+ï¿½@ZoomX			ï¿½Fï¿½ï¿½ï¿½{ï¿½ï¿½ 1.0 ï¿½Æ‚ï¿½ï¿½ÄƒEï¿½Cï¿½ï¿½ï¿½hï¿½Eï¿½ï¿½ï¿½[ï¿½hï¿½Å‚Ìƒfï¿½tï¿½Hï¿½ï¿½ï¿½gï¿½ï¿½ï¿½ï¿½Ý’è‚µï¿½Ü‚ï¿½(1.0ï¿½É‚ï¿½ï¿½ï¿½Æ“ï¿½ï¿½ÉÝ’è‚µï¿½Ü‚ï¿½ï¿½ï¿½)
+ï¿½@ZoomY			ï¿½Fï¿½ï¿½ï¿½{ï¿½ï¿½ 1.0 ï¿½Æ‚ï¿½ï¿½ÄƒEï¿½Cï¿½ï¿½ï¿½hï¿½Eï¿½ï¿½ï¿½[ï¿½hï¿½Å‚Ìƒfï¿½tï¿½Hï¿½ï¿½ï¿½gï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ý’è‚µï¿½Ü‚ï¿½(1.0ï¿½É‚ï¿½ï¿½ï¿½Æ“ï¿½ï¿½ÉÝ’è‚µï¿½Ü‚ï¿½ï¿½ï¿½)
 
-@–“Á‚ÉNetwork‚Ì€–Ú‚ÍÝ’è‚É‚æ‚Á‚Ä‚Í‚Ü‚Æ‚à‚É“®‚©‚È‚­‚È‚é‚±‚Æ‚à‚ ‚è‚¦‚é‚Ì‚ÅA
-@@Ž©ŒÈÓ”C‚Å‚¨Šè‚¢‚µ‚Ü‚·B
-@@iniƒtƒ@ƒCƒ‹‚ðíœ‚µ‚Ä‚µ‚Ü‚¦‚ÎƒfƒtƒHƒ‹ƒg‚É–ß‚è‚Ü‚·B
+ï¿½@ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Networkï¿½Ìï¿½ï¿½Ú‚ÍÝ’ï¿½É‚ï¿½ï¿½ï¿½Ä‚Í‚Ü‚Æ‚ï¿½ï¿½É“ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½È‚é‚±ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½è‚¦ï¿½ï¿½Ì‚ÅA
+ï¿½@ï¿½@ï¿½ï¿½ï¿½ÈÓ”Cï¿½Å‚ï¿½ï¿½è‚¢ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
+ï¿½@ï¿½@iniï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½íœï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½Îƒfï¿½tï¿½Hï¿½ï¿½ï¿½gï¿½É–ß‚ï¿½Ü‚ï¿½ï¿½B
 
-yƒƒr[cgi‚ÌÝ’uz
-@ggnlobby.cgi‚ð’Êí‚Ìcgi‚Æ“¯—l‚ÉƒT[ƒo[ã‚É”z’u‚µ‚Ä‚­‚¾‚³‚¢B
-@ƒp[ƒ~ƒbƒVƒ‡ƒ“‚Í700‚Å–â‘è‚È‚¢‚ÆŽv‚¢‚Ü‚·B
+ï¿½yï¿½ï¿½ï¿½rï¿½[cgiï¿½ÌÝ’uï¿½z
+ï¿½@ggnlobby.cgiï¿½ï¿½Êï¿½ï¿½cgiï¿½Æ“ï¿½ï¿½lï¿½ÉƒTï¿½[ï¿½oï¿½[ï¿½ï¿½É”zï¿½uï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B
+ï¿½@ï¿½pï¿½[ï¿½~ï¿½bï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½700ï¿½Å–ï¿½ï¿½È‚ï¿½ï¿½ÆŽvï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
 
-y‚p•‚`Eƒgƒ‰ƒuƒ‹ƒVƒ…[ƒeƒBƒ“ƒOz
-@‚p‚PDggxxnet_patcher.exe‚ðŽÀs‚·‚é‚ÆuCRC‚ªˆê’v‚µ‚Ü‚¹‚ñv‚ÌƒƒbƒZ[ƒW‚ª•\Ž¦‚³‚ê‚Ü‚·
-@‚`‚PDŒ³‚Ìggxx.exe‚É‰½‚ç‚©‚Ì‰ü•Ï‚ªs‚í‚ê‚Ä‚¢‚é‚©AŠù‚Éƒpƒbƒ`“–‚Ä‚ªŠ®—¹‚µ‚Ä‚¢‚é‚à‚Ì‚ÆŽv‚í‚ê‚Ü‚·B
-@@@@GGXX#R‚ðÄƒCƒ“ƒXƒg[ƒ‹‚·‚ê‚Î‰ðŒˆ‚·‚é‚Í‚¸‚Å‚·B
-        ‚ ‚è‚ª‚¿‚Èƒ~ƒX‚Æ‚µ‚ÄŠù‚É‘O‚ÌVersion‚Ìƒpƒbƒ`‚ª‚ ‚½‚Á‚Ä‚¢‚éggxx.exe‚É‘Î‚µ‚Ä
-@@@@V‚µ‚¢ƒpƒbƒ`‚ð“K—p‚µ‚æ‚¤‚Æ‚·‚é‚Æ”­¶‚µ‚Ü‚·BƒIƒŠƒWƒiƒ‹‚Ìggxx.exe‚É‘Î‚µ‚Äƒpƒbƒ`‚ð“–‚Ä‚È‚¨‚µ‚Ä‚­‚¾‚³‚¢B
+ï¿½yï¿½pï¿½ï¿½ï¿½`ï¿½Eï¿½gï¿½ï¿½ï¿½uï¿½ï¿½ï¿½Vï¿½ï¿½ï¿½[ï¿½eï¿½Bï¿½ï¿½ï¿½Oï¿½z
+ï¿½@ï¿½pï¿½Pï¿½Dggxxnet_patcher.exeï¿½ï¿½ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½ï¿½ÆuCRCï¿½ï¿½ï¿½ï¿½vï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½vï¿½Ìƒï¿½ï¿½bï¿½Zï¿½[ï¿½Wï¿½ï¿½ï¿½\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½
+ï¿½@ï¿½`ï¿½Pï¿½Dï¿½ï¿½ï¿½ï¿½ggxx.exeï¿½É‰ï¿½ï¿½ç‚©ï¿½Ì‰ï¿½ï¿½Ï‚ï¿½ï¿½sï¿½ï¿½ï¿½Ä‚ï¿½ï¿½é‚©ï¿½Aï¿½ï¿½ï¿½Éƒpï¿½bï¿½`ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚ÆŽvï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
+ï¿½@ï¿½@ï¿½@ï¿½@GGXX#Rï¿½ï¿½ï¿½ÄƒCï¿½ï¿½ï¿½Xï¿½gï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î‰ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í‚ï¿½ï¿½Å‚ï¿½ï¿½B
+        ï¿½ï¿½ï¿½è‚ªï¿½ï¿½ï¿½Èƒ~ï¿½Xï¿½Æ‚ï¿½ï¿½ÄŠï¿½ï¿½É‘Oï¿½ï¿½Versionï¿½Ìƒpï¿½bï¿½`ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ggxx.exeï¿½É‘Î‚ï¿½ï¿½ï¿½
+ï¿½@ï¿½@ï¿½@ï¿½@ï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½pï¿½bï¿½`ï¿½ï¿½Kï¿½pï¿½ï¿½ï¿½æ‚¤ï¿½Æ‚ï¿½ï¿½ï¿½Æ”ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½Iï¿½ï¿½ï¿½Wï¿½iï¿½ï¿½ï¿½ï¿½ggxx.exeï¿½É‘Î‚ï¿½ï¿½Äƒpï¿½bï¿½`ï¿½ð“–‚Ä‚È‚ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B
 
-@@@@–ŠCŠO”Å‚É‚Í‘Î‰ž‚µ‚Ä‚¢‚Ü‚¹‚ñB
+ï¿½@ï¿½@ï¿½@ï¿½@ï¿½ï¿½ï¿½Cï¿½Oï¿½Å‚É‚Í‘Î‰ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½B
 
-@‚p‚QDGGXX#R‚ðŒ³‚Ìó‘Ô‚É–ß‚·‚É‚ÍH
-@‚`‚QDƒpƒbƒ`Ï‚Ý‚Ìggxx.exe‚ðíœ‚µAggxxnet_patcher.exe‚ª¶¬‚µ‚½ggxx.OLD‚ðggxx.exe‚ÉƒŠƒl[ƒ€‚µ‚Ä‚­‚¾‚³‚¢B
+ï¿½@ï¿½pï¿½Qï¿½DGGXX#Rï¿½ï¿½ï¿½ï¿½ï¿½Ìï¿½Ô‚É–ß‚ï¿½ï¿½É‚ÍH
+ï¿½@ï¿½`ï¿½Qï¿½Dï¿½pï¿½bï¿½`ï¿½Ï‚Ý‚ï¿½ggxx.exeï¿½ï¿½ï¿½íœï¿½ï¿½ï¿½Aggxxnet_patcher.exeï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ggxx.OLDï¿½ï¿½ggxx.exeï¿½Éƒï¿½ï¿½lï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B
 
-@‚p‚RDVSNET‰æ–Ê‚ÅSTATUS = PingOver‚ª‘½‚·‚¬‚é
-@‚`‚RDƒlƒbƒgƒ[ƒN‚Ì‘¬“x‚É‘Î‚µ‚ÄDelay Frame‚ª¬‚³‚·‚¬‚é‚±‚Æ‚ªl‚¦‚ç‚ê‚Ü‚·B
-@@@@Ú‘±‰Â”\‚Èƒm[ƒh‚ªŒ»‚ê‚é‚Ü‚ÅDelay Frame‚ð‘‚â‚µ‚Ä‚Ý‚Ä‚­‚¾‚³‚¢B
-@@@@‚½‚¾‚µA‘‚â‚µ‚·‚¬‚é‚Æ“ü—Í‚Ì‰ž“š‚ª’x‚­‚È‚è‚Ü‚·B
+ï¿½@ï¿½pï¿½Rï¿½DVSNETï¿½ï¿½Ê‚ï¿½STATUS = PingOverï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ï¿½@ï¿½`ï¿½Rï¿½Dï¿½lï¿½bï¿½gï¿½ï¿½ï¿½[ï¿½Nï¿½Ì‘ï¿½ï¿½xï¿½É‘Î‚ï¿½ï¿½ï¿½Delay Frameï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½é‚±ï¿½Æ‚ï¿½ï¿½lï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
+ï¿½@ï¿½@ï¿½@ï¿½@ï¿½Ú‘ï¿½ï¿½Â”\ï¿½Èƒmï¿½[ï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½Delay Frameï¿½ð‘‚â‚µï¿½Ä‚Ý‚Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B
+ï¿½@ï¿½@ï¿½@ï¿½@ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½â‚µï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ“ï¿½ï¿½Í‚Ì‰ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½xï¿½ï¿½ï¿½È‚ï¿½Ü‚ï¿½ï¿½B
 
-@‚p‚SDVSNET‰æ–Ê‚Åƒm[ƒh‚ª‚È‚É‚à•\Ž¦‚³‚ê‚È‚¢
-@‚`‚SDˆÈ‰º‚Ì“_‚ðŠm”F‚µ‚Ä‚­‚¾‚³‚¢B
-@@@‡@IE“™‚Ìƒuƒ‰ƒEƒU‚ÅƒCƒ“ƒ^[ƒlƒbƒg‚ÉƒAƒNƒZƒX‰Â”\‚È‚±‚ÆB
-@@@‡AƒlƒbƒgƒRƒ“ƒtƒBƒO‚ÌServerScriptAddress‚ª³‚µ‚­“ü—Í‚³‚ê‚Ä‚¢‚é‚±‚ÆB
-@@@‡BServerScriptAddress‚ÉÝ’è‚µ‚½ƒXƒNƒŠƒvƒg‚ª‰Ò“®‚µ‚Ä‚¢‚é‚±‚Æ
-@@@iƒT[ƒo[ƒ_ƒEƒ“AƒXƒNƒŠƒvƒg‚ªíœ‚³‚ê‚Ä‚¢‚é“™‚É‚æ‚è‰Ò“®‚µ‚Ä‚¢‚È‚¢‰Â”\«‚ª‚ ‚è‚Ü‚·j
+ï¿½@ï¿½pï¿½Sï¿½DVSNETï¿½ï¿½Ê‚Åƒmï¿½[ï¿½hï¿½ï¿½ï¿½È‚É‚ï¿½ï¿½\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½
+ï¿½@ï¿½`ï¿½Sï¿½Dï¿½È‰ï¿½ï¿½Ì“_ï¿½ï¿½ï¿½mï¿½Fï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B
+ï¿½@ï¿½@ï¿½@ï¿½@IEï¿½ï¿½ï¿½Ìƒuï¿½ï¿½ï¿½Eï¿½Uï¿½ÅƒCï¿½ï¿½ï¿½^ï¿½[ï¿½lï¿½bï¿½gï¿½ÉƒAï¿½Nï¿½Zï¿½Xï¿½Â”\ï¿½È‚ï¿½ï¿½ÆB
+ï¿½@ï¿½@ï¿½@ï¿½Aï¿½lï¿½bï¿½gï¿½Rï¿½ï¿½ï¿½tï¿½Bï¿½Oï¿½ï¿½ServerScriptAddressï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í‚ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½é‚±ï¿½ÆB
+ï¿½@ï¿½@ï¿½@ï¿½BServerScriptAddressï¿½ÉÝ’è‚µï¿½ï¿½ï¿½Xï¿½Nï¿½ï¿½ï¿½vï¿½gï¿½ï¿½ï¿½Ò“ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½é‚±ï¿½ï¿½
+ï¿½@ï¿½@ï¿½@ï¿½iï¿½Tï¿½[ï¿½oï¿½[ï¿½_ï¿½Eï¿½ï¿½ï¿½Aï¿½Xï¿½Nï¿½ï¿½ï¿½vï¿½gï¿½ï¿½ï¿½íœï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½é“™ï¿½É‚ï¿½ï¿½Ò“ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½È‚ï¿½ï¿½Â”\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½j
 
-@‚p‚TDƒm[ƒh‚ÉÚ‘±ŒãA‚·‚®‚ÉØ’f‚³‚ê‚Ä‚µ‚Ü‚¤Bi•K‚¸”­¶‚·‚éê‡j
-@‚`‚TDƒlƒbƒgƒ[ƒN‚ÌÝ’è‚É–â‘è‚ª‚ ‚é‚©‚à‚µ‚ê‚Ü‚¹‚ñBˆÈ‰º‚Ì‘Îô‚ðs‚Á‚Ä‚Ý‚Ä‚­‚¾‚³‚¢B
-@@@‡@ƒ‹[ƒ^‘¤‚ÌƒAƒhƒŒƒX•ÏŠ·Ý’è‚ÅPC‚ÉŽg—p‚·‚éUDPƒ|[ƒg‚ðŠ„‚è“–‚Ä‚Ä‚­‚¾‚³‚¢Biƒ‹[ƒ^—L‚è‚Ìê‡j
-@@@‡Aƒ‹[ƒ^‘¤‚ÌƒpƒPƒbƒgƒtƒBƒ‹ƒ^‚ª‹@”\‚µ‚Ä‚¢‚È‚¢‚±‚Æ‚ðŠm”F‚µ‚Ä‚­‚¾‚³‚¢Biƒ‹[ƒ^—L‚è‚Ìê‡j
-@@@‡Bƒ‹[ƒ^‘¤‚Ìƒ|[ƒgŠJ•úÝ’è
-@@@‡CƒZƒLƒ…ƒŠƒeƒBƒ\ƒtƒg“™‚Ìƒ|[ƒgŠJ•úAƒtƒBƒ‹ƒ^‹@”\‚ÌÝ’èA’âŽ~
-@@@
-@‚p‚UDƒm[ƒh‚ÉÚ‘±ŒãA‚·‚®‚ÉØ’f‚³‚ê‚Ä‚µ‚Ü‚¤Bi‚Ü‚ê‚É”­¶‚·‚éê‡j
-@‚`‚UDŽd—l‚Å‚·B
-@@@@“¯Žž‚É‚Ql‚Ìƒ†[ƒU[‚ªÚ‘±‚·‚é‚Æ‚Ç‚¿‚ç‚©‚ª‹‘”Û‚³‚ê‚é‚±‚Æ‚É‚È‚è‚Ü‚·B
+ï¿½@ï¿½pï¿½Tï¿½Dï¿½mï¿½[ï¿½hï¿½ÉÚ‘ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½ÉØ’fï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½iï¿½Kï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ê‡ï¿½j
+ï¿½@ï¿½`ï¿½Tï¿½Dï¿½lï¿½bï¿½gï¿½ï¿½ï¿½[ï¿½Nï¿½ÌÝ’ï¿½É–ï¿½è‚ªï¿½ï¿½ï¿½é‚©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½Bï¿½È‰ï¿½ï¿½Ì‘Îï¿½ï¿½ï¿½sï¿½ï¿½ï¿½Ä‚Ý‚Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B
+ï¿½@ï¿½@ï¿½@ï¿½@ï¿½ï¿½ï¿½[ï¿½^ï¿½ï¿½ï¿½ÌƒAï¿½hï¿½ï¿½ï¿½Xï¿½ÏŠï¿½ï¿½Ý’ï¿½ï¿½PCï¿½ÉŽgï¿½pï¿½ï¿½ï¿½ï¿½UDPï¿½|ï¿½[ï¿½gï¿½ï¿½ï¿½ï¿½ï¿½è“–ï¿½Ä‚Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Bï¿½iï¿½ï¿½ï¿½[ï¿½^ï¿½Lï¿½ï¿½Ìê‡ï¿½j
+ï¿½@ï¿½@ï¿½@ï¿½Aï¿½ï¿½ï¿½[ï¿½^ï¿½ï¿½ï¿½Ìƒpï¿½Pï¿½bï¿½gï¿½tï¿½Bï¿½ï¿½ï¿½^ï¿½ï¿½ï¿½@ï¿½\ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½È‚ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½mï¿½Fï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Bï¿½iï¿½ï¿½ï¿½[ï¿½^ï¿½Lï¿½ï¿½Ìê‡ï¿½j
+ï¿½@ï¿½@ï¿½@ï¿½Bï¿½ï¿½ï¿½[ï¿½^ï¿½ï¿½ï¿½Ìƒ|ï¿½[ï¿½gï¿½Jï¿½ï¿½ï¿½Ý’ï¿½
+ï¿½@ï¿½@ï¿½@ï¿½Cï¿½Zï¿½Lï¿½ï¿½ï¿½ï¿½ï¿½eï¿½Bï¿½\ï¿½tï¿½gï¿½ï¿½ï¿½Ìƒ|ï¿½[ï¿½gï¿½Jï¿½ï¿½ï¿½Aï¿½tï¿½Bï¿½ï¿½ï¿½^ï¿½@ï¿½\ï¿½ÌÝ’ï¿½Aï¿½ï¿½~
+ï¿½@ï¿½@ï¿½@
+ï¿½@ï¿½pï¿½Uï¿½Dï¿½mï¿½[ï¿½hï¿½ÉÚ‘ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½ÉØ’fï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ü‚ï¿½ï¿½Bï¿½iï¿½Ü‚ï¿½É”ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ê‡ï¿½j
+ï¿½@ï¿½`ï¿½Uï¿½Dï¿½dï¿½lï¿½Å‚ï¿½ï¿½B
+ï¿½@ï¿½@ï¿½@ï¿½@ï¿½ï¿½ï¿½ï¿½ï¿½É‚Qï¿½lï¿½Ìƒï¿½ï¿½[ï¿½Uï¿½[ï¿½ï¿½ï¿½Ú‘ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚Ç‚ï¿½ï¿½ç‚©ï¿½ï¿½ï¿½ï¿½ï¿½Û‚ï¿½ï¿½ï¿½é‚±ï¿½Æ‚É‚È‚ï¿½Ü‚ï¿½ï¿½B
 
-  ‚p‚WDƒŠƒvƒŒƒC‚ðÄ¶‚·‚é‚ÆEND OF REPLAY‚Æ•\Ž¦‚³‚ê‚é
-@‚`‚WDÅŒã‚Ü‚ÅÄ¶‚µ‚½‚ª“¯ŠúƒYƒŒ‚É‚æ‚èŒˆ’…‚ª‚Â‚©‚¸ŽŽ‡‚ªI‚í‚ç‚È‚¢A
-@@@@–”‚Í‘Îí’†‚ÉESCƒL[‚â‰ñüáŠQ‚È‚Ç‚ÅŽŽ‡‚ª’†’f‚³‚ê‚½ê‡‚ªl‚¦‚ç‚ê‚Ü‚·B
-        ‚¿‚È‚Ý‚Éƒ\ƒtƒgƒŠƒZƒbƒg‚³‚ê‚½ê‡‚ÍuSOFT RESET BY PLAYER1or2v‚Æ•\Ž¦‚³‚ê‚Ü‚·B
+  ï¿½pï¿½Wï¿½Dï¿½ï¿½ï¿½vï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½Äï¿½ï¿½ï¿½ï¿½ï¿½ï¿½END OF REPLAYï¿½Æ•\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ï¿½@ï¿½`ï¿½Wï¿½Dï¿½ÅŒï¿½Ü‚ÅÄï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Yï¿½ï¿½ï¿½É‚ï¿½èŒˆï¿½ï¿½ï¿½ï¿½ï¿½Â‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Iï¿½ï¿½ï¿½È‚ï¿½ï¿½A
+ï¿½@ï¿½@ï¿½@ï¿½@ï¿½ï¿½ï¿½Í‘Îí’†ï¿½ï¿½ESCï¿½Lï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Qï¿½È‚Ç‚ÅŽï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½fï¿½ï¿½ï¿½ê‚½ï¿½ê‡ï¿½ï¿½ï¿½lï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
+        ï¿½ï¿½ï¿½È‚Ý‚Éƒ\ï¿½tï¿½gï¿½ï¿½ï¿½Zï¿½bï¿½gï¿½ï¿½ï¿½ê‚½ï¿½ê‡ï¿½ÍuSOFT RESET BY PLAYER1or2ï¿½vï¿½Æ•\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
 
-  ‚p‚XDIdle‚Ì‘ŠŽè‚ÉPlay game‚ð‘I‘ð‚µ‚Ä‚àÚ‘±‚³‚ê‚È‚¢ê‡‚ª‚ ‚é
-@‚`‚XD‚±‚¿‚ç‚Å‚Íping‚ª‹–—e”ÍˆÍ“à‚Å‚à‘ŠŽè‚ÍƒI[ƒo[‚µ‚Ä‚¢‚é“™‚ªl‚¦‚ç‚ê‚Ü‚·B
-@@@@
-  ‚p10DƒtƒHƒ“ƒg‚ª¬‚³‚¢^‘å‚«‚¢E•¶Žš‰»‚¯‚µ‚Ä‚¢‚é
-@‚`10Diniƒtƒ@ƒCƒ‹‚É–¾Ž¦“I‚ÉŽg—p‚·‚éƒtƒHƒ“ƒg‚ðŽw’è‚µ‚Ä‚­‚¾‚³‚¢B
-@@@@Ú‚µ‚­‚Í‘Oq‚Ìyiniƒtƒ@ƒCƒ‹‚É‚Â‚¢‚Äz‚ðŽQÆ‚µ‚Ä‚­‚¾‚³‚¢B
+  ï¿½pï¿½Xï¿½DIdleï¿½Ì‘ï¿½ï¿½ï¿½ï¿½Play gameï¿½ï¿½Iï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½Ú‘ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½ê‡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ï¿½@ï¿½`ï¿½Xï¿½Dï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å‚ï¿½pingï¿½ï¿½ï¿½ï¿½ï¿½eï¿½ÍˆÍ“ï¿½ï¿½Å‚ï¿½ï¿½ï¿½ï¿½ï¿½ÍƒIï¿½[ï¿½oï¿½[ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½é“™ï¿½ï¿½ï¿½lï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
+ï¿½@ï¿½@ï¿½@ï¿½@
+  ï¿½p10ï¿½Dï¿½tï¿½Hï¿½ï¿½ï¿½gï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½^ï¿½å‚«ï¿½ï¿½ï¿½Eï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½
+ï¿½@ï¿½`10ï¿½Diniï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½É–ï¿½ï¿½ï¿½ï¿½Iï¿½ÉŽgï¿½pï¿½ï¿½ï¿½ï¿½tï¿½Hï¿½ï¿½ï¿½gï¿½ï¿½ï¿½wï¿½è‚µï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B
+ï¿½@ï¿½@ï¿½@ï¿½@ï¿½Ú‚ï¿½ï¿½ï¿½ï¿½Í‘Oï¿½qï¿½Ìyiniï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½É‚Â‚ï¿½ï¿½Äzï¿½ï¿½ï¿½Qï¿½Æ‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B
 
-@‚p11. ƒJƒ‰[ƒGƒfƒBƒbƒg‚ÅƒuƒŠ‚ÆƒUƒbƒp‚Ì‰æ‘œ‚ª‚¨‚©‚µ‚¢B
-@‚`11. Žd—l‚Å‚·B
-@@@@•’Ê‚É‰æ‘œƒf[ƒ^‚ðŽ‚Á‚Ä‚­‚é‚Æ–¢Žg—pƒf[ƒ^i‚ÆŽv‚í‚ê‚éj‚ªID=0‚É“ü‚Á‚Ä‚Ü‚·B
-@@@@ID‚ÌƒRƒ“ƒ{ƒ{ƒbƒNƒX‚ð‚¢‚¶‚é‚ÆŽg—p‚³‚ê‚Ä‚¢‚é‰æ‘œ‚ª•\Ž¦‚³‚ê‚é‚Í‚¸‚Å‚·B
+ï¿½@ï¿½p11. ï¿½Jï¿½ï¿½ï¿½[ï¿½Gï¿½fï¿½Bï¿½bï¿½gï¿½Åƒuï¿½ï¿½ï¿½ÆƒUï¿½bï¿½pï¿½Ì‰æ‘œï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B
+ï¿½@ï¿½`11. ï¿½dï¿½lï¿½Å‚ï¿½ï¿½B
+ï¿½@ï¿½@ï¿½@ï¿½@ï¿½ï¿½ï¿½Ê‚É‰æ‘œï¿½fï¿½[ï¿½^ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Æ–ï¿½ï¿½gï¿½pï¿½fï¿½[ï¿½^ï¿½iï¿½ÆŽvï¿½ï¿½ï¿½ï¿½jï¿½ï¿½ID=0ï¿½É“ï¿½ï¿½ï¿½ï¿½Ä‚Ü‚ï¿½ï¿½B
+ï¿½@ï¿½@ï¿½@ï¿½@IDï¿½ÌƒRï¿½ï¿½ï¿½{ï¿½{ï¿½bï¿½Nï¿½Xï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÆŽgï¿½pï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½æ‘œï¿½ï¿½ï¿½\ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í‚ï¿½ï¿½Å‚ï¿½ï¿½B
 
-yƒ\ƒtƒgƒEƒFƒAŽí•Êz
-@ƒtƒŠ[ƒEƒFƒA‚Å‚·B
-@Ä”z•z‚Í‰Â”\‚Å‚·‚ªƒA[ƒJƒCƒu‚Ì“à—e‚ð•ÏX‚µ‚È‚¢‚Å‚­‚¾‚³‚¢B
-@–œˆê”Ì”„Œ³‚©‚ç‚ÌƒNƒŒ[ƒ€“™‚ª‚ ‚Á‚½ê‡‚Í”z•z‚ð‹ÖŽ~‚µ‚Ü‚·B
-
-
-y–ÆÓŽ–€z
-@GGXXNET‚É‚æ‚Á‚Ä”­¶‚µ‚½A‚¢‚©‚È‚é‘¹ŠQ‚É‚àŠJ”­ŽÒ‚ÍÓ”C‚ð•‰‚í‚È‚¢‚à‚Ì‚Æ‚µ‚Ü‚·B
-@Ž©ŒÈÓ”C‚É‚ÄŽg—p‚µ‚Ä‚­‚¾‚³‚¢B
+ï¿½yï¿½\ï¿½tï¿½gï¿½Eï¿½Fï¿½Aï¿½ï¿½Êz
+ï¿½@ï¿½tï¿½ï¿½ï¿½[ï¿½Eï¿½Fï¿½Aï¿½Å‚ï¿½ï¿½B
+ï¿½@ï¿½Ä”zï¿½zï¿½Í‰Â”\ï¿½Å‚ï¿½ï¿½ï¿½ï¿½Aï¿½[ï¿½Jï¿½Cï¿½uï¿½Ì“ï¿½ï¿½eï¿½ï¿½ÏXï¿½ï¿½ï¿½È‚ï¿½ï¿½Å‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B
+ï¿½@ï¿½ï¿½ï¿½ï¿½Ì”ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÌƒNï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ê‡ï¿½Í”zï¿½zï¿½ï¿½ï¿½ÖŽ~ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½B
 
 
-ˆÈã
+ï¿½yï¿½ÆÓŽï¿½ï¿½ï¿½ï¿½z
+ï¿½@GGXXNETï¿½É‚ï¿½ï¿½ï¿½Ä”ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½È‚é‘¹ï¿½Qï¿½É‚ï¿½ï¿½Jï¿½ï¿½ï¿½Ò‚ÍÓ”Cï¿½ð•‰‚ï¿½È‚ï¿½ï¿½ï¿½ï¿½Ì‚Æ‚ï¿½ï¿½Ü‚ï¿½ï¿½B
+ï¿½@ï¿½ï¿½ï¿½ÈÓ”Cï¿½É‚ÄŽgï¿½pï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B
+
+
+ï¿½Èï¿½
