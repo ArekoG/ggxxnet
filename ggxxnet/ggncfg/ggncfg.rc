@@ -47,7 +47,7 @@ BEGIN
     "LANGUAGE 17, 1\r\n"
     "#pragma code_page(932)\r\n"
     "#include ""res\\ggncfg.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
-    "#include ""afxres.rc""         // ?W???R?Åg?|?[?l?Åg?g\r\n"
+    "#include ""afxres.rc""         // ?W???R??g?|?[?l??g?g\r\n"
     "#endif\r\n"
     "\0"
 END
@@ -97,8 +97,6 @@ BEGIN
     LTEXT           "str0",IDC_STRB6,198,184,24,8
     LTEXT           "str0",IDC_STRB7,259,184,24,8
     GROUPBOX        "Lobby Script/Text Address",IDC_SSAGROUP,136,5,239,37
-    PUSHBUTTON      "Delete",IDC_DELETEADDR,342,18,28,14
-    PUSHBUTTON      "Add",IDC_ADDADDR,316,18,21,14
     CONTROL         "Enable Message (not supprt)",IDC_ENABLECHAT,"Button",BS_AUTOCHECKBOX | NOT WS_VISIBLE | WS_TABSTOP,228,100,108,11
     CONTROL         "Ignore Slow Connections",IDC_IGNORESLOW,"Button",BS_AUTOCHECKBOX | NOT WS_VISIBLE | WS_TABSTOP,229,117,91,11
     GROUPBOX        "Lobby",IDC_STATIC,218,89,127,43,NOT WS_VISIBLE
@@ -232,7 +230,7 @@ END
 LANGUAGE 17, 1
 #pragma code_page(932)
 #include "res\ggncfg.rc2"  // non-Microsoft Visual C++ edited resources
-#include "afxres.rc"         // ?????ó???
+#include "afxres.rc"         // ?W???R?ì?|?[?l?ì?g
 #endif
 
 /////////////////////////////////////////////////////////////////////////////

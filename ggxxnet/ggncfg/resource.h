@@ -6,8 +6,6 @@
 #define IDC_SELECTCOLOR                 4
 #define IDC_RENAMECOLOR                 5
 #define IDC_SAVECOLOR                   5
-#define IDC_DELETEADDR                  6
-#define IDC_ADDADDR                     7
 #define IDD_COLOR                       8
 #define IDC_SHOWLOG                     8
 #define IDC_MESSAGE                     8

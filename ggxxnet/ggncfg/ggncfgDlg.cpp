@@ -152,8 +152,6 @@ BEGIN_MESSAGE_MAP(CggncfgDlg, CDialog)
 	ON_WM_LBUTTONDOWN()
 	ON_BN_CLICKED(IDC_SAVECOLOR, OnBnClickedSavecolor)
 	ON_WM_TIMER()
-	ON_BN_CLICKED(IDC_ADDADDR, &CggncfgDlg::OnBnClickedAddaddr)
-	ON_BN_CLICKED(IDC_DELETEADDR, &CggncfgDlg::OnBnClickedDeleteaddr)
 	ON_BN_CLICKED(IDC_MESSAGE, &CggncfgDlg::OnBnClickedMessage)
 	ON_WM_DROPFILES()
 END_MESSAGE_MAP()
@@ -1282,8 +1280,6 @@ void CggncfgDlg::arrangeControls()
 		GetDlgItem(IDCANCEL)->SetWindowPos(&CWnd::wndTop, cx - 86, cy - 26, 0, 0, SWP_NOSIZE);
 
 		GetDlgItem(IDC_SSAGROUP)->SetWindowPos(&CWnd::wndTop, 0, 0, cx - IMG_X - 3, 49, SWP_NOMOVE);
-		GetDlgItem(IDC_ADDADDR)->SetWindowPos(&CWnd::wndTop, cx - 103, 25, 0, 0, SWP_NOSIZE);
-		GetDlgItem(IDC_DELETEADDR)->SetWindowPos(&CWnd::wndTop, cx - 63, 25, 0, 0, SWP_NOSIZE);
 	}
 }
 
@@ -1446,10 +1442,7 @@ void CggncfgDlg::OnTimer(UINT nIDEvent)
 	CDialog::OnTimer(nIDEvent);
 }
 
-void CggncfgDlg::OnBnClickedAddaddr()
-{
 
-}
 
 void CggncfgDlg::OnBnClickedDeleteaddr()
 {
