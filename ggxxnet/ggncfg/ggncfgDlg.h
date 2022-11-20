@@ -62,7 +62,6 @@ public:
 	afx_msg void OnBnClickedEditcolor();
 	afx_msg void OnBnClickedOk();
 	afx_msg void OnBnClickedCancel();
-	afx_msg void OnEnKillfocusUsername();
 	afx_msg void OnCbnSelchangeEditchara();
 	afx_msg void OnCbnSelchangeEditcolor();
 	afx_msg void OnCbnSelchangeEditsprite();
@@ -82,7 +81,6 @@ public:
 	void updateGGXXPalette(int p_flash);
 
 private:
-	CEdit*		m_ctl_userName;
 	CEdit*		m_ctl_trip;
 	
 	CButton*	m_ctl_enableNet;

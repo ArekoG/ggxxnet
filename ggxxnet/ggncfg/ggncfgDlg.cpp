@@ -65,7 +65,6 @@ CggncfgDlg::CggncfgDlg(CWnd* pParent /*=NULL*/)
 {
 	m_hIcon = AfxGetApp()->LoadIcon(IDR_MAINFRAME);
 
-	m_ctl_userName	= NULL;
 	m_ctl_trip		= NULL;
 	
 	m_ctl_enableNet	= NULL;
@@ -141,7 +140,6 @@ BEGIN_MESSAGE_MAP(CggncfgDlg, CDialog)
 	ON_BN_CLICKED(IDC_SELECTCOLOR, OnBnClickedEditcolor)
 	ON_BN_CLICKED(IDOK, OnBnClickedOk)
 	ON_BN_CLICKED(IDCANCEL, OnBnClickedCancel)
-	ON_EN_KILLFOCUS(IDC_USERNAME, OnEnKillfocusUsername)
 	ON_WM_CLOSE()
 	ON_CBN_SELCHANGE(IDC_EDITCHARA, &CggncfgDlg::OnCbnSelchangeEditchara)
 	ON_CBN_SELCHANGE(IDC_EDITCOLOR, &CggncfgDlg::OnCbnSelchangeEditcolor)
@@ -169,7 +167,6 @@ BOOL CggncfgDlg::OnInitDialog()
 	SetIcon(m_hIcon, FALSE);		// 小さいアイコンの設定
 
 	// TODO: 初期化をここに追加します。
-	m_ctl_userName	= (CEdit*)GetDlgItem(IDC_USERNAME);
 	m_ctl_trip		= (CEdit*)GetDlgItem(IDC_TRIP);
 	
 	m_ctl_enableNet	= (CButton*)GetDlgItem(IDC_ENABLE_NET);
@@ -196,7 +193,6 @@ BOOL CggncfgDlg::OnInitDialog()
 
 	// デフォルト設定
 
-	m_ctl_userName->SetWindowText("NONAME");
 	m_ctl_trip->SetWindowText("");
 
 	m_ctl_enableNet->SetCheck(1);
@@ -350,7 +346,6 @@ BOOL CggncfgDlg::OnInitDialog()
 	m_paloldbmp = (HBITMAP)SelectObject(m_paldc, m_palbmp);
 
 	arrangeControls();
-	m_ctl_userName->SetFocus();
 	
 	// 20msに１回描画
 	SetTimer(1000, 20, NULL); //???
@@ -441,8 +436,6 @@ void CggncfgDlg::readSettingFile(void)
 			}
 
 
-			if (m_datVersion >= 110){ m_ctl_userName->SetWindowText(ptr);	ptr += 41; }
-			else					{ m_ctl_userName->SetWindowText(ptr);	ptr += 11; }
 
 			m_ctl_trip->SetWindowText(ptr);				ptr += 11;
 			m_ctl_enableNet->SetCheck(*ptr);			ptr += 1;
@@ -575,7 +568,6 @@ void CggncfgDlg::writeSettingFile(void)
 
 
 
-		m_ctl_userName->GetWindowText(ptr, 41);		ptr += 41;
 
 		m_ctl_trip->GetWindowText(ptr, 11);			ptr += 11;
 		*ptr = m_ctl_enableNet->GetCheck();			ptr += 1;
@@ -628,29 +620,7 @@ bool CggncfgDlg::valueCheck(void)
 {
 	int		value;
 	char	data[128];
-	
-	m_ctl_userName->GetWindowText(data, 128);
-	if (_mbschr((unsigned char*)data, '◆'))
-	{
-		AfxMessageBox("Username contain the invalid character \'◆\'.");
-		m_ctl_userName->SetFocus();
-		m_ctl_userName->SetSel(0, -1);
-		return false;
-	}
-	if (_mbschr((unsigned char*)data, '@'))
-	{
-		AfxMessageBox("Username contain the invalid character \'@\'.");
-		m_ctl_userName->SetFocus();
-		m_ctl_userName->SetSel(0, -1);
-		return false;
-	}
-	if ((int)strlen(data) > 20)
-	{
-		AfxMessageBox("Please input a user name under 20 characters.");
-		m_ctl_userName->SetFocus();
-		m_ctl_userName->SetSel(0, -1);
-		return false;
-	}
+
 	
 	m_ctl_trip->GetWindowText(data, 128);
 	if (strlen(data) > 10)
@@ -732,16 +702,7 @@ void CggncfgDlg::OnBnClickedCancel()
 	OnCancel();
 }
 
-void CggncfgDlg::OnEnKillfocusUsername()
-{
-	//if (m_ctl_userName)
-	//{
-	//	CString str;
-	//	m_ctl_userName->GetWindowText(str);
-	//	str.MakeUpper();
-	//	m_ctl_userName->SetWindowText(str);
-	//}
-}
+
 
 CString CggncfgDlg::getPalDirPath(void)
 {
