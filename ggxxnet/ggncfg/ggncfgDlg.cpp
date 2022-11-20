@@ -1278,8 +1278,6 @@ void CggncfgDlg::arrangeControls()
 		GetDlgItem(IDOK)->SetWindowPos(&CWnd::wndTop, cx - 176, cy - 26, 0, 0, SWP_NOSIZE);
 
 		GetDlgItem(IDCANCEL)->SetWindowPos(&CWnd::wndTop, cx - 86, cy - 26, 0, 0, SWP_NOSIZE);
-
-		GetDlgItem(IDC_SSAGROUP)->SetWindowPos(&CWnd::wndTop, 0, 0, cx - IMG_X - 3, 49, SWP_NOMOVE);
 	}
 }
 

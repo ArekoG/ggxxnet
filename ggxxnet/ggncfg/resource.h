@@ -47,7 +47,6 @@
 #define IDC_BS                          1029
 #define IDC_RE                          1031
 #define IDC_X_SERVERSCRIPT              1032
-#define IDC_SSAGROUP                    1033
 #define IDC_STR0                        1035
 #define IDC_STR2                        1036
 #define IDC_EDIT1                       1036
