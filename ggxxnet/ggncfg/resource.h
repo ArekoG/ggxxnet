@@ -19,7 +19,6 @@
 #define IDC_SHOWFPS                     1005
 #define IDC_DELAY                       1006
 #define IDC_USERCOLOR                   1008
-#define IDC_TRIP                        1008
 #define IDC_USE_EX                      1009
 #define IDC_ENABLECHAT                  1010
 #define IDC_IGNORESLOW                  1011

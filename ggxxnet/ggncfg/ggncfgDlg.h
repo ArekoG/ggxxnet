@@ -81,8 +81,6 @@ public:
 	void updateGGXXPalette(int p_flash);
 
 private:
-	CEdit*		m_ctl_trip;
-	
 	CButton*	m_ctl_enableNet;
 	CEdit*		m_ctl_port;
 	CComboBox*	m_ctl_delay;
@@ -157,4 +155,5 @@ public:
 	afx_msg void OnBnClickedMessage();
 public:
 	afx_msg void OnDropFiles(HDROP hDropInfo);
+	afx_msg void OnEnChangeTrip();
 };

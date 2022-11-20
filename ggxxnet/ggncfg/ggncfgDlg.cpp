@@ -65,8 +65,6 @@ CggncfgDlg::CggncfgDlg(CWnd* pParent /*=NULL*/)
 {
 	m_hIcon = AfxGetApp()->LoadIcon(IDR_MAINFRAME);
 
-	m_ctl_trip		= NULL;
-	
 	m_ctl_enableNet	= NULL;
 	m_ctl_port		= NULL;
 	m_ctl_delay		= NULL;
@@ -165,9 +163,6 @@ BOOL CggncfgDlg::OnInitDialog()
 	//  Framework は、この設定を自動的に行います。
 	SetIcon(m_hIcon, TRUE);			// 大きいアイコンの設定
 	SetIcon(m_hIcon, FALSE);		// 小さいアイコンの設定
-
-	// TODO: 初期化をここに追加します。
-	m_ctl_trip		= (CEdit*)GetDlgItem(IDC_TRIP);
 	
 	m_ctl_enableNet	= (CButton*)GetDlgItem(IDC_ENABLE_NET);
 	m_ctl_port		= (CEdit*)GetDlgItem(IDC_PORT);
@@ -192,8 +187,6 @@ BOOL CggncfgDlg::OnInitDialog()
 	m_ctl_saveColor		= (CButton*)GetDlgItem(IDC_SAVECOLOR);
 
 	// デフォルト設定
-
-	m_ctl_trip->SetWindowText("");
 
 	m_ctl_enableNet->SetCheck(1);
 	m_ctl_port->SetWindowText("10000");
@@ -435,9 +428,6 @@ void CggncfgDlg::readSettingFile(void)
 				m_datVersion = *((DWORD*)ptr);	ptr += 4;	// ver1.10以降はバージョンを持っている
 			}
 
-
-
-			m_ctl_trip->SetWindowText(ptr);				ptr += 11;
 			m_ctl_enableNet->SetCheck(*ptr);			ptr += 1;
 
 			_itoa(*((WORD*)ptr), tmp, 10);
@@ -567,9 +557,6 @@ void CggncfgDlg::writeSettingFile(void)
 		*((DWORD*)ptr) = DATVERSION;					ptr += 4;
 
 
-
-
-		m_ctl_trip->GetWindowText(ptr, 11);			ptr += 11;
 		*ptr = m_ctl_enableNet->GetCheck();			ptr += 1;
 
 		m_ctl_port->GetWindowText(tmp, 256);	
@@ -621,17 +608,6 @@ bool CggncfgDlg::valueCheck(void)
 	int		value;
 	char	data[128];
 
-	
-	m_ctl_trip->GetWindowText(data, 128);
-	if (strlen(data) > 10)
-	{
-		AfxMessageBox("Please input a tripkey under 10 characters.");
-		m_ctl_trip->SetFocus();
-		m_ctl_trip->SetSel(0, -1);
-		return false;
-	}
-
-	m_ctl_port->GetWindowText(data, 128);
 	value = atoi(data);
 	if (value < 1024 || value > 65535)
 	{
@@ -1449,4 +1425,15 @@ void CggncfgDlg::OnDropFiles(HDROP hDropInfo)
 	}
 
 	CDialog::OnDropFiles(hDropInfo);
+}
+
+
+void CggncfgDlg::OnEnChangeTrip()
+{
+	// TODO:  If this is a RICHEDIT control, the control will not
+	// send this notification unless you override the CDialog::OnInitDialog()
+	// function and call CRichEditCtrl().SetEventMask()
+	// with the ENM_CHANGE flag ORed into the mask.
+
+	// TODO:  Add your control notification handler code here
 }
