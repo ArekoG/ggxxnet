@@ -228,7 +228,6 @@ BOOL CggncfgDlg::OnInitDialog()
 	m_setting_msg			= "No Comment";
 
 	CString str;
-	SetDlgItemText(IDC_STR0, "rank");		SetDlgItemText(IDC_STRB0, ": F");
 	SetDlgItemText(IDC_STR1, "win");		SetDlgItemText(IDC_STRB1, ": 0");
 	SetDlgItemText(IDC_STR2, "game count");	SetDlgItemText(IDC_STRB2, ": 0");
 	SetDlgItemText(IDC_STR3, "total win");	SetDlgItemText(IDC_STRB3, ": 0");
@@ -509,8 +508,6 @@ void CggncfgDlg::readSettingFile(void)
 			}
 			
 			CString str;
-			SetDlgItemText(IDC_STR0, "rank"); char rankchr[]="SABCDEF";
-			str.Format(": %c", rankchr[m_setting_rank]);	SetDlgItemText(IDC_STRB0, str);
 			SetDlgItemText(IDC_STR1, "win");
 			str.Format(": %d", m_setting_wins);				SetDlgItemText(IDC_STRB1, str);
 			SetDlgItemText(IDC_STR2, "game count");
