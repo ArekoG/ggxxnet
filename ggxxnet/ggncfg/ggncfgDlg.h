@@ -106,8 +106,6 @@ private:
 	CComboBox*	m_ctl_editChara;
 	CComboBox*	m_ctl_editSprite;
 	CButton*	m_ctl_saveColor;
-	
-	CComboBox*	m_ctl_editLobbyAddr;
 
 //////////////////////////////////
 	HDC		m_windc;

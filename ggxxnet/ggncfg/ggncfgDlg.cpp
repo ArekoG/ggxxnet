@@ -90,7 +90,6 @@ CggncfgDlg::CggncfgDlg(CWnd* pParent /*=NULL*/)
 	m_ctl_editSprite	= NULL;
 	m_ctl_saveColor		= NULL;
 
-	m_ctl_editLobbyAddr = NULL;
 
 	m_setting_wins			= 0;
 	m_setting_rank			= 6;
@@ -197,10 +196,7 @@ BOOL CggncfgDlg::OnInitDialog()
 	m_ctl_editSprite	= (CComboBox*)GetDlgItem(IDC_EDITSPRITE);
 	m_ctl_saveColor		= (CButton*)GetDlgItem(IDC_SAVECOLOR);
 
-	m_ctl_editLobbyAddr	= (CComboBox*)GetDlgItem(IDC_LOBBYADDR);
-
 	// デフォルト設定
-	m_ctl_editLobbyAddr->ResetContent();
 
 	m_ctl_userName->SetWindowText("NONAME");
 	m_ctl_trip->SetWindowText("");
@@ -446,16 +442,6 @@ void CggncfgDlg::readSettingFile(void)
 				m_datVersion = *((DWORD*)ptr);	ptr += 4;	// ver1.10以降はバージョンを持っている
 			}
 
-			m_ctl_editLobbyAddr->SetWindowText(ptr);	ptr += 256;
-			
-			if (m_datVersion >= 106)
-			{
-				for (int i = 0; i < 10; i++)
-				{
-					if (strlen(ptr) > 0) m_ctl_editLobbyAddr->AddString(ptr);
-					ptr += 256;
-				}
-			}
 
 			if (m_datVersion >= 110){ m_ctl_userName->SetWindowText(ptr);	ptr += 41; }
 			else					{ m_ctl_userName->SetWindowText(ptr);	ptr += 11; }
@@ -589,23 +575,7 @@ void CggncfgDlg::writeSettingFile(void)
 		/* cfgバージョン */
 		*((DWORD*)ptr) = DATVERSION;					ptr += 4;
 
-		m_ctl_editLobbyAddr->GetWindowText(ptr, 256);	ptr += 256;
 
-		for (int i = 0; i < 10; i++)
-		{
-			if (i < m_ctl_editLobbyAddr->GetCount())
-			{
-				CString	str;
-				m_ctl_editLobbyAddr->GetLBText(i, str);
-				strncpy(ptr, str.GetBuffer(), 256);
-				ptr += 256;
-			}
-			else
-			{
-				memset(ptr, 0, 256);
-				ptr += 256;
-			}
-		}
 
 		m_ctl_userName->GetWindowText(ptr, 41);		ptr += 41;
 
@@ -1312,7 +1282,6 @@ void CggncfgDlg::arrangeControls()
 		GetDlgItem(IDCANCEL)->SetWindowPos(&CWnd::wndTop, cx - 86, cy - 26, 0, 0, SWP_NOSIZE);
 
 		GetDlgItem(IDC_SSAGROUP)->SetWindowPos(&CWnd::wndTop, 0, 0, cx - IMG_X - 3, 49, SWP_NOMOVE);
-		GetDlgItem(IDC_LOBBYADDR)->SetWindowPos(&CWnd::wndTop, 0, 0, cx - IMG_X - 112, 19, SWP_NOMOVE);
 		GetDlgItem(IDC_ADDADDR)->SetWindowPos(&CWnd::wndTop, cx - 103, 25, 0, 0, SWP_NOSIZE);
 		GetDlgItem(IDC_DELETEADDR)->SetWindowPos(&CWnd::wndTop, cx - 63, 25, 0, 0, SWP_NOSIZE);
 	}
@@ -1479,27 +1448,12 @@ void CggncfgDlg::OnTimer(UINT nIDEvent)
 
 void CggncfgDlg::OnBnClickedAddaddr()
 {
-	if (m_ctl_editLobbyAddr->GetCount() < 10)
-	{
-		CString str;
-		m_ctl_editLobbyAddr->GetWindowText(str);
-		int idx = m_ctl_editLobbyAddr->FindString(0, str);
-		
-		if (idx == CB_ERR) m_ctl_editLobbyAddr->AddString(str);
-	}
-	else
-	{
-		AfxMessageBox("Cannot Register Address.");
-	}
+
 }
 
 void CggncfgDlg::OnBnClickedDeleteaddr()
 {
-	CString str;
-	m_ctl_editLobbyAddr->GetWindowText(str);
-	int idx = m_ctl_editLobbyAddr->FindString(0, str);
 
-	if (idx != CB_ERR) m_ctl_editLobbyAddr->DeleteString(idx);
 }
 
 void CggncfgDlg::updateGGXXPalette(int p_flash)
