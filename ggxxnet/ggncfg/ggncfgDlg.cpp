@@ -64,7 +64,6 @@ CggncfgDlg::CggncfgDlg(CWnd* pParent /*=NULL*/)
 {
 	m_hIcon = AfxGetApp()->LoadIcon(IDR_MAINFRAME);
 
-	m_ctl_enableChat	= NULL;
 	m_ctl_ignoreSlow	= NULL;
 
 	m_ctl_showGGNVer	= NULL;
@@ -151,7 +150,6 @@ BOOL CggncfgDlg::OnInitDialog()
 	SetIcon(m_hIcon, TRUE);			// 大きいアイコンの設定
 	SetIcon(m_hIcon, FALSE);		// 小さいアイコンの設定
 
-	m_ctl_enableChat	= (CButton*)GetDlgItem(IDC_ENABLECHAT);
 	m_ctl_ignoreSlow	= (CButton*)GetDlgItem(IDC_IGNORESLOW);
 
 	m_ctl_showGGNVer	= (CButton*)GetDlgItem(IDC_SYNCCHK);
@@ -163,7 +161,6 @@ BOOL CggncfgDlg::OnInitDialog()
 
 	// デフォルト設定
 
-	m_ctl_enableChat->SetCheck(1);
 	m_ctl_ignoreSlow->SetCheck(1);
 
 	m_ctl_showGGNVer->SetCheck(0);
@@ -366,19 +363,16 @@ void CggncfgDlg::readSettingFile(void)
 			
 			if (m_datVersion == 100)
 			{
-				m_ctl_enableChat->SetCheck(0);
 				m_ctl_ignoreSlow->SetCheck(0);
 			}
 			else if (m_datVersion == 102)
 			{
-				m_ctl_enableChat->SetCheck(*ptr);		ptr += 1;
 				m_ctl_ignoreSlow->SetCheck(0);
 			}
 			else if (m_datVersion == 105 ||
 					 m_datVersion == 106 ||
 					 m_datVersion >= 110)
 			{
-				m_ctl_enableChat->SetCheck(*ptr);	ptr += 1;
 				m_ctl_ignoreSlow->SetCheck(*ptr);	ptr += 1;
 			}
 
@@ -461,7 +455,6 @@ void CggncfgDlg::writeSettingFile(void)
 		*((WORD*)ptr) = atoi(tmp);					ptr += 2;
 
 		
-		*ptr = m_ctl_enableChat->GetCheck();		ptr += 1;
 		*ptr = 1/*m_ctl_ignoreSlow->GetCheck()*/;	ptr += 1;	// オプションの必要性を感じないので、強制的にONとする
 
 		*((WORD*)ptr) = 0;							ptr += 2;

@@ -80,7 +80,6 @@ public:
 	void updateGGXXPalette(int p_flash);
 
 private:
-	CButton*	m_ctl_enableChat;
 	CButton*	m_ctl_ignoreSlow;
 
 	CButton*	m_ctl_showGGNVer;

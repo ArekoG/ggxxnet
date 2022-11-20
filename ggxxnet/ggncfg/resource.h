@@ -14,7 +14,6 @@
 #define IDC_SYNCCHK                     1005
 #define IDC_SHOWFPS                     1005
 #define IDC_USERCOLOR                   1008
-#define IDC_ENABLECHAT                  1010
 #define IDC_IGNORESLOW                  1011
 #define IDC_EDITCOLOR                   1015
 #define IDC_GE                          1015
