@@ -83,7 +83,6 @@ private:
 	CButton*	m_ctl_enableChat;
 	CButton*	m_ctl_ignoreSlow;
 
-	CButton*	m_ctl_dispInvCombo;
 	CButton*	m_ctl_showGGNVer;
 
 	CComboBox*	m_ctl_editColor;

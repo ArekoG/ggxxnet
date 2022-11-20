@@ -11,7 +11,6 @@
 #define IDD_GGNCFG_DIALOG               102
 #define IDR_MAINFRAME                   128
 #define IDD_DIALOG1                     131
-#define IDC_DISP_INV_COMBO              1004
 #define IDC_SYNCCHK                     1005
 #define IDC_SHOWFPS                     1005
 #define IDC_USERCOLOR                   1008

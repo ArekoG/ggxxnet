@@ -67,7 +67,6 @@ CggncfgDlg::CggncfgDlg(CWnd* pParent /*=NULL*/)
 	m_ctl_enableChat	= NULL;
 	m_ctl_ignoreSlow	= NULL;
 
-	m_ctl_dispInvCombo	= NULL;
 	m_ctl_showGGNVer	= NULL;
 
 	m_ctl_editColor		= NULL;
@@ -155,7 +154,6 @@ BOOL CggncfgDlg::OnInitDialog()
 	m_ctl_enableChat	= (CButton*)GetDlgItem(IDC_ENABLECHAT);
 	m_ctl_ignoreSlow	= (CButton*)GetDlgItem(IDC_IGNORESLOW);
 
-	m_ctl_dispInvCombo	= (CButton*)GetDlgItem(IDC_DISP_INV_COMBO);
 	m_ctl_showGGNVer	= (CButton*)GetDlgItem(IDC_SYNCCHK);
 
 	m_ctl_editChara		= (CComboBox*)GetDlgItem(IDC_EDITCHARA);
@@ -168,7 +166,6 @@ BOOL CggncfgDlg::OnInitDialog()
 	m_ctl_enableChat->SetCheck(1);
 	m_ctl_ignoreSlow->SetCheck(1);
 
-	m_ctl_dispInvCombo->SetCheck(1);
 	m_ctl_showGGNVer->SetCheck(0);
 	//m_ctl_showGGNVer->ShowWindow(SW_HIDE);
 
@@ -387,7 +384,6 @@ void CggncfgDlg::readSettingFile(void)
 
 			ptr += 2; // auto connect wait •ª
 
-			m_ctl_dispInvCombo->SetCheck(*ptr);		ptr += 1;
 			m_ctl_showGGNVer->SetCheck(*ptr);			ptr += 1;
 
 			m_setting_wins = *((WORD*)ptr);			ptr += 2;
@@ -470,7 +466,6 @@ void CggncfgDlg::writeSettingFile(void)
 
 		*((WORD*)ptr) = 0;							ptr += 2;
 
-		*ptr = m_ctl_dispInvCombo->GetCheck();		ptr += 1;
 		*ptr = m_ctl_showGGNVer->GetCheck();			ptr += 1;
 		
 		*((WORD*)ptr) = m_setting_wins;				ptr += 2;
