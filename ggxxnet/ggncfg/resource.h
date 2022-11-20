@@ -29,16 +29,6 @@
 #define IDC_BS                          1029
 #define IDC_RE                          1031
 #define IDC_X_SERVERSCRIPT              1032
-#define IDC_STR3                        1038
-#define IDC_STR4                        1039
-#define IDC_STR5                        1040
-#define IDC_STR6                        1041
-#define IDC_STR7                        1042
-#define IDC_STRB3                       1056
-#define IDC_STRB4                       1057
-#define IDC_STRB5                       1058
-#define IDC_STRB6                       1059
-#define IDC_STRB7                       1060
 
 // Next default values for new objects
 // 

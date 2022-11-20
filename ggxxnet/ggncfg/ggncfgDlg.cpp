@@ -163,16 +163,6 @@ BOOL CggncfgDlg::OnInitDialog()
 	m_setting_msg			= "No Comment";
 
 	CString str;
-	GetDlgItem(IDC_STR3)->ShowWindow(SW_HIDE);
-	GetDlgItem(IDC_STRB3)->ShowWindow(SW_HIDE);
-	GetDlgItem(IDC_STR4)->ShowWindow(SW_HIDE);
-	GetDlgItem(IDC_STRB4)->ShowWindow(SW_HIDE);
-	GetDlgItem(IDC_STR5)->ShowWindow(SW_HIDE);
-	GetDlgItem(IDC_STRB5)->ShowWindow(SW_HIDE);
-	GetDlgItem(IDC_STR6)->ShowWindow(SW_HIDE);
-	GetDlgItem(IDC_STRB6)->ShowWindow(SW_HIDE);
-	GetDlgItem(IDC_STR7)->ShowWindow(SW_HIDE);
-	GetDlgItem(IDC_STRB7)->ShowWindow(SW_HIDE);
 
 	m_ctl_editColor->ResetContent();
 	m_ctl_editColor->AddString("P(Default)");
@@ -390,18 +380,6 @@ void CggncfgDlg::readSettingFile(void)
 			}
 			
 			CString str;
-			SetDlgItemText(IDC_STR3, "total win");
-			str.Format(": %d", m_setting_totalWin);			SetDlgItemText(IDC_STRB3, str);
-			SetDlgItemText(IDC_STR4, "total lose");
-			str.Format(": %d", m_setting_totalLose);		SetDlgItemText(IDC_STRB4, str);
-			SetDlgItemText(IDC_STR5, "total error");
-			str.Format(": %d", m_setting_totalError);		SetDlgItemText(IDC_STRB5, str);
-			SetDlgItemText(IDC_STR6, "");					SetDlgItemText(IDC_STRB6, "");
-			SetDlgItemText(IDC_STR7, "");					SetDlgItemText(IDC_STRB7, "");
-			GetDlgItem(IDC_STR6)->ShowWindow(SW_HIDE);
-			GetDlgItem(IDC_STRB6)->ShowWindow(SW_HIDE);
-			GetDlgItem(IDC_STR7)->ShowWindow(SW_HIDE);
-			GetDlgItem(IDC_STRB7)->ShowWindow(SW_HIDE);
 		}
 		fclose(fp);
 	}
