@@ -5,7 +5,6 @@
 #include "ggncfg.h"
 #include "ggncfgDlg.h"
 #include "ColorEditDlg.h"
-#include "EditMsgDlg.h"
 
 #include "../zlib.h"
 #include "../sharedMemory.h"

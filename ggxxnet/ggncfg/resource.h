@@ -11,7 +11,6 @@
 #define IDD_GGNCFG_DIALOG               102
 #define IDR_MAINFRAME                   128
 #define IDD_DIALOG1                     131
-#define IDD_EDITMSGDLG                  131
 #define IDC_DISP_INV_COMBO              1004
 #define IDC_SYNCCHK                     1005
 #define IDC_SHOWFPS                     1005
@@ -39,8 +38,6 @@
 #define IDC_BS                          1029
 #define IDC_RE                          1031
 #define IDC_X_SERVERSCRIPT              1032
-#define IDC_EDIT1                       1036
-#define IDC_CHARCOUNT                   1037
 #define IDC_STR3                        1038
 #define IDC_STR4                        1039
 #define IDC_STR5                        1040
