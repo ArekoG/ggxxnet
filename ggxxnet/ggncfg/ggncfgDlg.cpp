@@ -64,8 +64,6 @@ CggncfgDlg::CggncfgDlg(CWnd* pParent /*=NULL*/)
 {
 	m_hIcon = AfxGetApp()->LoadIcon(IDR_MAINFRAME);
 
-	m_ctl_ignoreSlow	= NULL;
-
 	m_ctl_showGGNVer	= NULL;
 
 	m_ctl_editColor		= NULL;
@@ -150,8 +148,6 @@ BOOL CggncfgDlg::OnInitDialog()
 	SetIcon(m_hIcon, TRUE);			// 大きいアイコンの設定
 	SetIcon(m_hIcon, FALSE);		// 小さいアイコンの設定
 
-	m_ctl_ignoreSlow	= (CButton*)GetDlgItem(IDC_IGNORESLOW);
-
 	m_ctl_showGGNVer	= (CButton*)GetDlgItem(IDC_SYNCCHK);
 
 	m_ctl_editChara		= (CComboBox*)GetDlgItem(IDC_EDITCHARA);
@@ -160,8 +156,6 @@ BOOL CggncfgDlg::OnInitDialog()
 	m_ctl_saveColor		= (CButton*)GetDlgItem(IDC_SAVECOLOR);
 
 	// デフォルト設定
-
-	m_ctl_ignoreSlow->SetCheck(1);
 
 	m_ctl_showGGNVer->SetCheck(0);
 	//m_ctl_showGGNVer->ShowWindow(SW_HIDE);
@@ -359,21 +353,6 @@ void CggncfgDlg::readSettingFile(void)
 			else
 			{
 				m_datVersion = *((DWORD*)ptr);	ptr += 4;	// ver1.10以降はバージョンを持っている
-			}
-			
-			if (m_datVersion == 100)
-			{
-				m_ctl_ignoreSlow->SetCheck(0);
-			}
-			else if (m_datVersion == 102)
-			{
-				m_ctl_ignoreSlow->SetCheck(0);
-			}
-			else if (m_datVersion == 105 ||
-					 m_datVersion == 106 ||
-					 m_datVersion >= 110)
-			{
-				m_ctl_ignoreSlow->SetCheck(*ptr);	ptr += 1;
 			}
 
 			ptr += 2; // auto connect wait 分

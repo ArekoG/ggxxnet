@@ -14,7 +14,6 @@
 #define IDC_SYNCCHK                     1005
 #define IDC_SHOWFPS                     1005
 #define IDC_USERCOLOR                   1008
-#define IDC_IGNORESLOW                  1011
 #define IDC_EDITCOLOR                   1015
 #define IDC_GE                          1015
 #define IDC_ALLOW_EX                    1016
@@ -23,8 +22,6 @@
 #define IDC_ALLOW_J                     1018
 #define IDC_EDITCHARA                   1019
 #define IDC_EDITSPRITE                  1020
-#define IDC_IGNORESLOW2                 1021
-#define IDC_WATCH_INTRUSION2            1022
 #define IDC_HSCROLL                     1024
 #define IDC_CEGROUP                     1026
 #define IDC_RS                          1027

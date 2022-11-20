@@ -96,7 +96,6 @@ BEGIN
     LTEXT           "str0",IDC_STRB5,259,172,24,8
     LTEXT           "str0",IDC_STRB6,198,184,24,8
     LTEXT           "str0",IDC_STRB7,259,184,24,8
-    CONTROL         "Ignore Slow Connections",IDC_IGNORESLOW,"Button",BS_AUTOCHECKBOX | NOT WS_VISIBLE | WS_TABSTOP,229,117,91,11
     CONTROL         "Show GGXXNET Version && FPS",IDC_SHOWFPS,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,12,273,113,11
 END
 
