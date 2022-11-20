@@ -1,4 +1,4 @@
-// ggncfgDlg.h : ƒwƒbƒ_[ ƒtƒ@ƒCƒ‹
+// ggncfgDlg.h : ï¿½wï¿½bï¿½_ï¿½[ ï¿½tï¿½@ï¿½Cï¿½ï¿½
 //
 
 #pragma once
@@ -6,25 +6,25 @@
 #define IMG_ADDR_LIST_SIZE	2048
 #define PAL_ADDR_LIST_SIZE	12
 
-// CggncfgDlg ƒ_ƒCƒAƒƒO
+// CggncfgDlg ï¿½_ï¿½Cï¿½Aï¿½ï¿½ï¿½O
 class CggncfgDlg : public CDialog
 {
-// ƒRƒ“ƒXƒgƒ‰ƒNƒVƒ‡ƒ“
+// ï¿½Rï¿½ï¿½ï¿½Xï¿½gï¿½ï¿½ï¿½Nï¿½Vï¿½ï¿½ï¿½ï¿½
 public:
-	CggncfgDlg(CWnd* pParent = NULL);	// •W€ƒRƒ“ƒXƒgƒ‰ƒNƒ^
+	CggncfgDlg(CWnd* pParent = NULL);	// ï¿½Wï¿½ï¿½ï¿½Rï¿½ï¿½ï¿½Xï¿½gï¿½ï¿½ï¿½Nï¿½^
 	~CggncfgDlg(void);
 
-// ƒ_ƒCƒAƒƒO ƒf[ƒ^
+// ï¿½_ï¿½Cï¿½Aï¿½ï¿½ï¿½O ï¿½fï¿½[ï¿½^
 	enum { IDD = IDD_GGNCFG_DIALOG };
 
 protected:
-	virtual void DoDataExchange(CDataExchange* pDX);	// DDX/DDV ƒTƒ|[ƒg
+	virtual void DoDataExchange(CDataExchange* pDX);	// DDX/DDV ï¿½Tï¿½|ï¿½[ï¿½g
 
-// À‘•
+// ï¿½ï¿½ï¿½ï¿½
 protected:
 	HICON m_hIcon;
 
-	// ¶¬‚³‚ê‚½AƒƒbƒZ[ƒWŠ„‚è“–‚ÄŠÖ”
+	// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ê‚½ï¿½Aï¿½ï¿½ï¿½bï¿½Zï¿½[ï¿½Wï¿½ï¿½ï¿½è“–ï¿½ÄŠÖï¿½
 	virtual BOOL OnInitDialog();
 	afx_msg void OnPaint();
 	afx_msg HCURSOR OnQueryDragIcon();
@@ -82,11 +82,6 @@ public:
 private:
 	CButton*	m_ctl_enableChat;
 	CButton*	m_ctl_ignoreSlow;
-	
-	CButton*	m_ctl_watch_enableBroadcast;
-	CButton*	m_ctl_watch_allowIntrusion;
-	CButton*	m_ctl_watch_saveReplay;
-	CComboBox*	m_ctl_watch_maxRelayNode;
 
 	CButton*	m_ctl_dispInvCombo;
 	CButton*	m_ctl_showGGNVer;
@@ -136,14 +131,13 @@ private:
 	int		m_setting_totalError;
 	int		m_setting_slowRate;
 
-	int		m_datVersion;	// ‹N“®‚ÉŠJ‚¢‚½dat‚Ìƒo[ƒWƒ‡ƒ“@ƒtƒH[ƒ}ƒbƒg•ÏX‚·‚é‚ÍƒoƒbƒNƒAƒbƒvæ‚é
+	int		m_datVersion;	// ï¿½Nï¿½ï¿½ï¿½ï¿½ï¿½ÉŠJï¿½ï¿½ï¿½ï¿½datï¿½Ìƒoï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½@ï¿½tï¿½Hï¿½[ï¿½}ï¿½bï¿½gï¿½ÏXï¿½ï¿½ï¿½éï¿½Íƒoï¿½bï¿½Nï¿½Aï¿½bï¿½vï¿½ï¿½ï¿½
 public:
 	enum { DATVERSION = 120 };
 
 public:
 	CString	m_setting_msg;
 
-	afx_msg void OnBnClickedAddaddr();
 	afx_msg void OnBnClickedDeleteaddr();
 public:
 	afx_msg void OnDropFiles(HDROP hDropInfo);

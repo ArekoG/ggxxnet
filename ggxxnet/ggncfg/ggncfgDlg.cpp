@@ -67,11 +67,6 @@ CggncfgDlg::CggncfgDlg(CWnd* pParent /*=NULL*/)
 	m_ctl_enableChat	= NULL;
 	m_ctl_ignoreSlow	= NULL;
 
-	m_ctl_watch_enableBroadcast	= NULL;
-	m_ctl_watch_allowIntrusion	= NULL;
-	m_ctl_watch_saveReplay		= NULL;
-	m_ctl_watch_maxRelayNode	= NULL;
-
 	m_ctl_dispInvCombo	= NULL;
 	m_ctl_showGGNVer	= NULL;
 
@@ -160,11 +155,6 @@ BOOL CggncfgDlg::OnInitDialog()
 	m_ctl_enableChat	= (CButton*)GetDlgItem(IDC_ENABLECHAT);
 	m_ctl_ignoreSlow	= (CButton*)GetDlgItem(IDC_IGNORESLOW);
 
-	m_ctl_watch_enableBroadcast	= (CButton*)GetDlgItem(IDC_WATCH_ENABLEBC);
-	m_ctl_watch_allowIntrusion	= (CButton*)GetDlgItem(IDC_WATCH_INTRUSION);
-	m_ctl_watch_saveReplay		= (CButton*)GetDlgItem(IDC_WATCH_SAVEREP);
-	m_ctl_watch_maxRelayNode	= (CComboBox*)GetDlgItem(IDC_MAXRELAYNODE);
-
 	m_ctl_dispInvCombo	= (CButton*)GetDlgItem(IDC_DISP_INV_COMBO);
 	m_ctl_showGGNVer	= (CButton*)GetDlgItem(IDC_SYNCCHK);
 
@@ -177,17 +167,6 @@ BOOL CggncfgDlg::OnInitDialog()
 
 	m_ctl_enableChat->SetCheck(1);
 	m_ctl_ignoreSlow->SetCheck(1);
-
-	m_ctl_watch_enableBroadcast->SetCheck(1);
-	m_ctl_watch_allowIntrusion->SetCheck(0);
-	m_ctl_watch_saveReplay->SetCheck(0);
-
-	m_ctl_watch_maxRelayNode->ResetContent();
-	m_ctl_watch_maxRelayNode->AddString("0");
-	m_ctl_watch_maxRelayNode->AddString("1");
-	m_ctl_watch_maxRelayNode->AddString("2");
-	m_ctl_watch_maxRelayNode->AddString("3");
-	m_ctl_watch_maxRelayNode->SetCurSel(1);
 
 	m_ctl_dispInvCombo->SetCheck(1);
 	m_ctl_showGGNVer->SetCheck(0);
@@ -440,21 +419,6 @@ void CggncfgDlg::readSettingFile(void)
 				m_setting_totalError	= 0;
 				m_setting_slowRate		= 0;
 			}
-
-			if (m_datVersion >= 120)
-			{
-				m_ctl_watch_enableBroadcast->SetCheck(*ptr);ptr += 1;
-				m_ctl_watch_allowIntrusion->SetCheck(*ptr); ptr += 1;
-				m_ctl_watch_saveReplay->SetCheck(*ptr);		ptr += 1;
-				m_ctl_watch_maxRelayNode->SetCurSel(*ptr);	ptr += 1;
-			}
-			else
-			{
-				m_ctl_watch_enableBroadcast->SetCheck(1);
-				m_ctl_watch_allowIntrusion->SetCheck(0);
-				m_ctl_watch_saveReplay->SetCheck(0);
-				m_ctl_watch_maxRelayNode->SetCurSel(1);
-			}
 			
 			CString str;
 			SetDlgItemText(IDC_STR3, "total win");
@@ -521,12 +485,6 @@ void CggncfgDlg::writeSettingFile(void)
 		*((int*)ptr) = m_setting_slowRate;			ptr += 4;
 
 		strncpy(ptr, m_setting_msg.GetBuffer(), 255);	ptr += 256;
-
-		// ver1.16
-		*ptr = m_ctl_watch_enableBroadcast->GetCheck();	ptr += 1;
-		*ptr = m_ctl_watch_allowIntrusion->GetCheck();	ptr += 1;
-		*ptr = m_ctl_watch_saveReplay->GetCheck();		ptr += 1;
-		*ptr = m_ctl_watch_maxRelayNode->GetCurSel();		ptr += 1;
 
 		zfwrite(data, (int)(ptr-data), fp, 0);
 
@@ -1328,18 +1286,6 @@ void CggncfgDlg::OnDropFiles(HDROP hDropInfo)
 
 	CDialog::OnDropFiles(hDropInfo);
 }
-
-
-void CggncfgDlg::OnEnChangeTrip()
-{
-	// TODO:  If this is a RICHEDIT control, the control will not
-	// send this notification unless you override the CDialog::OnInitDialog()
-	// function and call CRichEditCtrl().SetEventMask()
-	// with the ENM_CHANGE flag ORed into the mask.
-
-	// TODO:  Add your control notification handler code here
-}
-
 
 void CggncfgDlg::OnBnClickedUsercolor()
 {
